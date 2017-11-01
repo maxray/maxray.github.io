@@ -1,6 +1,8 @@
 ---
 title: I'm back!
 date: 2017-11-01 17:22:00 Z
+categories:
+- Play
 ---
 
 ![im_back.png](/uploads/im_back.png)
