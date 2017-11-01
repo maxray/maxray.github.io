@@ -1,0 +1,20 @@
+---
+layout: page
+title: Work
+permalink: /work/
+---
+<div class="flexbox-container">
+    <div style= "background-image: url({{ site.baseurl }}/assets/work.jpg);" id="heightFix">
+
+    </div>
+    <div>
+    	<h1>Work</h1>
+    	<h3>Work... code snippets, thoughts on the design industry and other such bits and bobs. </h3>
+		<ul class="posts">
+		{% for post in site.posts %}
+		    {% if post.categories contains 'Work' %}
+		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+		</ul>
+	</div>

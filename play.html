@@ -1,0 +1,19 @@
+---
+layout: page
+title: Play
+permalink: /play/
+---
+<div class="flexbox-container">
+    <div style= "background-image: url({{ site.baseurl }}/assets/play.jpg);" id="heightFix">
+    </div>
+    <div>
+    	<h1>Play</h1>
+    	<h3>Things I do for fun.. be it out in the hills, geeking out or drinking beer :) </h3>
+		<ul class="posts">
+		{% for post in site.posts %}
+		    {% if post.categories contains 'Play' %}
+		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+		</ul>
+</div>

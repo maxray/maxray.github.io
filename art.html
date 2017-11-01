@@ -1,0 +1,42 @@
+---
+layout: page
+title: Art
+permalink: /art/
+---
+<div class="illustration-container">
+  <!--   <div style= "background-image: url({{ site.baseurl }}/assets/illustration.jpg);" id="heightFix">
+    </div> -->
+    <div>
+    	<h1>Illustration</h1>
+      <p>I work primarily in pen and ink, sometimes continuing the process via Photoshop or Illustrator or when time allows moving into hand screened finished items.</p><p>If you have a specific idea in mind I am available for commision. Drop me an email at <a href="mailto:me@sushkelly.co.uk">me@sushkelly.co.uk</a> and let's talk.</p>
+     <h3>Drawings and Prints for Sale</h3>
+     <p>Please note prices do not include postage. </p>
+		<ul class="posts">
+	
+
+		{% for product in site.products %}
+  		<li>	
+  			<h4>{{ product.name }} - £{{ product.price }} -  <a href="mailto:me@sushkelly.co.uk?subject={{ product.name }}">I want this!</a></h4>
+  			<img  src="{{ site.baseurl }}/assets/illustration/{{ product.image }}" alt="{{ product.name }}"  />
+  			<p> {{ product.content }}</p>
+        <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="sushkelly@gmail.com">
+<input type="hidden" name="lc" value="BM">
+<input type="hidden" name="item_name" value="{{ product.name }}">
+<input type="hidden" name="amount" value="{{ product.price }}">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="shipping" value="6.99">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form> -->
+   
+  		</li>
+		{% endfor %}
+
+
+		</ul>
+</div>

@@ -1,8 +1,65 @@
-<html>
-<head>
-	<title>Sush Kelly</title>
-</head>
-	<body>
-	<h1>Is a blog y'all</h1>
-	</body>
-</html>
+---
+layout: default
+---
+
+<div>
+  <div class="flexbox-container">
+    <div>
+      <h3>Inspiration, insightful design and nuggets of useful code/technology.</h3>
+      {% assign post = site.posts.first %}
+  <a href="{{ post.url }}"><h1 class="post-title">
+{% if page.title %}
+    {{ page.title }}
+{% endif %}
+{% if post.title %}
+    {{ post.title }}
+{% endif %}
+</h1></a>
+<div class="post-content home-content"> {{ post.content }}</div>
+  
+    </div>
+    <div>
+      <section id="archive">
+    <h3>Older Posts</h3> 
+    <ul class="this">
+    {%for post in site.posts offset:1 %}
+      {% unless post.next %}
+       
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          </ul>
+          <h3>{{ post.date | date: '%Y' }}</h3>
+          <ul class="past">
+        {% endif %}
+      {% endunless %}
+        <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15"/> <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </section>
+    </div>
+  </div>
+<!--   <h1 class="page-heading">Posts</h1> -->
+
+
+  
+
+
+
+
+<!--   <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul> -->
+
+ 
+
+</div>
