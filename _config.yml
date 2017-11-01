@@ -1,54 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Creativity & Code
-email: me@sushkelly.co.uk
-description: > # this means to ignore newlines until "baseurl:"
-  I am an Interactive Designer based in Birmingham. I am Digital Director at Imaginate Creative Ltd in Leamington Spa. I love designing and developing for screen, getting out into the hills and getting muddy.  I have a weakness for anthing Orange and tech gadgets.
-
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.sushkelly.co.uk" # the base hostname & protocol for your site
-twitter_username: maxray
-github_username:  maxray
-
-# Build settings
-markdown: kramdown
-
-# Sass settings
-sass:
-    sass_dir: _sass
-    style: :compressed
-
-gems:
-  - jekyll-archives
-
+timezone: UTC
 collections:
-    products:
-      output: true
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: me@sushkelly.co.uk
+description: 'I am an Interactive Designer based in Birmingham. I am Digital Director
+  at Imaginate Creative Ltd in Leamington Spa. I love designing and developing for
+  screen, getting out into the hills and getting muddy.  I have a weakness for anthing
+  Orange and tech gadgets.
 
+'
+baseurl: ''
+url: http://www.sushkelly.co.uk
+twitter_username: maxray
+github_username: maxray
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems:
+- jekyll-archives
 jekyll-archives:
-  enabled: [all]
-  layout: 'archive'
+  enabled:
+  - all
+  layout: archive
   permalinks:
-    year: '/archive/:year/'
-    month: '/archive/:year/:month/'
-    day: '/archive/:year/:month/:day/'
-    tag: '/archive/tag/:name/'
-    category: '/archive/category/:name/'
-
-
-ftp_host: 'www.sushkelly.co.uk'
-ftp_dir: '/public_html/'
+    year: "/archive/:year/"
+    month: "/archive/:year/:month/"
+    day: "/archive/:year/:month/:day/"
+    tag: "/archive/tag/:name/"
+    category: "/archive/category/:name/"
+ftp_host: www.sushkelly.co.uk
+ftp_dir: "/public_html/"
 ftp_passive: true
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'maxray'     # default read from stdin
-ftp_password: 'JHByMW5nZjFlbEQ=' # default read from stdin
-ftp_secure: false              # default false
+ftp_port: 21
+ftp_username: maxray
+ftp_password: JHByMW5nZjFlbEQ=
+ftp_secure: false

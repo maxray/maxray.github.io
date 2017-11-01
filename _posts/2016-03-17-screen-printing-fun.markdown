@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Screen Printing Fun
-date: 2016-03-17 09:02:23
-type: 
-published: true
-status: publish
-categories: 
+date: 2016-03-17 09:02:23 Z
+categories:
 - Play
+layout: post
+type: 
+status: publish
 author:
   email: sushkelly@gmail.com
 ---
