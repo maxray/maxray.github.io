@@ -1,16 +1,16 @@
 ---
 title: Screen Printing Fun
-date: 2016-03-17 09:02:23 Z
+date: 2016-03-17 09:02:00 Z
 categories:
 - Play
-layout: post
 type: 
 status: publish
 author:
   email: sushkelly@gmail.com
+layout: post
 ---
 
-I must say at the outset that printmaking is not something entirely new to me. I did my degree in Illustration and had a Foundation year before that with a real focus on the print room. When I heard from a friend about Birmingham Printmakers it re ignited the fire in my belly and I did a refresher workshop to remind me what was involved. There is nothing quite like getting covered in paint and mucking about in a dark room, and an added bonus of you walk out of the studio with some half decent looking prints at the end of it.
+**I must say** at the outset that printmaking is not something entirely new to me. I did my degree in Illustration and had a Foundation year before that with a real focus on the print room. When I heard from a friend about Birmingham Printmakers it re ignited the fire in my belly and I did a refresher workshop to remind me what was involved. There is nothing quite like getting covered in paint and mucking about in a dark room, and an added bonus of you walk out of the studio with some half decent looking prints at the end of it.
 
 <p><img  src="{{ site.baseurl }}/assets/printing2.jpg" alt="Printmaking"  /></p><!--more-->
 The print studio is small, only 2 beds and a dark room for screen work and is Members only meaning that you can access it as nearly any hour of the day.
