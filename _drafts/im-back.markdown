@@ -3,5 +3,9 @@ title: I'm back!
 date: 2017-11-01 17:22:00 Z
 ---
 
-Well.. it has been a little while, life, side projects and as I finally realised my favourite text editor acting as a stealth blocker to my blog writing.
+### Well.. it has been a little while, life, side projects and as I finally realised my favourite text editor acting as a stealth blocker to my blog writing.
+
+It is more the realisation that I have become totally reliant on in browser spell checking to help me keep my grammar in check. As much as moving to Jekyll had been a fun experiment, the act of writing blog posts in a text editor was a struggle.
+
+I have a few posts that have been sitting waiting to be written so time to play catch up!
 
