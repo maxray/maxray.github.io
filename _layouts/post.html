@@ -34,8 +34,8 @@ layout: default
         <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15"/> <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
-  </section>
-  <form method="POST" action="https://api.staticman.net/v2/entry/maxray/maxray.github.io">
+  
+  <form method="POST" action="https://api.staticman.net/v2/entry/maxray/maxray.github.io/master/">
   <input name="options[redirect]" type="hidden" value="https://www.sushkelly.co.uk/thanks">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
@@ -45,6 +45,7 @@ layout: default
   
   <button type="submit">Go!</button>
 </form>
+</section>
 </div>
 
 
