@@ -159,8 +159,20 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit;
+    // border-top: 1px solid $grey-color-light;
+    // padding: $spacing-unit;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff740e+0,e86b0f+100 */
+        background: #cccccc; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ff740e 0%, #e86b0f 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #ff740e 0%,#e86b0f 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #ff740e 0%,#e86b0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff740e', endColorstr='#e86b0f',GradientType=0 ); /* IE6-9 */
+    
+    
+        border-top: 5px solid $brand-color;
+        border-bottom: 1px solid $nice-black;
+        padding:.5em 1em .5em .5em;
+    
 }
 
 .footer-heading {
