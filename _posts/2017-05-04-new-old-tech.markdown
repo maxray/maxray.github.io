@@ -1,18 +1,18 @@
 ---
 title: New Old Tech
-date: 2017-01-15 08:00:59 Z
+date: 2017-05-04 08:00:00 Z
 categories:
 - Work
-layout: post
 type: post
 status: publish
 author:
   login: admin
   email: sushkelly@gmail.com
   display_name: admin
-  first_name: ''
-  last_name: ''
+  first_name: 
+  last_name: 
 excerpt_separator: "<!--more-->"
+layout: post
 ---
 
 <p>This is based on an article that appears in .Net Magazine May 2017</p>
