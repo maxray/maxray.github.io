@@ -18,7 +18,10 @@ layout: default
     {{ post.title }}
 {% endif %}
 </h1></a>
-<div class="post-content home-content"> {{ post.content }}</div>
+<div class="post-content home-content"> 
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+  
+  {{ post.content }}</div>
   
     </div>
     <div>
