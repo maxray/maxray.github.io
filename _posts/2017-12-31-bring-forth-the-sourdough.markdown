@@ -15,3 +15,13 @@ Back to the drawing board, and as the Christmas Holidays landed I found I had th
 ### Look ma' it floats!
 
 Success!! This was a moment to savour.. the test piece floated in water and so I could move on to making a Leaven.
+
+A leaven is basically a bit of the starter, mixed with more flour and water, you combine this with salt and more water and flour.
+
+Now you want to have a morning free to potter about as you need to do small moments of folding every 30 mins six times and also give the bread periods of rest. In the end I left the loaf in the fridge ready to bake the next day.
+
+### Hot Hot Hot!
+
+![sourdough_success.png](/uploads/sourdough_success.png)
+
+The oven needs to be about 250 degrees for the initial baking. I used a casserole dish, because I was winging it. :) an hour or so later out comes what astonishingly looks remarkably like an actual loaf. I can confirm it also tasted pretty awesome too, very much looking forward to experimenting with baking in 2018.
