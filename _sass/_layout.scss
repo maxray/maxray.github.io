@@ -173,6 +173,11 @@
         border-bottom: 1px solid $nice-black;
         padding:.5em 1em .5em .5em;
 
+        a {
+            text-transform: uppercase;
+            font-family: $heading-font-family;
+        }
+
         img {
             max-width:35px;
         }
