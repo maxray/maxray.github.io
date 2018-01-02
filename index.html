@@ -40,7 +40,7 @@ layout: default
           <ul class="past">
         {% endif %}
       {% endunless %}
-        <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15"/> <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><img src="{{ site.baseurl }}/assets/{{post.categories | capitalize}}.svg" width="15" height="15"/> <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
   </section>
