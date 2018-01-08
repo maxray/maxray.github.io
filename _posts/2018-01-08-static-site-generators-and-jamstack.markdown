@@ -5,6 +5,7 @@ categories:
 - Work
 ---
 
+![jamstack.png](/uploads/jamstack.png)
 Photo by [Jonathan Pielmayer](https://unsplash.com/@jonathanpielmayer) on Unsplash
 
 ### With the advent of Static Site CMS's is JAMStack a viable alternative to Wordpress for small to medium sized sites?
