@@ -19,5 +19,10 @@ More recently services such as [Siteleaf](http://www.siteleaf.com) have sprung u
 This method of building sites has become known as 'JAMStack', where sites use client side Javascript, 3rd party API's for things that would have traditionally used a database and Markup from a site generator.
 
 There can be a need in web tenders for everything to be adminable or customisable, but in reality how often does a client follow through and make full use of everything they said they wanted? With the increased worries of site security and the burden that a client can be left with if they don't have a support package perhaps JAMStack offers a robust solution.
+
+We have actually started to use this on our latest project where the client is totally on board with this type of process and can see the advantages it offers. We have gone as far as hosting the site within Github Pages also which again minimises dependencies that would cost money to run.
+
+I think this is going to be an ongoing trend in 2018, alongside the continuing advancements in headless CMS and also GraphQL which could offer the next logical step on for Wordpress hosted sites.
+
  
 
