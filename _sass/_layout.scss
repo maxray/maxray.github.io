@@ -443,7 +443,7 @@ margin: auto;
     }
 }
 
-.cvPage  > div:first-child {
+.cvPage  > div:nth-child(1) {
     width: 50%;
     padding: 1em;
     // overflow: auto;
@@ -457,7 +457,7 @@ margin: auto;
     // height: 100vh;
 }
 
-.cvPage  > div:nth-child(3) ,.cvPage  > div:nth-child(4),.cvPage  > div:nth-child(5){
+.cvList  > div:nth-child(1) ,.cvList  > div:nth-child(2),.cvList  > div:nth-child(3){
     width: 33%;
     padding: 1em;
     // overflow: auto;
@@ -486,7 +486,29 @@ margin: auto;
     padding: 5%;
         height: auto;
         
-    }  
+    } 
+    
+    .cvPage  > div:nth-child(1) {
+        width: 90%;
+        padding: 5%;
+        // overflow: auto;
+        // height: 100vh;
+    }
+    
+    .cvPage  > div:nth-child(2) {
+        width: 90%;
+        padding: 5%;
+        // overflow: auto;
+        // height: 100vh;
+    }
+    
+    .cvList  > div:nth-child(1) ,.cvList  > div:nth-child(2),.cvList  > div:nth-child(3){
+        width: 90%;
+        padding: 5%;
+        // overflow: auto;
+        // height: 100vh;
+    }
+    
 
     #heightFix {
         height:25vh;
