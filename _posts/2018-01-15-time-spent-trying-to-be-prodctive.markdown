@@ -5,6 +5,7 @@ categories:
 - Work
 ---
 
+![rex_play.png](/uploads/rex_play.png)
 ### I have written posts in the past about lack of time or struggling to get enough time to do things.. 
 
 Here i am again, although this time it is more the acceptance that there is actually time you can get back in your day if you take a moment to have a good look at how you spend your time.
