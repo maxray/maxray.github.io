@@ -6,7 +6,7 @@ categories:
 ---
 
 ![gdpr.png](/uploads/gdpr.png)
-###Countdown to 28th May 2018
+### Countdown to 28th May 2018
 
 The General Data Protection Regulation (GDPR) has been looming for a while now but you may have been putting off doing anything about it, possibly because you think it doesn't have an impact on you. 
 
