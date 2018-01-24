@@ -1,5 +1,5 @@
 ---
-title: Time spent trying to be prodctive
+title: Time spent trying to be productive
 date: 2018-01-15 09:49:00 Z
 categories:
 - Work
