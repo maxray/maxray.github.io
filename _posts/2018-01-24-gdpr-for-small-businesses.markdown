@@ -32,10 +32,20 @@ It used to cost money for someone to make a data request but the GDPR rules will
 
 ### Get the basics right 
 
-There are a few things from an earlier time in the web that if you haven't stopped you should look at right away. 
+If you just have a newsletter sign up on your website, perhaps managed by Mailchimp then you will be able to keep on top of your responsibilities easily. 
+
+If you run an ecommerce website then there is going to be more data to keep tabs on so it would be well worth doing a data audit to check what information you collect and how it is stored.
+
+There are a few things that if you haven't stopped long ago you should look at right away. 
 
 * Checked checkboxes - You can no longer imply consent, a checkbox should be empty and the user choose to click it. 
 * Email lists - Buying an email list isn't ideal for a variety of reasons but in this case, you are marketing to people who have not consented and as such will be breaching GDPR from the get go.
+
+### Keep calm and carry on
+
+There is no reason to be overly alarmed about the changes that will take place at the end of May, the sun will still rise. A few simple checks and changes now though will make sure you are covered and can ignore the inevitable panic that will ensue. :)
+  
+
 
 
 
