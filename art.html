@@ -17,7 +17,7 @@ layout: page
 
 		{% for product in site.products %}
   		<li>	
-  			<h4>{{ product.name }} - £{{ product.price }} -  <a href="mailto:me@sushkelly.co.uk?subject={{ product.name }}">I want this!</a></h4>
+  			<h4>{{ product.name }} - £{{ product.price }} -  <a href="mailto:me@sushkelly.co.uk?subject={{ product.name }}">Buy</a></h4>
   			<img  src="{{ site.baseurl }}/assets/illustration/{{ product.image }}" alt="{{ product.name }}"  />
   			<p> {{ product.content }}</p>
         <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
