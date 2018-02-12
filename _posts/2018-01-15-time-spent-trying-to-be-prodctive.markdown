@@ -1,6 +1,7 @@
 ---
 title: Time spent trying to be productive
-date: 2018-01-15 09:49:00 Z
+date: 2018-01-15 09:49:00 
+layout: post
 categories:
 - Work
 ---

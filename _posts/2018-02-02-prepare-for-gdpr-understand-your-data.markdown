@@ -1,6 +1,9 @@
 ---
 title: Prepare for GDPR - Understand your data
-date: 2018-02-02 08:44:00 Z
+date: 2018-02-02 08:44:00 
+layout: post
+categories:
+- Work
 ---
 
 ![gdpr_2.png](/uploads/gdpr_2.png)

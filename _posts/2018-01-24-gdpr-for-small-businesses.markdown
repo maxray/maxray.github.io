@@ -1,6 +1,7 @@
 ---
 title: GDPR for small businesses
-date: 2018-01-24 08:22:00 Z
+date: 2018-01-24 08:22:00 
+layout: post
 categories:
 - Work
 ---
