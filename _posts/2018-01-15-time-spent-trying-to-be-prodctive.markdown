@@ -1,9 +1,9 @@
 ---
 title: Time spent trying to be productive
-date: 2018-01-15 09:49:00 
-layout: post
+date: 2018-01-15 09:49:00 Z
 categories:
 - Work
+layout: post
 ---
 
 ![rex_play.png](/uploads/rex_play.png)
