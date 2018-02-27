@@ -1,5 +1,5 @@
 ---
-title: ".NET Magazine - Design Challenge"
+title: NET Magazine - Design Challenge
 date: 2018-02-27 21:34:00 Z
 categories:
 - Work
