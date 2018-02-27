@@ -29,4 +29,6 @@ It was decided that photos of stricken animals, whilst shocking are not as likel
 
 5 - Microinteractions can give real depth to a simple design. In this case the navigation items rotate slightly on hover to imitate floating on the water's surface.
 
+![ANNOTATED_sush_kelly_adito_design_netma.png](/uploads/ANNOTATED_sush_kelly_adito_design_netma.png)
+
 
