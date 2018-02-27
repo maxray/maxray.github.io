@@ -9,7 +9,7 @@ It is pretty rare I get to do design work as my main focus in works is UX and Fr
 
 ![design_challenge.png](/uploads/design_challenge.png)
 
-### A fictional charity
+### A Drop in the Ocean
 
 ADITO is a call to action to the world to try and stop the destruction of the world’s oceans. This has been especially highlighted recently after Planet Earth 2 and the increasing focus on plastic waste and the effects on wildlife and our coastlines. Costs for a charity of this nature are paramount as it is a type of charity that often struggles for real investment. As such minimising ongoing costs is a priority. 
 
