@@ -17,6 +17,8 @@ The site runs on a JAMStack (Javascript, API and Markup) meaning there are no re
 
 It was decided that photos of stricken animals, whilst shocking are not as likely to engage, instead illustrations and facts which show the size of the problem combined with some subtle css animation would be both cost effective and engaging. 
 
+![ANNOTATED_sush_kelly_adito_design_netma.png](/uploads/ANNOTATED_sush_kelly_adito_design_netma.png)
+
 ### Close Up
 
 1 - Everything starts with a pencil! As tempting as it can be to jump into Sketch or Photoshop a paper and pencil allows you freedom to develop your initial idea.
@@ -29,6 +31,5 @@ It was decided that photos of stricken animals, whilst shocking are not as likel
 
 5 - Microinteractions can give real depth to a simple design. In this case the navigation items rotate slightly on hover to imitate floating on the water's surface.
 
-![ANNOTATED_sush_kelly_adito_design_netma.png](/uploads/ANNOTATED_sush_kelly_adito_design_netma.png)
 
 
