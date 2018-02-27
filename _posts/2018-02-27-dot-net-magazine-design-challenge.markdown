@@ -5,9 +5,9 @@ categories:
 - Work
 ---
 
-![design_challenge.png](/uploads/design_challenge.png)
-
 It is pretty rare I get to do design work as my main focus in works is UX and Front End Dev. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity.
+
+![design_challenge.png](/uploads/design_challenge.png)
 
 ### A fictional charity
 
