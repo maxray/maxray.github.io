@@ -5,7 +5,7 @@ categories:
 - Work
 ---
 
-It is pretty rare I get to do design work as my main focus in works is UX and Front End Dev. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity.
+It is pretty rare I get to do design or concept work as my main focus tends to be UX and Front End Development. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity and I enjoyed every minute of it, especially designing a logo :)
 
 ![design_challenge.png](/uploads/design_challenge.png)
 
