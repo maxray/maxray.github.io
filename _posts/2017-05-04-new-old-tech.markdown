@@ -1,5 +1,5 @@
 ---
-title: New Old Tech
+title: NET Magazine - New Old Tech
 date: 2017-05-04 08:00:00 Z
 categories:
 - Work
