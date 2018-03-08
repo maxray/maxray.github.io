@@ -12,6 +12,7 @@ layout: post
 One of those usually annoying quotes, but in this case it does hold value. 
 
 Following on from my [initial post about what GDPR covers](http://www.sushkelly.co.uk/work/2018/01/24/gdpr-for-small-businesses.html) I thought it would be good to work through the basic requirements to make sure you are ready come the end of May.
+<!--more--> 
 
 ### Understand your data
 

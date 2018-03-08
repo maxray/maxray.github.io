@@ -5,11 +5,8 @@ layout: default
 <div>
   <div class="flexbox-container">
     <div>
-      <h3>Oh Hay! I am Sush Kelly, a front end developer, illustrator and general tinkerer of things.</h3>
-      <p>I work with all sorts of clients, small and large helping to fulfill their digital needs.</p>
-      <p>I have been working in the digital industry for 18 years, spending the last 4 years as Digital Director at a Design Agency in Leamington Spa.</p>
-      <p>I have availability from March 2018 so <a href="mailto:me@sushkelly.co.uk?subject=From the frontpage">get in touch</a> if you have a project I might be able to help you with.</p>
-      {% assign post = site.posts.first %}
+
+       {% assign post = site.posts.first %}
   <a href="{{ post.url }}"><h1 class="post-title">
 {% if page.title %}
     {{ page.title }}
@@ -21,7 +18,13 @@ layout: default
 <div class="post-content home-content"> 
     <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
   
-  {{ post.content }}</div>
+  {{ post.excerpt }}</div>
+
+      <div class="callOut">
+      <h3>I'm Sush, a Web Designer, Illustrator and general tinkerer of things.</h3>
+      <p>I work with all sorts of clients, small and large helping them to fulfill their digital needs.</p>
+      <p>I have availability from March 2018 so <a href="mailto:me@sushkelly.co.uk?subject=From the frontpage">get in touch</a> if you have a project I might be able to help you with.</p>
+     </div>
   
     </div>
     <div>

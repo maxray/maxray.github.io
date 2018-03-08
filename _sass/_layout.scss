@@ -14,6 +14,13 @@
     border-bottom: 1px solid $nice-black;
     padding:.5em 1em .5em .5em;
 
+    @include media-query($on-palm) {
+        border-top: 1px solid $brand-color;
+    border-bottom: 1px solid $nice-black;
+    padding:0;
+
+    }
+
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -37,6 +44,14 @@
     &,
     &:visited {
         color: $text-color;
+    }
+
+    img {
+        @include media-query($on-palm) {
+            height: 50px;
+            width: auto;
+            padding: 10px 0 10px 20px;
+        }
     }
 }
 
@@ -104,7 +119,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 30px;
+        top: 17px;
         right: 25px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -318,7 +333,7 @@
 .home-content {
     p:first-child {
         font-weight:400;
-        font-size:25px;
+        font-size:20px;
         font-style: italic;
 
     }
@@ -334,6 +349,7 @@
     letter-spacing: -1px;
     line-height: 1;
     padding: $spacing-unit/2 0 0 0;
+    margin-bottom:5px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -383,6 +399,18 @@
 
 /* SUSH NEW SITE */
 
+
+.callOut {
+    background-color: #efefef;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.posts {
+    li {
+        margin-bottom:20px;
+    }
+}
 .flexbox-container  {
    display: -webkit-box;      // OLD - iOS 6-, Safari 3.1-6 */
    display: -moz-box;         // OLD - Firefox 19- (buggy but mostly works) */
@@ -445,7 +473,8 @@ margin: auto;
 
 .cvPage  > div:nth-child(1) {
     width: 50%;
-    padding: 1em;
+    margin-right:0;
+    padding: 1em 0 1em 1em;
     // overflow: auto;
     // height: 100vh;
 }
@@ -522,6 +551,7 @@ margin: auto;
         background-position: center;
         .post-title {
             padding:0;
+            margin-bottom: 5px;
         }
 
     }
