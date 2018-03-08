@@ -8,7 +8,7 @@ categories:
 It is pretty rare I get to do design or concept work as my main focus tends to be UX and Front End Development. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity and I enjoyed every minute of it, especially designing a logo :)
 
 ![design_challenge.png](/uploads/design_challenge.png)
-
+<!--more--> 
 ### A Drop in the Ocean
 
 ADITO is a call to action to the world to try and stop the destruction of the world’s oceans. This has been especially highlighted recently after Planet Earth 2 and the increasing focus on plastic waste and the effects on wildlife and our coastlines. Costs for a charity of this nature are paramount as it is a type of charity that often struggles for real investment. As such minimising ongoing costs is a priority. 
