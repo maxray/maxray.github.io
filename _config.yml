@@ -19,14 +19,13 @@ description: 'An Interactive Designer based in Birmingham and working at Imagina
 
 '
 baseurl: ''
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 url: http://www.sushkelly.co.uk
 twitter_username: maxray
 github_username: maxray
 markdown: kramdown
 sass:
   sass_dir: _sass
-
 gems:
 - jekyll-archives
 jekyll-archives:
