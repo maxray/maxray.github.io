@@ -1,5 +1,5 @@
 ---
-title: Creativity and Code
+title: Creativity & Code
 timezone: UTC
 collections:
   posts:
@@ -11,21 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-    defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    thumbnail_image: ''
-    feature_image: ''
-- scope:
-    path: ''
-    type: posts
-  values:
-    thumbnail_image: ''
-    feature_image: ''
-
-email: sush@creativityandcode.co.uk
+email: me@sushkelly.co.uk
 description: 'An Interactive Designer based in Birmingham and working at Imaginate
   Creative Ltd in Leamington Spa. I love designing and developing for screen, getting
   out into the hills and getting muddy.  I have a weakness for anthing Orange and
