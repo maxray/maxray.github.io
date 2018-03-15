@@ -3,13 +3,15 @@ title: GDPR for small businesses
 date: 2018-01-24 08:22:00 Z
 categories:
 - Work
+thumbnail_image: "/uploads/gdpr.png"
 layout: post
 ---
 
-![gdpr.png](/uploads/gdpr.png)
 ### Countdown to 28th May 2018
 
 The General Data Protection Regulation (GDPR) has been looming for a while now but you may have been putting off doing anything about it, possibly because you think it doesn't have an impact on you. 
+
+<p><img  src="{{ site.baseurl }}/uploads/gdpr.png" alt="GDPR"  /></p>
 
 Although initially the Information Commissioner's Office (ICO) will likely be looking at high level or landmark cases it makes good business sense to make sure you are prepared and acting in the right way going forward. 
 

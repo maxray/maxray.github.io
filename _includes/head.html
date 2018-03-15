@@ -1,5 +1,7 @@
-<head>
-  <script src="https://use.typekit.net/snn1cwo.js"></script>
+<head><!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Bitter|Raleway:700|Rock+Salt" rel="stylesheet">
+ <!--   -->
   <script>
     try {
       Typekit.load({
@@ -47,10 +49,42 @@
   <meta content="{{ category }}" property="article:section"> {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
   <meta content="{{ tag }}" property="article:tag"> {% endfor %} {% endif %}
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml
     " | prepend: site.baseurl | prepend: site.url }}">
+
+<script type="text/javascript">
+<!--
+
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+
+
+</script>
+
+<script>
+$(document).ready(function(){
+  
+    $(".showTog").click(function(){
+
+      if ($(this).text() == "-") {
+        $(this).html("+");
+  } else{
+    $(this).html("-");
+  }
+        
+    });
+});
+</script>
+
 </head>

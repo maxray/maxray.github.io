@@ -4,22 +4,22 @@ permalink: "/art/"
 layout: page
 ---
 
-<div class="illustration-container">
-  <!--   <div style= "background-image: url({{ site.baseurl }}/assets/illustration.jpg);" id="heightFix">
-    </div> -->
-    <div>
-    	<h1>Illustration</h1>
+      <section id="artwork">
+      <article class="art-intro">
+    
+      <h1 class="art-title">Illustration</h1>
       <p>I work primarily in pen and ink, sometimes continuing the process via Photoshop or Illustrator or silk screen printing.</p><p>If you have a specific idea in mind I am available for commision. Drop me an email at <a href="mailto:me@sushkelly.co.uk">me@sushkelly.co.uk</a> and let's talk.</p>
-     <h3>Drawings and Prints for Sale</h3>
+      <h3>Drawings and Prints for Sale</h3>
      <p>Please note prices do not include postage. </p>
-		<ul class="posts">
-	
 
-		{% for product in site.products %}
-  		<li>	
-  			<h4>{{ product.name }} - £{{ product.price }} -  <a href="mailto:me@sushkelly.co.uk?subject={{ product.name }}">Buy</a></h4>
-  			<img  src="{{ site.baseurl }}/assets/illustration/{{ product.image }}" alt="{{ product.name }}"  />
-  			<p> {{ product.content }}</p>
+      </article>
+
+      
+     {% for product in site.products %}
+   <article>
+        <h4>{{ product.name }} </br>£{{ product.price }} - <a href="mailto:me@sushkelly.co.uk?subject={{ product.name }}">Buy</a></h4>
+        <img  src="{{ site.baseurl }}/assets/illustration/{{ product.image }}" alt="{{ product.name }}"  />
+        <p> {{ product.content }}</p>
         <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="sushkelly@gmail.com">
@@ -35,9 +35,14 @@ layout: page
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form> -->
    
-  		</li>
-		{% endfor %}
+    
+
+      </article>
+    {% endfor %}
 
 
-		</ul>
-</div>
+   
+
+    </section>
+
+

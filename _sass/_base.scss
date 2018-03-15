@@ -14,6 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    background-image: url(../assets/dots.png);
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $nice-black;
     background-color: $nice-white;
@@ -23,6 +24,20 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    @media only screen and (min-width: 1024px) {
+        
+                    display: grid;
+    }
+    
+    font-size:16px;
+    /* at a min height make the body a grid. */
+    
+    //grid-gap: 2rem;
+    grid-template-columns: repeat(12 ,  1fr);
+    grid-template-rows: 100px;
+
+
 }
 
 
@@ -34,7 +49,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit ;
 }
 
 
@@ -84,13 +99,29 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    
     font-family: $heading-font-family;
-    text-transform: uppercase;
+    font-weight:700;
+    // text-transform: uppercase;
 }
 
-h3 {
-    padding-bottom: $spacing-unit / 2;
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: $spacing-unit;
+    line-height:1;
+    font-weight:700;
+}
+
+h2 {
+     font-size: 1.75rem;
+   
+
+}
+
+
+ h3 {
+     font-size: 1.75rem;
+    padding-bottom: $spacing-unit ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
@@ -99,6 +130,30 @@ h4 {
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
+
+.services-title {
+    border-left: solid 1rem  $pink;
+    padding-left:1rem;
+    }
+
+    .blog-title {
+    border-left: solid 1rem  $orange;
+    padding-left:1rem;
+    }
+
+    .art-title {
+    border-left: solid 1rem  $yellow;
+    padding-left:1rem;
+    }
+    .contact-title {
+    border-left: solid 1rem  $green;
+    padding-left:1rem;
+    }
+
+        .gen-title {
+    border-left: solid 1rem  #2b2b2b;
+    padding-left:1rem;
+    }
 
 
 /**
@@ -117,6 +172,130 @@ a {
         text-decoration: underline;
     }
 }
+
+ .strike {
+                        background-color: #d7fb65;
+                        padding: 3px 6px 1px 4px;
+                        -ms-transform: rotate(-2deg);
+                        -webkit-transform: rotate(-2deg);
+                        transform: rotate(2deg);
+                        text-decoration: none;
+                        display: inline-block;
+                        -webkit-clip-path: polygon(3% 0, 98% 0, 100% 100%, 1% 100%);
+                        clip-path: polygon(3% 0, 98% 0, 100% 100%, 1% 100%);
+                        text-decoration:none;
+
+                        &:hover {
+                            color:navy;
+                            background-color: darken(#d7fb65,20%);
+                            text-decoration:none;
+                        }
+
+                   }
+
+ .note {
+                        background-color: #cccccc;
+                        padding: 10px;
+                        // -ms-transform: rotate(-2deg);
+                        // -webkit-transform: rotate(-2deg);
+                        // transform: rotate(2deg);
+                        text-decoration: none;
+                        display: inline-block;
+                        -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+                        clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+                        text-decoration:none;
+
+                   }
+
+
+
+.cta{
+    background-color: #fd4dcc;
+    padding: 15px 10px 7px 4px;
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(-3deg);
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    -webkit-clip-path: polygon(0 17%, 100% 26%, 99% 95%, 0 94%);
+    clip-path: polygon(0 17%, 100% 26%, 99% 95%, 0 94%);
+    -webkit-transition: all .2s; /* Safari */
+                    transition: all .2s;
+
+    &:hover {
+        color:navy;
+        background-color: darken(#fd4dcc,20%);
+        text-decoration:none;
+    }
+
+}
+
+
+.second-cta{
+        background-color: #ffffff;
+    border-left: solid 1rem #ff8168;
+    padding-left: 1rem;
+    padding: 15px 25px;
+   text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    -webkit-transition: all .2s; /* Safari */
+                    transition: all .2s;
+
+
+    &:hover {
+        color:navy;
+        background-color: darken(#efe5cd,20%);
+        text-decoration:none;
+    }
+
+}
+
+
+.services {
+     border-left: solid 1rem $pink;
+  
+     &:hover {
+        background-color: darken($pink,10%);
+        color:#ffffff;
+    }
+}
+
+
+
+.blog {
+    border-left: solid 1rem $orange;
+   //background-color: $orange;
+    &:hover {
+        background-color: darken($orange,10%);
+        color:#ffffff;
+    }
+}
+
+.art {
+    border-left: solid 1rem $yellow;
+   //background-color: $yellow;
+    &:hover {
+        background-color: darken($yellow,10%);
+        color:#ffffff;
+    }
+}
+
+.contact {
+    border-left: solid 1rem $green;
+   // background-color: $green;
+    &:hover {
+        background-color: darken($green,10%);
+        color:#ffffff;
+    }
+}
+
+
 
 
 
