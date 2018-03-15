@@ -2,34 +2,13 @@
 layout: default
 ---
 
-    <section id="mainStory">
-      <article>
-        {% assign post = site.posts.first %}
-        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-         <div class="content">      
-        <h3>
-      {% if page.title %}
-          {{ page.title }}
-      {% endif %}
-      {% if post.title %}
-          {{ post.title }}
-      {% endif %}
-      </h3>
-
-    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
   
-  {{ post.excerpt }}
-
-  <a href="{{ post.url }}" class="cta ">Read More</a>
-      </div>
-      </article>
-    </section>
     <section id="introduction">
       <article>
           <h1>I'm Sush, a Web Designer, Illustrator and general tinkerer of things.</h1>
           <p>I work with all sorts of clients, small and large helping them to fulfill their digital needs.</p>
           <p>I have some availability during March so <a href="mailto:me@sushkelly.co.uk?subject=From the frontpage" class="strike ">get in touch</a> if you have a project I might be able to help you with.</p>
-          <p class="note"><b>Please note:</b> This site is currently in <b>"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
+          <p class="note"><b class="strike">Please note:</b> This site is currently in <b class="strike">"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
          
       </article>
     </section>
@@ -63,7 +42,28 @@ layout: default
         {% endfor %}</div>
       </article>
     </section>
+  <section id="mainStory">
+      <article>
+        {% assign post = site.posts.first %}
+        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+         <div class="content">      
+        <h3>
+      {% if page.title %}
+          {{ page.title }}
+      {% endif %}
+      {% if post.title %}
+          {{ post.title }}
+      {% endif %}
+      </h3>
 
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+  
+  {{ post.excerpt }}
+
+  <a href="{{ post.url }}" class="cta ">Read More</a>
+      </div>
+      </article>
+    </section>
 
 
 

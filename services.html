@@ -5,12 +5,13 @@ thumbnail_image: "/uploads/services.png"
 layout: page
 ---
 
-    <section id="mainStory">
+
+    <section id="introduction">
       <article>
-      <!--   <div class="backgroundImage" ></div> -->
-         <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-         <div class="content"> 
-        <h2>Small companies or start ups.</h2>
+         <h1 class="services-title">How I can help you</h1>
+    <p>As time goes on building websites has become more and more specialised. It can feel pretty overwhelming wondering which things you need to pay attention to and which you can ignore. The acronyms, programming languages and design styles.. where do you begin? </p>
+    
+      <h2>Small companies or start ups.</h2>
         <p>Whether is is building up your digital collateral from the ground up, reviewing and improving on what you have got or some general coaching to get you set in the right direction I've got you covered.</p>
 
             <h4>I need help adding to or changing things on my existing website.</h4>
@@ -32,15 +33,16 @@ layout: page
             <p>I have been running digital projects for years and having worked in a design agency I understand how both designers and developers tick. If you are embarking on a digital project and need some temporary skills in your organisation then get in touch.</p>
 
 
-             </div>
+
       </article>
     </section>
-    <section id="introduction">
+        <section id="mainStory">
       <article>
-         <h1 class="services-title">How I can help you</h1>
-    <p>As time goes on building websites has become more and more specialised. It can feel pretty overwhelming wondering which things you need to pay attention to and which you can ignore. The acronyms, programming languages and design styles.. where do you begin? </p>
-    
-      <h2>Larger businesses or more established companies.</h2>
+      <!--   <div class="backgroundImage" ></div> -->
+         <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+         <div class="content"> 
+
+           <h2>Larger businesses or more established companies.</h2>
         <p>You might already have a a site but it needs a revamp or maybe you are starting a new project and don't have the right digital skills in house. I can also help you develop briefs for companies to tender against and am available to take on projects or provide retainer based support.</p>
 
             <h4>Our website hasn't been updated in years</h4>
@@ -53,9 +55,12 @@ layout: page
             <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p>
             
 
+            
+       
+             </div>
       </article>
     </section>
-    <section id="feature">
+   <!--  <section id="feature">
       <article>
         <div>Example projects</div>
          {% for page in site.pages   %}
@@ -66,7 +71,7 @@ layout: page
       {% endif %}
         {% endfor %}</div>
       </article>
-    </section>
+    </section> -->
 
 
 

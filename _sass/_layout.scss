@@ -257,11 +257,17 @@ header nav ul li:nth-child(4):hover {
     grid-row: 1/ span 2;
     background-image: url('images/main.jpg');
     background-size: cover;
-    min-height: 200px;
+    min-height: 30vh;
     @media only screen and (min-width: 768px) {
+
+        min-height: 50vh;
+    }
+
+        @media only screen and (min-width: 1024px) {
 
         min-height: 70vh;
     }
+
 }
 
 
