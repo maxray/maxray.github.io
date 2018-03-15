@@ -1,12 +1,11 @@
 ---
 title: Time spent trying to be productive
 date: 2018-01-15 09:49:00 Z
-thumbnail_image: "/uploads/rex_play.png"
 categories:
 - Work
+thumbnail_image: "/uploads/rex_play.png"
 layout: post
 ---
-
 
 ### I have written posts in the past about lack of time or struggling to get enough time to do things.. 
 

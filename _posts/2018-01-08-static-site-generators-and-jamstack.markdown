@@ -1,14 +1,11 @@
 ---
 title: Static Site Generators and JAMStack.
 date: 2018-01-08 21:24:00 Z
-thumbnail_image: "/uploads/jamstack.png"
 categories:
 - Work
+thumbnail_image: "/uploads/jamstack.png"
 layout: post
 ---
-
-
-
 
 ### With the advent of Static Site CMS's is JAMStack a viable alternative to Wordpress for small to medium sized sites?
 

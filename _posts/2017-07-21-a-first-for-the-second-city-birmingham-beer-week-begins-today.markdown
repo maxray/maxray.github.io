@@ -1,9 +1,9 @@
 ---
 title: A first for the second city, Birmingham Beer week begins today!
 date: 2017-07-21 08:02:00 Z
-thumbnail_image: "/uploads/birm_beer_week.png"
 categories:
 - Work
+thumbnail_image: "/uploads/birm_beer_week.png"
 layout: post
 ---
 

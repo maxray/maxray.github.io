@@ -1,9 +1,9 @@
 ---
 title: Bring forth the sourdough!
 date: 2017-12-31 16:53:00 Z
-thumbnail_image: "/uploads/sourdough.png"
 categories:
 - Play
+thumbnail_image: "/uploads/sourdough.png"
 layout: post
 type: post
 status: publish

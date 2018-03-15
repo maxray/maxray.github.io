@@ -1,9 +1,9 @@
 ---
 title: GDPR for small businesses
 date: 2018-01-24 08:22:00 Z
-thumbnail_image: "/uploads/gdpr.png"
 categories:
 - Work
+thumbnail_image: "/uploads/gdpr.png"
 layout: post
 ---
 
