@@ -107,6 +107,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2.5rem;
+      @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
     margin-bottom: $spacing-unit;
     line-height:1;
     font-weight:700;
@@ -114,19 +117,27 @@ h1 {
 
 h2 {
      font-size: 1.75rem;
-   
+    @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
 
 }
 
 
  h3 {
      font-size: 1.75rem;
+       @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
     padding-bottom: $spacing-unit ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
 h4 {
     font-size:1.3rem;
+      @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
     padding-bottom: $spacing-unit / 2;
     background: url(../assets/lines.png) bottom repeat-x;
 }
