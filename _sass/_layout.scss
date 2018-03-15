@@ -6,9 +6,10 @@
     grid-column: 1 / 7;
     /*display: grid;*/
     grid-template-columns: repeat(6, 1fr);
+     display: grid;
     @media only screen and (min-width: 500px) {
 
-        display: grid;
+       
         height: 100px;
     }
 
@@ -40,7 +41,6 @@ header nav {
 
     @media only screen and (max-width: 600px) {
         grid-column: 1/-1;
-
         height: 40px;
     }
 }
