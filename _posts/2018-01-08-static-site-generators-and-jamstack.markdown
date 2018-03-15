@@ -1,14 +1,19 @@
 ---
 title: Static Site Generators and JAMStack.
 date: 2018-01-08 21:24:00 Z
+thumbnail_image: "/uploads/jamstack.png"
 categories:
 - Work
+layout: post
 ---
 
-![jamstack.png](/uploads/jamstack.png)
-Photo by [Jonathan Pielmayer](https://unsplash.com/@jonathanpielmayer) on Unsplash
+
+
 
 ### With the advent of Static Site CMS's is JAMStack a viable alternative to Wordpress for small to medium sized sites?
+
+<p><img  src="{{ site.baseurl }}/uploads/jamstack.png" alt="Jam"  /></p>
+Photo by [Jonathan Pielmayer](https://unsplash.com/@jonathanpielmayer) on Unsplash
 
 As much as Wordpress is really useful for content managed websites, there is always cases where it isn't ideal. Those tiny one pager sites to support an event or a website for a client who, in reality  will only end up adding a news article occasionally. The constant maintenance of plugins and core updates is a burden and without it security is an issue after launch.
 

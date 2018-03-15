@@ -1,15 +1,18 @@
 ---
 title: Time spent trying to be productive
 date: 2018-01-15 09:49:00 Z
+thumbnail_image: "/uploads/rex_play.png"
 categories:
 - Work
 layout: post
 ---
 
-![rex_play.png](/uploads/rex_play.png)
+
 ### I have written posts in the past about lack of time or struggling to get enough time to do things.. 
 
 Here i am again, although this time it is more the acceptance that there is actually time you can get back in your day if you take a moment to have a good look at how you spend your time.
+
+<p><img  src="{{ site.baseurl }}/uploads/rex_play.png" alt="The boy"  /></p>
 
 A secret to being more productive is to do less of the things that do not contribute towards the end goal you have in mind. Breaking the shackles of checking social media is an obvious one, it can become a go to reaction to pick up your mobile and refresh Facebook, Twitter or Instagram. This can also break your concentration when you are doing something too.
 

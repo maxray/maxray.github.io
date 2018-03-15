@@ -1,17 +1,21 @@
 ---
 title: NET Magazine - Design Challenge
 date: 2018-02-27 21:34:00 Z
+thumbnail_image: "/uploads/design_challenge.png"
 categories:
 - Work
+layout: post
 ---
 
 It is pretty rare I get to do design or concept work as my main focus tends to be UX and Front End Development. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity and I enjoyed every minute of it, especially designing a logo :)
 
-![design_challenge.png](/uploads/design_challenge.png)
-<!--more--> 
+
 ### A Drop in the Ocean
 
 ADITO is a call to action to the world to try and stop the destruction of the world’s oceans. This has been especially highlighted recently after Planet Earth 2 and the increasing focus on plastic waste and the effects on wildlife and our coastlines. Costs for a charity of this nature are paramount as it is a type of charity that often struggles for real investment. As such minimising ongoing costs is a priority. 
+<!--more--> 
+<p><img  src="{{ site.baseurl }}/uploads/design_challenge.png" alt="NET Mag"  /></p>
+
 
 The site runs on a JAMStack (Javascript, API and Markup) meaning there are no real charges to speak of as it is hosted via Github pages. The main focus of the site is awareness, events, data capture via a newsletter signup and of course a call for donations. It goes without saying that the site is device agnostic and is focusing on getting the message across. 
 
