@@ -7,6 +7,7 @@
     /*display: grid;*/
     grid-template-columns: repeat(6, 1fr);
     display: grid;
+    margin-bottom:1rem;
     @media only screen and (min-width: 500px) {
 
        
@@ -15,6 +16,10 @@
 
     @media only screen and (max-width: 600px) {
         grid-column: 1 / -1;
+
+        img {
+            width:150px;
+        }
     }
 }
 
@@ -414,9 +419,12 @@ header nav ul li:nth-child(4):hover {
 
 .blog-posts {
     list-style: none;
+    margin-left:0;
 
     li {
         margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 20px 60px 10px 1fr;
     }
 }
 
@@ -424,6 +432,8 @@ header nav ul li:nth-child(4):hover {
     list-style: none;
     li {
         margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 20px 60px 10px 1fr;
     }
 }
 
@@ -438,25 +448,25 @@ header nav ul li:nth-child(4):hover {
 
 
 footer {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 6;
     padding: 2rem;
-    color: #ffffff;
-    transform: rotate(4deg);
-    box-shadow: 1px 1px 5px #cccccc;
-    margin-left: -10px;
+    color: #2b2b2b;
+    // transform: rotate(4deg);
+    box-shadow: 0px 0px 10px #cccccc;
+    margin-bottom: 1rem;
 
     img {
         width: 25px;
     }
 
 
-    background-color: $green;
+    background-color: $yellow;
 
     a {
-        color: #ffffff;
+        color: #2b2b2b;
 
         &:hover {
-            color: #ffffff;
+            color: #2b2b2b;
         }
     }
 
