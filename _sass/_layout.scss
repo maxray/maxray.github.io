@@ -43,7 +43,7 @@ header nav {
     // height: auto;
     padding: 0 1rem;
     margin-top: -2px;
-
+    float:right;
     @media only screen and (max-width: 600px) {
         grid-column: 1/-1;
         height: 40px;
@@ -57,7 +57,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    align-items: top;
+    align-items: top;max-width:320px;
 
     li {
         padding: 10px;
@@ -69,6 +69,7 @@ header nav ul {
         box-shadow: 1px 1px 5px #cccccc;
         position: relative;
         display:inline-block;
+
     }
 
     li:hover {
