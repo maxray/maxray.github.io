@@ -7,7 +7,7 @@ thumbnail_image: "/uploads/design_challenge.png"
 layout: post
 ---
 
-It is pretty rare I get to do design or concept work as my main focus tends to be UX and Front End Development. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity and I enjoyed every minute of it, especially designing a logo :)
+It is pretty rare I get to do design or concept work as my main focus tends to be UX and Front End Development. It was so much fun to get involved with this month's design challenge in .NET Magazine. The brief was a fictional environmental charity and I enjoyed every minute of it, especially designing the logo!
 
 
 ### A Drop in the Ocean
