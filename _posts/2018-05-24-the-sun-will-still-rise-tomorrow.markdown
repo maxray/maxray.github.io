@@ -39,7 +39,7 @@ Look at any areas you think you need consent, do you already have it? If so this
 
 ### Creating your GDPR Policy Document.
 
-**Step 1**
+### Step 1
 
 Produce a document that explains what data you collect, how and where you store it and who has access to it.  You should include information on staff here to or links to any internal documents. Once you have detailed this you can add in the extra requirements for GDPR such as how you’ll delete subscribers if they request this or how you will supply the data you hold on a user. The document could cover the following:
 
