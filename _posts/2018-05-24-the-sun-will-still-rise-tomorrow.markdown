@@ -40,14 +40,6 @@ Look at any areas you think you need consent, do you already have it? If so this
  
 Produce a document that explains what info you collect, how and where you store it and who has access to it.  You should include information on staff here to or links to any internal documents. Once you have detailed this you can add in the extra requirements for GDPR such as how you’ll delete subscribers if they request this or how you will supply the info you hold on a user. The document could cover the following:
  
-* What data are you collecting?
- 
-* How are you collecting it?
- 
-* Where is it/backups stored?
- 
-* Are staff aware of the policies/procedures around the use of personal data?
- 
 #### What are you collecting?
  
 People talk about ‘Big Data’ and gathering everything you can about your users. The reality is with the changes in regulations it may make sense to consider what information you actually need from your customers. The more information you hold, the bigger the ramifications are in terms of managing it.
