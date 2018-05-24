@@ -1,6 +1,8 @@
 ---
 title: The Sun will still rise tomorrow
 date: 2018-05-24 10:51:00 Z
+categories:
+- Work
 thumbnail_image: "/uploads/sunrise.png"
 ---
 
