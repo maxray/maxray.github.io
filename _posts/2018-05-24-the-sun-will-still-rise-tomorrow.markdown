@@ -1,6 +1,7 @@
 ---
 title: The Sun will still rise tomorrow
 date: 2018-05-24 10:51:00 Z
+thumbnail_image: "/uploads/sunrise.png"
 ---
 
 ### Keep calm and carry on
