@@ -6,9 +6,9 @@ categories:
 thumbnail_image: "/uploads/sunrise.png"
 ---
 
-### Keep calm and carry on
+**After chatting to quite a few small business owners and start ups I have noticed some real confusion and panic about the GDPR legislation coming into force in a few days. In my opinion there really is no reason to be overly worried, the sun will still rise! **
 
-After chatting to quite a few small business owners and start ups I have noticed some real confusion and panic about the GDPR legislation coming into force in a few days. In my opinion there really is no reason to be overly worried, the sun will still rise! A few simple checks and changes will more than likely get you in shape unless you have been doing things badly from the outset. GDPR is not a bad thing, it is just an extension of what you should actually be doing already and tie into your existing business processes.
+A few simple checks and changes will more than likely get you in shape unless you have been doing things badly from the outset. GDPR is not a bad thing, it is just an extension of what you should actually be doing already and tie into your existing business processes.
 
 Consultants seem to be coming out of the woodwork and will try to make you scared of fines etc to hire them... do not be swayed into anything! There is no need to panic as even though there is a date that it comes into force there will be a period of adoption and if you are seen to be making efforts to comply then you will be helped rather than punished. Far better to get it right and take a bit longer than rush.
 
@@ -44,7 +44,7 @@ Look at any areas you think you need consent, do you already have it? If so this
 Produce a document that explains what data you collect, how and where you store it and who has access to it.  You should include information on staff here to or links to any internal documents. Once you have detailed this you can add in the extra requirements for GDPR such as how you’ll delete subscribers if they request this or how you will supply the data you hold on a user. The document could cover the following:
 
 #### Understand your data
-The very first part of the process is to look at the data you hold as a company by way if an audit. Things we need to note here is,
+The very first part of the process is to look at the data you hold as a company by way of an audit. Things we need to note here is,
 * What data are you collecting?
 * How are you collecting it?
 * Where is it/backups stored?
