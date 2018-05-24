@@ -69,4 +69,4 @@ Ensure any data capture points on your website have an opt in or that the opt in
  
 ### Away from the website
  
-You may need to speak to your legal team to make sure your obligations outside of the website depending on your type of business.
+You may need to speak to your legal team to make sure of your obligations outside of the website depending on your type of business.
