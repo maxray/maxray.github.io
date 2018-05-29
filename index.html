@@ -21,7 +21,7 @@ layout: default
           {% endfor %}
         </div>
           {% assign play =  site.categories.Play    %}
-          {% for post in play limit:1 offset:2 %}
+          {% for post in play limit:1  %}
         <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
 
            <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
