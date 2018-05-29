@@ -1,16 +1,17 @@
 /**
  * Site header
  */
- header {
+
+header {
 
     grid-column: 1 / 7;
     /*display: grid;*/
     grid-template-columns: repeat(6, 1fr);
     display: grid;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
     @media only screen and (min-width: 500px) {
 
-       
+
         height: 100px;
     }
 
@@ -18,7 +19,7 @@
         grid-column: 1 / -1;
 
         img {
-            width:150px;
+            width: 150px;
         }
     }
 }
@@ -38,12 +39,11 @@
 //     height:auto;
 // }
 header nav {
-    grid-column: 3 / 7;
-    // max-width: 100%;
+    grid-column: 3 / 7; // max-width: 100%;
     // height: auto;
     padding: 0 1rem;
     margin-top: -2px;
-    float:right;
+    float: right;
     @media only screen and (max-width: 600px) {
         grid-column: 1/-1;
         height: 40px;
@@ -56,9 +56,7 @@ header nav ul {
     grid-template-rows: 1fr 1fr;
     list-style: none;
     margin: 0;
-    padding: 0;
-   // align-items: top;max-width:320px;
-
+    padding: 0; // align-items: top;max-width:320px;
     li {
         padding: 10px;
         height: 20px;
@@ -68,8 +66,7 @@ header nav ul {
         cursor: pointer;
         box-shadow: 1px 1px 5px #cccccc;
         position: relative;
-        display:inline-block;
-
+        display: inline-block;
     }
 
     li:hover {
@@ -311,8 +308,6 @@ header nav ul li:nth-child(4):hover {
 
 #introduction.slim {
     grid-column: 1 / span 4;
-
-   
 }
 
 
@@ -322,17 +317,18 @@ header nav ul li:nth-child(4):hover {
 }
 
 #feature article {
-      @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 600px) {
         display: grid;
     }
-    
+
     grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr); // grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2,
+    1fr); // grid-template-rows: 1fr 1fr;
 }
 
 #feature article div {
     min-height: 150px;
-      @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
         margin-bottom:1rem;
     }
 }
@@ -369,9 +365,8 @@ header nav ul li:nth-child(4):hover {
 
 #pagination article {
     display: grid;
-    grid-gap: 1rem;
-    //grid-template-columns: repeat(2, 1fr); // grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 1rem; //grid-template-columns: repeat(2, 1fr); // grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
 }
 
 #pagination article div {
@@ -435,7 +430,7 @@ header nav ul li:nth-child(4):hover {
 
 .blog-posts {
     list-style: none;
-    margin-left:0;
+    margin-left: 0;
 
     li {
         margin-bottom: 10px;
@@ -466,10 +461,15 @@ header nav ul li:nth-child(4):hover {
 footer {
     grid-column: 1 / span 6;
     padding: 2rem;
-    color: #2b2b2b;
-    // transform: rotate(4deg);
+    color: #2b2b2b; // transform: rotate(4deg);
     box-shadow: 0px 0px 10px #cccccc;
     margin-bottom: 1rem;
+
+    @media only screen and (min-width: 1024px) {
+
+        margin-left:2rem;
+        margin-right: 2rem;
+    }
 
     img {
         width: 25px;
@@ -572,6 +572,7 @@ footer {
 
 
 
+
 /**
  * Posts
  */
@@ -652,6 +653,7 @@ footer {
         }
     }
 }
+
 
 
 
