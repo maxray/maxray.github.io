@@ -9,6 +9,7 @@ thumbnail_image: "/uploads/wcdinner.jpg"
 *** Having followed Sally Lait's [World Cup Dinners](https://sallylait.com/labs/worldcup2018dinners/) for a couple of tournaments, I decided to have a go this year to add some fun to the football and our meal choices! 
 
 I can't decide how I am going to document things so for now, I am keeping the first few days here. 
+<!--more--> 
 
 Day 1 for my was actually Day 2 but hey shhhh..  :) 
 
