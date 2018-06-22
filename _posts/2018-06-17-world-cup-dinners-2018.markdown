@@ -38,7 +38,7 @@ Sunday dinner was not going to be missed, so we decided on a pudding instead.. S
 
 We do a slightly lax 5:2 eating regime in our house so Monday was just a light supper... best find so far! [Shaksuka](http://www.hairybikers.com/recipes/view/shakshuka) is kind of like baked eggs in a tomato and pepper base. 
 
-![shaksuka.jpg](/uploads/shaksuka.jpg)
+![shaksuka-b0e5c7.jpg](/uploads/shaksuka-b0e5c7.jpg)
 
 ### Day 5 - EGYPT
 
