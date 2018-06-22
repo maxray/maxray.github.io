@@ -32,7 +32,7 @@ It had been a busy day and there was arguments about what we were having for din
 
 Sunday dinner was not going to be missed, so we decided on a pudding instead.. Swiss meringues. Biggest fail ever, me and Meg making an absolute hash of it all and ending up with a sticky, gooey, tasty mess that wasn't really close to what it should have been. 
 
-![swiss.jpg](/uploads/swiss.jpg)
+![swiss-af4079.jpg](/uploads/swiss-af4079.jpg)
 
 ### Day 4 - TUNISIA
 
