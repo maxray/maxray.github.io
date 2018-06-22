@@ -27,3 +27,43 @@ This is a beef and aubergine stew essentially and I followed this [recipe](https
 It had been a busy day and there was arguments about what we were having for dinner anyway. Decided to go safe so we chose [chicken chasseur](https://www.bbc.com/food/recipes/_chicken_chasseur_with_19163). It is years since I have had it and it hit the spot! I think this one will be returning to the family meal list. 
 
 ![chickenchass.jpg](/uploads/chickenchass.jpg)
+
+### Day 3 - SWITZERLAND
+
+Sunday dinner was not going to be missed, so we decided on a pudding instead.. Swiss meringues. Biggest fail ever, me and Meg making an absolute hash of it all and ending up with a sticky, gooey, tasty mess that wasn't really close to what it should have been. 
+
+![swiss.jpg](/uploads/swiss.jpg)
+
+### Day 4 - TUNISIA
+
+We do a slightly lax 5:2 eating regime in our house so Monday was just a light supper... best find so far! [Shaksuka](http://www.hairybikers.com/recipes/view/shakshuka) is kind of like baked eggs in a tomato and pepper base. 
+
+![shaksuka.jpg](/uploads/shaksuka.jpg)
+
+### Day 5 - EGYPT
+
+I seem to be in the habit of cursing the team I pick in this fun game, Egypt played poorly but this recipe with [courgettes and a dukkah sprinkle](https://www.bbcgoodfood.com/recipes/egyptian-courgettes-dukkah-sprinkle) was really interesting and also vegan if that's your thing. 
+
+![dukkah.jpg](/uploads/dukkah.jpg)
+
+### Day 6 - SPAIN
+
+The pressure of new meals was getting to me a bit so took an easy option of Paella. What's not to like.. rice, sea food ooh and some chorizo :P
+
+![paella.jpg](/uploads/paella.jpg)
+
+### Day 7 - PERU
+
+Back to a semi fast day, so although [Tacu Tacu](https://www.jamieoliver.com/recipes/rice-recipes/tacu-tacu/) is often used as a side with a meat main I thought we should try it having never eaten Plantain. What a revelation, fried plantain was much more like potato than I expected. The hot sauce and chilli made this one that the kids were reluctant to get involved with. :) 
+
+Apparently this is a good hangover meal too, though I could imagine it partnering with a crisp IPA myself.
+
+![tacutacu.jpg](/uploads/tacutacu.jpg)
+
+And so ends Week 1 of the World Cup, some great games, and England victory and some lovely new additions to our family recipes. Let's hope for more of the same next week! 
+
+### Want to get involved?
+
+Have a look at [#worldcupdinners](https://www.instagram.com/explore/tags/worldcupdinners/) on Instagram for some inspiration.
+
+For the actual rules of playing along head over to [World Cup Dinners](https://sallylait.com/labs/worldcup2018dinners/).
