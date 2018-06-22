@@ -58,7 +58,7 @@ Back to a semi fast day, so although [Tacu Tacu](https://www.jamieoliver.com/rec
 
 Apparently this is a good hangover meal too, though I could imagine it partnering with a crisp IPA myself.
 
-![tacutacu.jpg](/uploads/tacutacu.jpg)
+![tacutacu-59c754.jpg](/uploads/tacutacu-59c754.jpg)
 
 And so ends Week 1 of the World Cup, some great games, and England victory and some lovely new additions to our family recipes. Let's hope for more of the same next week! 
 
