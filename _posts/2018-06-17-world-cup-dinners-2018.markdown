@@ -44,7 +44,7 @@ We do a slightly lax 5:2 eating regime in our house so Monday was just a light s
 
 I seem to be in the habit of cursing the team I pick in this fun game, Egypt played poorly but this recipe with [courgettes and a dukkah sprinkle](https://www.bbcgoodfood.com/recipes/egyptian-courgettes-dukkah-sprinkle) was really interesting and also vegan if that's your thing. 
 
-![dukkah.jpg](/uploads/dukkah.jpg)
+![dukkah-2fd194.jpg](/uploads/dukkah-2fd194.jpg)
 
 ### Day 6 - SPAIN
 
