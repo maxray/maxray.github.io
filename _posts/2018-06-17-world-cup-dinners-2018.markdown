@@ -50,7 +50,7 @@ I seem to be in the habit of cursing the team I pick in this fun game, Egypt pla
 
 The pressure of new meals was getting to me a bit so took an easy option of Paella. What's not to like.. rice, sea food ooh and some chorizo :P
 
-![paella.jpg](/uploads/paella.jpg)
+![paella-55e276.jpg](/uploads/paella-55e276.jpg)
 
 ### Day 7 - PERU
 
