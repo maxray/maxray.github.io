@@ -12,7 +12,7 @@ As I wait on my bicycle at a red light I watch 4 or 5 cyclists work their way ac
 
 Pedestrians crossing on red, barely aware of their surroundings due to the smartphone they are glued to. The driver getting bored of the queue and deciding to take the bus only route instead.
 
-### Urgh <insert vehicle type> are the worst! 
+### Urgh {insert vehicle type here} are the worst! 
 
 It is so easy to have a quick search and find threads that descend into abuse for nearly any vehicle type. Car drivers bemoaning cyclists not paying attention to the rules of the road or paying tax, Cyclists hating on those people in their 2 tonne metal boxes who don’t pay attention and want to murder us, I dare say there is a bus drivers forum somewhere where they berate us all. :)  Each camp thinks they are in teh right and the other group are all terrible.
 
