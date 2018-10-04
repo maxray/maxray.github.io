@@ -10,8 +10,7 @@ thumbnail_image: "/uploads/traffic.png"
 
 As I wait on my bicycle at a red light I watch 4 or 5 cyclists work their way across either using the pedestrians crossing or just across the red light. It is not hard to see how this is going to annoy the car drivers who have the right of way anyway.
 
-![busy.png](/uploads/busy.png) 
-*Photo by Laurenz Kleinheider on Unsplash*
+![bikelanes.png](/uploads/bikelanes.png)
 
 Pedestrians crossing on red, barely aware of their surroundings due to the smartphone they are glued to. The driver getting bored of the queue and deciding to take the bus only route instead.
 
@@ -23,8 +22,13 @@ It would be futile to expect everyone to stick to the rules 100% of the time. If
 
 It clearly shows though that the means of transport has no bearing on the idiocy of the person in charge of it. That same person who cuts you up in his or her car is the same person who would push in front of you in a queue or push their way in to a filter or junction. An idiot is an idiot.
 
+![busy.png](/uploads/busy.png) 
+*Photo by Laurenz Kleinheider on Unsplash*
+
 ### Let’s all just get along
 
-I try to be as understanding as I can when driving or cycling. I have the luxury and experience of cycle, motorcycle and car so I know what it is like to be a vulnerable road user AND in the relative safety of a car or van. If someone doesn’t see me I let them know, but not in an aggressive way, and when someone has a close shave with me (up until now) I have pre empted it and am in a safe position so can forgive the smidsy response… because sometimes people really don’t see you! 
+We can see in the news the high rates of cycle fatalities in particular in London. The new cycle route into the city (whether well thought out or not) will increase more vulnerable road users in the run up to the Commonwealth Games. The problems are only going to get worse unless we all try and look at how we approach our daily journeys.
+
+I try to be as understanding as I can when driving or cycling. I have the luxury and experience of cycle, motorcycle and car so I know what it is like to be a vulnerable road user AND in the relative safety of a car or van. If someone doesn’t see me I let them know, but not in an aggressive way, and when someone has a close shave with me (up until now) I have preempted it and am in a safe position so can forgive the "smidsy" response… because sometimes people really don’t see you! 
 
 I get why people get angry when they are potentially put in danger, but the reaction only causes conflict and division. If people cared just a little more for their fellow humans  then the commuter zone could actually be a safer place, but this needs us all to be a bit more observant and courteous regardless of our means of transport.
