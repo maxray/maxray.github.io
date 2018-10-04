@@ -20,7 +20,7 @@ A quick search on the internet will find threads that descend into abuse for nea
 
 It would be futile to expect everyone to stick to the rules 100% of the time. If we are honest then we have all probably crossed before the green man on occasion, or ridden on the pavement, or perhaps even gone through a set of lights on amber. It is the blatant ignorance to some of the basic roads rules that appear to annoy people, myself included. 
 
-It clearly shows though that the means of transport has no bearing on the idiocy of the person in charge of it. That same person who cuts you up in his or her car is the same person who would push in front of you in a queue or push their way in to a filter or junction. An idiot is an idiot.
+It clearly shows though that the means of transport has no bearing on the idiocy of the person in charge of it. That same person who cuts you up in his or her car is the same person who would push in front of you in a queue or push their way in to a filter or junction. An idiot is an idiot. 
 
 ![busy.png](/uploads/busy.png) 
 *Photo by Laurenz Kleinheider on Unsplash*
@@ -28,6 +28,8 @@ It clearly shows though that the means of transport has no bearing on the idiocy
 ### Let’s all just get along
 
 We can see in the news the high rates of cycle fatalities in particular in London. The new cycle route into the city (whether well thought out or not) will increase more vulnerable road users in the run up to the Commonwealth Games. The problems are only going to get worse unless we all try and look at how we approach our daily journeys.
+
+You could argue that when in the safety of a car people are more likely to vent their anger like a keyboard warrior, likewise if on the more dangerous 2 wheeled mode of transport the fear of death evokes an aggressive response.
 
 I try to be as understanding as I can when driving or cycling. I have the luxury and experience of cycle, motorcycle and car so I know what it is like to be a vulnerable road user AND in the relative safety of a car or van. If someone doesn’t see me I let them know, but not in an aggressive way, and when someone has a close shave with me (up until now) I have preempted it and am in a safe position so can forgive the "smidsy" response… because sometimes people really don’t see you! 
 
