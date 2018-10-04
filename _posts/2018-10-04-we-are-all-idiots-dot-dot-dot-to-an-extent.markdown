@@ -5,7 +5,7 @@ categories:
 - Work
 ---
 
-### I have been commuting into Birmingham for about 8 weeks now, by cycle  the majority of the time. During this time I have witnessed some crazy moves by car drivers, cyclists, motorcyclists, buses and pedestrians.. In fact everyone!
+![traffic.png](/uploads/traffic.png)### I have been commuting into Birmingham for about 8 weeks now, by cycle  the majority of the time. During this time I have witnessed some crazy moves by car drivers, cyclists, motorcyclists, buses and pedestrians.. In fact everyone!
 
 As I wait on my bicycle at a red light I watch 4 or 5 cyclists work their way across either using the pedestrians crossing or just across the red light. It is easy to see how this is going to annoy the car drivers who have the right of way anyway. 
 
