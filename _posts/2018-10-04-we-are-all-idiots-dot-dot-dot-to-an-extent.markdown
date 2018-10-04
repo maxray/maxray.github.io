@@ -8,7 +8,7 @@ thumbnail_image: "/uploads/traffic.png"
 
 ### I have been commuting into Birmingham for about 8 weeks now, by cycle  the majority of the time. During this time I have witnessed some crazy moves by car drivers, cyclists, motorcyclists, buses and pedestrians.. In fact everyone!
 
-As I wait on my bicycle at a red light I watch 4 or 5 cyclists work their way across either using the pedestrians crossing or just across the red light. It is easy to see how this is going to annoy the car drivers who have the right of way anyway.
+As I wait on my bicycle at a red light I watch 4 or 5 cyclists work their way across either using the pedestrians crossing or just across the red light. It is not hard to see how this is going to annoy the car drivers who have the right of way anyway.
 
 ![busy.png](/uploads/busy.png) 
 *Photo by Laurenz Kleinheider on Unsplash*
@@ -17,7 +17,7 @@ Pedestrians crossing on red, barely aware of their surroundings due to the smart
 
 ### Urgh {insert vehicle type here} are the worst! 
 
-It is so easy to have a quick search and find threads that descend into abuse for nearly any vehicle type. Car drivers bemoaning cyclists not paying attention to the rules of the road or paying tax, Cyclists hating on those people in their 2 tonne metal boxes who don’t pay attention and want to murder us, I dare say there is a bus drivers forum somewhere where they berate us all. :)  Each camp thinks they are in teh right and the other group are all terrible.
+A quick search on the internet will find threads that descend into abuse for nearly any vehicle type. Car drivers bemoaning cyclists not paying attention to the rules of the road or paying tax, Cyclists hating on those people in their 2 tonne metal boxes who don’t pay attention and want to murder us, I dare say there is a bus drivers forum somewhere where they berate us all. :)  Each camp thinks they are in teh right and the other group are all terrible.
 
 It would be futile to expect everyone to stick to the rules 100% of the time. If we are honest then we have all probably crossed before the green man on occasion, or ridden on the pavement, or perhaps even gone through a set of lights on amber. It is the blatant ignorance to some of the basic roads rules that appear to annoy people, myself included. 
 
