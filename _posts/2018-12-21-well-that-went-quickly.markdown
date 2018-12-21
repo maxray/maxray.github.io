@@ -24,7 +24,9 @@ Yep, there have been moments of worry, would I cover the mortgage, could I finis
 
 ![faces4_op.png](/uploads/faces4_op.png)
 
-So, what will the New Year bring? Who knows but I for one am excited as to what 2019 will bring for myself and the clients/friends who have helped me finish the year with a smile on my face... I owe you all a beer. :) 
+### So, what will the New Year bring? 
+
+Who knows but I for one am excited as to what 2019 will bring for myself and the clients/friends who have helped me finish the year with a smile on my face... thank you all so so much I owe you all a beer. :) 
 
 
  
