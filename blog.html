@@ -32,13 +32,15 @@ layout: default
         <ul class="blog-posts">
              {%for post in site.posts offset:1 %} {% unless post.next %} {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %}
         </ul>
-        <h3>{{ post.date | date: '%Y' }} -  <a onclick="toggle_visibility('the{{ post.date | date: '%Y' }}');">Expand</a> </h3>
+        <h3>{{ post.date | date: '%Y' }}  <a onclick="toggle_visibility('the{{ post.date | date: '%Y' }}');" class="showTog strike">+</a> </h3> 
         <ul class="past-posts" id="the{{ post.date | date: '%Y' }}">
             {% endif %} {% endunless %}
             <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15" />
                 <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
+
+
     </article>
 </section>
 <!-- <section id="pagination">

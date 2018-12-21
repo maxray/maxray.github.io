@@ -5,132 +5,40 @@ thumbnail_image: "/uploads/services.png"
 layout: page
 ---
 
-    <section id="mainStory">
-      <article>
-      <!--   <div class="backgroundImage" ></div> -->
-         <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-         <div class="content"> 
-        <h2>Small companies or start ups.</h2>
+<section id="introduction">
+    <article>
+        <h1 class="services-title">How I can help you</h1>
+        <p>As time goes on building websites has become more and more specialised. It can feel pretty overwhelming wondering which things you need to pay attention to and which you can ignore. The acronyms, programming languages and design styles.. where do you begin? </p>
+        <h2 class="services-title">Small companies or start ups.</h2>
         <p>Whether is is building up your digital collateral from the ground up, reviewing and improving on what you have got or some general coaching to get you set in the right direction I've got you covered.</p>
-
-            <h4>I need help adding to or changing things on my existing website.</h4>
-            <p>You have a site but the original designer is long gone or doesn't reply to your requests.</p>
-            <p>Although my main skills are in Wordpress and Static site generators I can work with most platforms. It all depends how (and when) the site was built.</p>
-
-            <h4>I have a Wordpress website but don't really know how to change anything.</h4>
-            <p>Wordpress is a great content management system, it is really easy to use and as long as your site template is fairly open I should be able to get you happily editing and creating new content in no time at all!</p>
-   <h4>I haven't got a website, I am starting a new business.. where do I start?</h4>
-            <p>
-                There is lot's to consider in this situation, but you may well find that starting your business is actually more important right now! I can help you choose a scalable solution, plan out your needs and look at the wider picture in terms of social and email marketing.
-            </p>
-               
-            <h4>I have a website but it doesn't do anything for me.</h4>
-            <p>Let's start off be reviewing what you have. Are people getting to your site and not doing what you expect, or perhaps they are not even getting to your site. Once we have reviewed your business and the way you use your website we can plan an effective strategy to move forward with .</p>
-   
-   
-            <h4>I want someone to help me on a digital project.</h4>
-            <p>I have been running digital projects for years and having worked in a design agency I understand how both designers and developers tick. If you are embarking on a digital project and need some temporary skills in your organisation then get in touch.</p>
-
-
-             </div>
-      </article>
-    </section>
-    <section id="introduction">
-      <article>
-         <h1 class="services-title">How I can help you</h1>
-    <p>As time goes on building websites has become more and more specialised. It can feel pretty overwhelming wondering which things you need to pay attention to and which you can ignore. The acronyms, programming languages and design styles.. where do you begin? </p>
-    
-      <h2>Larger businesses or more established companies.</h2>
-        <p>You might already have a a site but it needs a revamp or maybe you are starting a new project and don't have the right digital skills in house. I can also help you develop briefs for companies to tender against and am available to take on projects or provide retainer based support.</p>
-
-            <h4>Our website hasn't been updated in years</h4>
-            <p>
-                Sometimes it is good to take stock of what you have and see how it is performing for your users. A UX Discovery workshop could help you find some insights and make sure you are making things as easy as possible for customers. So often companies throw everything out and start again every few years, I am a firm believer on keeping the good stuff and building on it... Build, Measure, Learn... and repeat. 
-            </p>
-  
-            <h4>We need to get an agency on board to help us</h4>
-            <p>Picking the right agency can be very hard. People are quick to promise the earth to get the gig and sometimes you are not totally sure what you require... otherwise you wouldn't need an agency!</p>
-            <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p>
-            
-
-      </article>
-    </section>
-    <section id="feature">
-      <article>
-        <div>Example projects</div>
-         {% for page in site.pages   %}
-         {% if page.title == 'About' %}
-
-
-        <div class="services"  style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"> <a href="{{page.url }}" class="second-cta services">{{page.title }}</a>
-      {% endif %}
-        {% endfor %}</div>
-      </article>
-    </section>
-
-
-
-<!-- <div class="flexbox-container cvPage">
-   <div>
-   
-</div>
-   </div> 
-   <div>
-    <img src="{{ site.baseurl }}/uploads/confused.jpg"  title="I am confused by it all."/>
-</div>
-</div>
-<div class="flexbox-container cvList">
-    <div >
+        <div class="service"><h4>I need help adding to or changing things on my existing website.</h4>
+        <p>You have a site but the original designer is long gone or doesn't reply to your requests.</p>
+        <p>Although my main skills are in Wordpress and Static site generators I can work with most platforms. It all depends how (and when) the site was built.</p></div>
+        <div class="service"><h4>I have a Wordpress website but don't really know how to edit anything.</h4>
+        <p>Wordpress is a great content management system, it is really easy to use and as long as your site template is fairly open I should be able to get you happily editing and creating new content in no time at all!</p></div>
+        <div class="service"><h4>I haven't got a website, I am starting a new business.. where do I start?</h4>
+        <p>
+            There is lot's to consider in this situation, but you may well find that starting your business is actually more important right now! I can help you choose a scalable solution, plan out your needs and look at the wider picture in terms of social and email marketing.
+        </p></div>
+        <div class="service"><h4>I have a website but it doesn't do anything for me.</h4>
+        <p>Let's start off be reviewing what you have. Are people getting to your site and not doing what you expect, or perhaps they are not even getting to your site. Once we have reviewed your business and the way you use your website we can plan an effective strategy to move forward with .</p></div>
        
-        <h4>If you are a small business or just starting out I can help</h4>
-        <p>Whether is is building up your digital collateral from the ground up, reviewing and improving on what you have got or some general coaching to get you set in the right direction I've got you covered.</p>
-</div>
-	<div>
-            <h4>I need help adding to or changing things on my existing website.</h4>
-            <p>You have a site but the original designer is long gone or doesn't reply to your requests.</p>
-            <p>Although my main skills are in Wordpress and Static site generators I can work with most platforms. It all depends how (and when) the site was built.</p>
-
-	</div>
-	<div>
-            <h4>I have a Wordpress website but don't really know how to change anything.</h4>
-			<p>Wordpress is a great content management system, it is really easy to use and as long as your site template is fairly open I should be able to get you happily editing and creating new content in no time at all!</p>
-    </div>
-</div>
-<div class="flexbox-container cvList">
-    <div>
-			<h4>I haven't got a website, I am starting a new business.. where do I start?</h4>
-			<p>
-                There is lot's to consider in this situation, but you may well find that starting your business is actually more important right now! I can help you choose a scalable solution, plan out your needs and look at the wider picture in terms of social and email marketing.
-            </p>
-				</div>	
-	<div>
-            <h4>I have a website but it doesn't do anything for me.</h4>
-			<p>Let's start off be reviewing what you have. Are people getting to your site and not doing what you expect, or perhaps they are not even getting to your site. Once we have reviewed your business and the way you use your website we can plan an effective strategy to move forward with .</p>
-	</div>
-	<div>
-            <h4>I want someone to help me on a digital project.</h4>
-			<p>I have been running digital projects for years and having worked in a design agency I understand how both designers and developers tick. If you are embarking on a digital project and need some temporary skills in your organisation then get in touch.</p>
-    </div>
-</div>
-
-<div class="flexbox-container cvList">
-    <div>
-
-        <h3>Services for larger businesses or more established companies?</h3>
-        <p>You might already have a a site but it needs a revamp or maybe you are starting a new project and don't have the right digital skills in house. I can also help you develop briefs for companies to tender against and am available to take on projects or provide retainer based support.</p>
-
-</div>
-<div>
-			<h4>Our website hasn't been updated in years</h4>
-			<p>
-                Sometimes it is good to take stock of what you have and see how it is performing for your users. A UX Discovery workshop could help you find some insights and make sure you are making things as easy as possible for customers. So often companies throw everything out and start again every few years, I am a firm believer on keeping the good stuff and building on it... Build, Measure, Learn... and repeat. 
-            </p>
-				</div>	
-	<div>
-            <h4>We need to get an agency on board to help us</h4>
+    </article>
+</section>
+<section id="mainStory">
+    <article>
+        <!--   <div class="backgroundImage" ></div> -->
+        <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+        <div class="content">
+            <h2 class="services-title">Larger businesses or more established companies.</h2>
+            <p>You might already have a a site but it needs a revamp or maybe you are starting a new project and don't have the right digital skills in house. I can also help you develop briefs for companies to tender against and am available to take on projects or provide retainer based support.</p>
+          <div class="service">  <h4>Our website hasn't been updated in years</h4>
+            <p>
+                Sometimes it is good to take stock of what you have and see how it is performing for your users. A UX Discovery workshop could help you find some insights and make sure you are making things as easy as possible for customers. So often companies throw everything out and start again every few years, I am a firm believer on keeping the good stuff and building on it... Build, Measure, Learn... and repeat.
+            </p></div>
+           <div class="service"> <h4>We need to get an agency on board to help us</h4>
             <p>Picking the right agency can be very hard. People are quick to promise the earth to get the gig and sometimes you are not totally sure what you require... otherwise you wouldn't need an agency!</p>
-            <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p>
-            
-	</div>
-	
-</div> -->
+            <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p></div>
+        </div>
+    </article>
+</section>

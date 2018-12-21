@@ -2,7 +2,7 @@
 title: A Bear on a Bike
 name: Bear balances on bike
 price: '55.00'
-thumbnail_image: "/uploads/bear.png"
+thumbnail_image: "/uploads/t_bear.png"
 image: bear.png
 layout: product
 ---

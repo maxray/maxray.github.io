@@ -2,7 +2,47 @@
 layout: default
 ---
 
-    <section id="mainStory">
+    <section id="introduction">
+      <article>
+          <h1>I'm Sush, a Web Designer, Illustrator and general tinkerer of things.</h1>
+          <p>I like to work with all sorts of clients, small and large but especially those with an ethical or social mission.</p>
+          <p>I have availability in the New Year so <a href="mailto:me@sushkelly.co.uk?subject=From the frontpage" class="strike ">get in touch</a> if you have a project I might be able to help you with.</p>
+          <p class="note"><b class="pink_strike">Please note:</b> This site is currently in <b class="pink_strike">"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
+         
+      </article>
+    </section>
+    <section id="feature">
+    <!--    <h4> Recent Posts </h4> -->
+      <article>
+         {% assign work =  site.categories.Work    %}
+          {% for post in work limit:1 offset:2 %}
+        <div  style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
+          <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
+          {% endfor %}
+        </div>
+          {% assign play =  site.categories.Play    %}
+          {% for post in play limit:1  %}
+        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
+
+           <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
+          {% endfor %}
+        </div>
+        {% for post in site.products limit:1 %}
+        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
+           <a href="{{ post.url }}" class="second-cta art">{{post.title }} - £{{post.price }}</a>
+          {% endfor %}</div>
+
+          {% for page in site.pages   %}
+         {% if page.title == 'Services' %}
+
+
+        <div   style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"> <a href="{{page.url }}" class="second-cta services">{{page.title }}</a>
+          </div>
+      {% endif %}
+        {% endfor %}
+      </article>
+    </section>
+  <section id="mainStory">
       <article>
         {% assign post = site.posts.first %}
         <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
@@ -24,46 +64,6 @@ layout: default
       </div>
       </article>
     </section>
-    <section id="introduction">
-      <article>
-          <h1>I'm Sush, a Web Designer, Illustrator and general tinkerer of things.</h1>
-          <p>I work with all sorts of clients, small and large helping them to fulfill their digital needs.</p>
-          <p>I have availablility in the New Year so <a href="mailto:me@sushkelly.co.uk?subject=From the frontpage" class="strike ">get in touch</a> if you have a project I might be able to help you with.</p>
-          <p class="note"><b>Please note:</b> This site is currently in <b>"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
-         
-      </article>
-    </section>
-    <section id="feature">
-    <!--    <h4> Recent Posts </h4> -->
-      <article>
-         {% assign work =  site.categories.Work    %}
-          {% for post in work limit:1 offset:2 %}
-        <div  style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-          <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
-          {% endfor %}
-        </div>
-          {% assign play =  site.categories.Play    %}
-          {% for post in play limit:1 offset:2 %}
-        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-
-           <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
-          {% endfor %}
-        </div>
-        {% for post in site.products limit:1 %}
-        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-           <a href="{{ post.url }}" class="second-cta art">{{post.title }} - £{{post.price }}</a>
-          {% endfor %}</div>
-
-          {% for page in site.pages   %}
-         {% if page.title == 'Services' %}
-
-
-        <div   style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"> <a href="{{page.url }}" class="second-cta services">{{page.title }}</a>
-      {% endif %}
-        {% endfor %}</div>
-      </article>
-    </section>
-
 
 
 

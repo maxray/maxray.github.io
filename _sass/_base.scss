@@ -28,6 +28,7 @@ body {
     @media only screen and (min-width: 1024px) {
         
                     display: grid;
+                    margin: 0 5vw;
     }
     
     font-size:16px;
@@ -107,6 +108,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2.5rem;
+      @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
     margin-bottom: $spacing-unit;
     line-height:1;
     font-weight:700;
@@ -114,19 +118,28 @@ h1 {
 
 h2 {
      font-size: 1.75rem;
-   
+    @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
 
 }
 
 
  h3 {
      font-size: 1.75rem;
+       @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
     padding-bottom: $spacing-unit ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
 h4 {
-    padding-bottom: $spacing-unit / 2;
+    font-size:1.3rem;
+      @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
+    padding-bottom: $spacing-unit ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
@@ -193,6 +206,26 @@ a {
 
                    }
 
+                    .pink_strike {
+                        background-color: $pink;
+                        padding: 3px 6px 1px 4px;
+                        -ms-transform: rotate(-2deg);
+                        -webkit-transform: rotate(-2deg);
+                        transform: rotate(2deg);
+                        text-decoration: none;
+                        display: inline-block;
+                        -webkit-clip-path: polygon(3% 0, 98% 0, 100% 100%, 1% 100%);
+                        clip-path: polygon(3% 0, 98% 0, 100% 100%, 1% 100%);
+                        text-decoration:none;
+
+                        &:hover {
+                            color:navy;
+                            background-color: darken(#d7fb65,20%);
+                            text-decoration:none;
+                        }
+
+                   }
+
  .note {
                         background-color: #cccccc;
                         padding: 10px;
@@ -206,6 +239,29 @@ a {
                         text-decoration:none;
 
                    }
+
+.service {
+        background-color: #e0e0e0;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+    clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+     padding: 2rem;
+    text-decoration: none;
+}
+
+.service:nth-of-type(odd) {
+        background-color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
+        clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
+    padding: 2rem;
+    text-decoration: none;
+}
+
 
 
 
