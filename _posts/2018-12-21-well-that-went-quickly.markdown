@@ -18,6 +18,8 @@ One of the reasons I decided to go freelance was to give me some time to work on
 
 I spent the last quarter of the year contracting at a digital agency in Birmingham part time. It felt really weird being both the 'new guy' and the 'old guy' at the same time but they welcomed me in and it has been a real highlight to work with such driven and talented people. Working their as both a producer and a digital lead has been great as I have got to keep my dev skills sharp whilst helping to guide and manage the projects going through the studio.
 
+![Screen Shot 2018-12-21 at 09.13.41.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.13.41.png)
+
 Yep, there have been moments of worry, would I cover the mortgage, could I finish something on time. Where was the next piece of work coming from, but there were also moments of real satisfaction, being able to deal with clients on my terms, making a difference to their businesses. I even finally managed to complete all 31 days of #inktober, somethng I have tried and failed at several years running! 
 
 ![faces4_op.png](/uploads/faces4_op.png)
