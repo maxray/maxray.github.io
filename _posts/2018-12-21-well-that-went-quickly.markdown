@@ -12,6 +12,8 @@ It has been a pretty down and up year and one in which I finally went freelance 
 
 As the year progressed I have worked on some great projects including an ethical fashion brand, something I would love to build upon in 2019. Environmental issues are something close to my heart and I also started a side project company, delivering plastic free produce via cargo cycle. Although ultimately this did not work out from a time/finance perspective I learnt so much about running a business, and seeing things with the eyes of a client will really assist with the digital projects I work on going forward.
 
+![Screen Shot 2018-12-21 at 09.12.14.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.12.14.png)
+
 One of the reasons I decided to go freelance was to give me some time to work on things that give back a little, I helped out as a volunteer at the inaugural Birmingham Design Festival and also Birmingham Beer Week. 
 
 I spent the last quarter of the year contracting at a digital agency in Birmingham part time. It felt really weird being both the 'new guy' and the 'old guy' at the same time but they welcomed me in and it has been a real highlight to work with such driven and talented people. Working their as both a producer and a digital lead has been great as I have got to keep my dev skills sharp whilst helping to guide and manage the projects going through the studio.
