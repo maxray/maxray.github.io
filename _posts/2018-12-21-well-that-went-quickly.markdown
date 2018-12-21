@@ -10,6 +10,8 @@ thumbnail_image: "/uploads/faces4_op.png"
 
 It has been a pretty down and up year and one in which I finally went freelance to explore new opportunities. Bad organisation and a very odd chain of events meant doing this with no safety net built up or any real preparation meant I had to hit the ground running... Leaving an agency I had poured my heart and soul into over more than a decade was one of the hardest things I have had to do. I am so grateful to a few of my pals on Twitter who gave me support and kind words and others who pointed me in the direction of some freelance work literally days after I mentioned I was available.
 
+![Screen Shot 2018-12-21 at 09.17.40.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.17.40.png)
+
 As the year progressed I have worked on some great projects including an ethical fashion brand, something I would love to build upon in 2019. Environmental issues are something close to my heart and I also started a side project company, delivering plastic free produce via cargo cycle. Although ultimately this did not work out from a time/finance perspective I learnt so much about running a business, and seeing things with the eyes of a client will really assist with the digital projects I work on going forward.
 
 ![Screen Shot 2018-12-21 at 09.12.14.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.12.14.png)
