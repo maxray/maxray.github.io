@@ -259,7 +259,10 @@ header nav ul li:nth-child(4):hover {
 // }
 #mainStory {
     grid-column: 7 / -1;
-    grid-row: 1 /-1;
+    grid-row: 1 / 6;
+    /* overscroll-behavior-y: inherit; */
+    overflow: scroll;
+    height: 100vh;
 }
 
 #mainStory.slim {
