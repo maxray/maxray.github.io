@@ -9,7 +9,7 @@
             "isShellCommand": true,
             "args": [
                 "css/main.scss",
-                "_site/css/main.css"
+                "css/main.css"
             ],
             "label": "SASS TO CSS",
             "group": {
