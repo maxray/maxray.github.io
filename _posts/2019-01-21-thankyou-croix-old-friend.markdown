@@ -10,6 +10,8 @@ thumbnail_image: "/uploads/croix1.png"
 
 Mountain biking has always been my main cycling passion, well after just riding a bike as we did as kids. My first proper bike was a Peugeot racer, 10 speed, slick tyres. I was a bit gutted as my pals had got these new fangled 'mountain' bikes. I made do though, and enjoyed getting to ridiculous places on mini adventures back home on the Isle of Man. 
 
+![croixview2.png](/uploads/croixview2.png)
+
 ### I did also swear I would never buy a road bike when I grew up.  
 
 So, true to my word a succession of mountain bikes followed. Regular trips to trail centres, and the heart of MTB in the midlands Cannock Chase. This was all well and good, but once I started working in a little village 10 or so miles from home driving quickly became a chore. The mountain bike worked for a bit but the lure of something more road orientated grew. 
@@ -18,7 +20,7 @@ Around this time I was looking over the latest bikes from British manufacturer G
 
 Phoning around a few distributers I was soon having a fitting at Epic Cycles, and left with the bike. And so began 8 years of using a bike for literally everything. I have commuted on it, done bike packing, ridden trails and even competed in the Tide2Tide which I have to say found the limits of both the bike and my skill. 
 
-![croixview2.png](/uploads/croixview2.png)
+![croix6.png](/uploads/croix6.png)
 
 Over the last few years the bike marketing machine and technology has advanced at pace. Soon most manufacturers were developing adventure style bikes. Road bikes that can do more. I like to think the Croix was one of the bikes that sparked it off. 
 
