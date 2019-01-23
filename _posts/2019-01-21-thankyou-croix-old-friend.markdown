@@ -18,7 +18,7 @@ Around this time I was looking over the latest bikes from British manufacturer G
 
 Phoning around a few distributers I was soon having a fitting at Epic Cycles, and left with the bike. And so began 8 years of using a bike for literally everything. I have commuted on it, done bike packing, ridden trails and even competed in the Tide2Tide which I have to say found the limits of both the bike and my skill. 
 
-![croixview.png](/uploads/croixview.png)
+![croixview2.png](/uploads/croixview2.png)
 
 Over the last few years the bike marketing machine and technology has advanced at pace. Soon most manufacturers were developing adventure style bikes. Road bikes that can do more. I like to think the Croix was one of the bikes that sparked it off. 
 
