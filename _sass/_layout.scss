@@ -4,9 +4,10 @@
 
 header {
 
-    grid-column: 1 / 7;
+    grid-column: 1 / -1;
+    grid-row:1;
     /*display: grid;*/
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     display: grid;
     margin-bottom: 1rem;
     @media only screen and (min-width: 500px) {
@@ -39,8 +40,9 @@ header {
 //     height:auto;
 // }
 header nav {
-    grid-column: 3 / 7; // max-width: 100%;
+    //grid-column: 3 / 7; // max-width: 100%;
     // height: auto;
+    grid-column: 8/-1;
     padding: 0 1rem;
     margin-top: -2px;
     float: right;
@@ -258,11 +260,13 @@ header nav ul li:nth-child(4):hover {
 //     }
 // }
 #mainStory {
-    grid-column: 7 / -1;
-    grid-row: 1 / 6;
-    /* overscroll-behavior-y: inherit; */
-    overflow: scroll;
-    height: 100vh;
+    // grid-column: 7 / -1;
+    // grid-row: 1 / 6;
+    // /* overscroll-behavior-y: inherit; */
+    // overflow: scroll;
+    // height: 100vh;
+    grid-column: 6 / -1;
+    grid-row: 1 / 4;
 }
 
 #mainStory.slim {
@@ -302,7 +306,8 @@ header nav ul li:nth-child(4):hover {
 
 
 #introduction {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
+    grid-row: 2;
 
     article {
         padding: 2rem;
@@ -315,7 +320,8 @@ header nav ul li:nth-child(4):hover {
 
 
 #feature {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
+    grid-row:3;
     padding: 2rem;
 }
 
@@ -462,7 +468,8 @@ header nav ul li:nth-child(4):hover {
 
 
 footer {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
+    grid-row:4;
     padding: 2rem;
     color: #2b2b2b; // transform: rotate(4deg);
     box-shadow: 0px 0px 10px #cccccc;

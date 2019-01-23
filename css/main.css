@@ -320,9 +320,10 @@ pre {
  * Site header
  */
 header {
-  grid-column: 1 / 7;
+  grid-column: 1 / -1;
+  grid-row: 1;
   /*display: grid;*/
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   display: grid;
   margin-bottom: 1rem; }
   @media only screen and (min-width: 500px) {
@@ -344,7 +345,7 @@ header {
       text-align: center; } }
 
 header nav {
-  grid-column: 3 / 7;
+  grid-column: 8/-1;
   padding: 0 1rem;
   margin-top: -2px;
   float: right; }
@@ -424,11 +425,8 @@ header nav ul li:nth-child(4):hover {
   background-color: #00c354; }
 
 #mainStory {
-  grid-column: 7 / -1;
-  grid-row: 1 / 6;
-  /* overscroll-behavior-y: inherit; */
-  overflow: scroll;
-  height: 100vh; }
+  grid-column: 6 / -1;
+  grid-row: 1; }
 
 #mainStory.slim {
   grid-column: 5 / -1;
@@ -456,7 +454,8 @@ header nav ul li:nth-child(4):hover {
       min-height: 70vh; } }
 
 #introduction {
-  grid-column: 1 / span 6; }
+  grid-column: 1 / span 5;
+  grid-row: 2; }
   #introduction article {
     padding: 2rem; }
 
@@ -464,7 +463,8 @@ header nav ul li:nth-child(4):hover {
   grid-column: 1 / span 4; }
 
 #feature {
-  grid-column: 1 / span 6;
+  grid-column: 1 / span 5;
+  grid-row: 3;
   padding: 2rem; }
 
 #feature article {
@@ -576,7 +576,8 @@ header nav ul li:nth-child(4):hover {
   display: none; }
 
 footer {
-  grid-column: 1 / span 6;
+  grid-column: 1 / span 5;
+  grid-row: 4;
   padding: 2rem;
   color: #2b2b2b;
   box-shadow: 0px 0px 10px #cccccc;
