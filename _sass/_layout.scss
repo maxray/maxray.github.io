@@ -45,7 +45,7 @@ header nav {
     grid-column: 8/-1;
     padding: 0 1rem;
     margin-top: -2px;
-    float: right;
+    // float: right;
     @media only screen and (max-width: 600px) {
         grid-column: 1/-1;
         height: 40px;

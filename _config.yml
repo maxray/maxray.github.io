@@ -25,7 +25,7 @@ github_username: maxray
 markdown: kramdown
 sass:
   sass_dir: _sass
-gems:
+plugins:
 - jekyll-archives
 jekyll-archives:
   enabled:
