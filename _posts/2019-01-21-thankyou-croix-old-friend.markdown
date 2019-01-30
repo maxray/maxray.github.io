@@ -3,36 +3,44 @@ title: The best bike I ever bought... so far.
 date: 2019-01-21 08:08:00 Z
 categories:
 - Play
-thumbnail_image: "/uploads/faces4_op.png"
+thumbnail_image: "/uploads/croix1.png"
 ---
 
-### As yet another year draws to a close I am finishing off a few last amends for clients and sorting out clearing my desk for Christmas. Who knows I might even manage to get my inbox emptied over the break!
+### Back in 2011 I realised I needed a bike to commute on. I didn't know at the time but 8 years on it has become the best bike I have ever had. 
 
-It has been a pretty down and up year and one in which I finally went freelance to explore new opportunities. Bad organisation and a very odd chain of events meant doing this with no safety net or any real preparation, I had to hit the ground running... 
+Mountain biking has always been my main cycling passion, well after just riding a bike as we did as kids. My first proper bike was a Peugeot racer, 10 speed, slick tyres. I was a bit gutted as my pals had got these new fangled 'mountain' bikes. I made do though, and enjoyed getting to ridiculous places on mini adventures back home on the Isle of Man. 
 
-Leaving an agency I had poured my heart and soul into over more than a decade was one of the hardest things I have had to do. I am so grateful to family and friends, especially a few of my pals on Twitter who gave me support and kind words and pointed me in the direction of some freelance work literally days after I mentioned I was available.
+![croixview2.png](/uploads/croixview2.png)
 
-![Screen Shot 2018-12-21 at 09.17.40.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.17.40.png)
+### I did also swear I would never buy a road bike when I grew up.  
 
-As the year progressed I have worked on some great projects including an ethical fashion brand, something I would love to build upon in 2019. Environmental issues are something close to my heart and I also started a side project company, delivering plastic free produce via cargo cycle. Although ultimately this did not work out from a time/finance perspective I learnt so much about running a business, and seeing things with the eyes of a client will really assist with the digital projects I work on going forward.
+So, true to my word a succession of mountain bikes followed. Regular trips to trail centres, and the heart of MTB in the midlands Cannock Chase. This was all well and good, but once I started working in a little village 10 or so miles from home driving quickly became a chore. The mountain bike worked for a bit but the lure of something more road orientated grew. 
 
-![Screen Shot 2018-12-21 at 09.12.14.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.12.14.png)
+Around this time I was looking over the latest bikes from British manufacturer Genesis and I spied a new model. The Croix de Fer (Iron Cross). Not a road bike, not a cyclocross bike and not a mountain bike, it even had disc brakes. My interest was piqued! 
 
-One of the reasons I decided to go freelance was to give me some time to work on things that give back a little, I helped out as a volunteer at the inaugural Birmingham Design Festival which as a massive success, Birmingham Beer Week and contributed some articles to .NET magazine including the design challenge and a How we built this feature on a [JAMstack site](http://openactive.io) I was involved with for OpenActive. 
+![croix6.png](/uploads/croix6.png)
 
-![oa.jpg](/uploads/oa.jpg)
+Phoning around a few distributers I was soon having a fitting at Epic Cycles, and left with the bike. And so began 8 years of using a bike for literally everything. I have commuted on it, done bike packing, ridden trails and even competed in the Tide2Tide which I have to say found the limits of both the bike and my skill. 
 
-I spent the last quarter of the year contracting at a digital agency in Birmingham part time. It felt really weird being both the 'new guy' and the 'old guy' at the same time but they welcomed me in and it has been a real highlight to work with such driven and talented people. Working their as both a producer and a digital lead has been great as I have got to keep my dev skills sharp whilst helping to guide and manage the projects going through the studio.
+Over the last few years the bike marketing machine and technology has advanced at pace. Soon most manufacturers were developing adventure style bikes. Road bikes that can do more. I like to think the Croix was one of the bikes that sparked it off. 
 
-![Screen Shot 2018-12-21 at 09.13.41.png](/uploads/Screen%20Shot%202018-12-21%20at%2009.13.41.png)
+![croix2.png](/uploads/croix2.png)
 
-Yep, there have been moments of worry, would I cover the mortgage, could I finish something on time. Where was the next piece of work coming from, but there were also moments of real satisfaction, being able to deal with clients on my terms, making a difference to their businesses. I even finally managed to complete all 31 days of #inktober, something I have tried and failed at several years running! 
+Time has taken it's toll though, and not just on me. The steel frame is still as pliable as ever (if a little heavy) but nearly everything on the bike needs to be replaced. Once I had priced up some new bits and bobs it became clear that it might be time for the Croix to retire and something a bit more current take it's place. 
 
-![faces4_op.png](/uploads/faces4_op.png)
+![croix3.png](/uploads/croix3.png)
 
-### So, what will the New Year bring? 
+![croix4.png](/uploads/croix4.png)
 
-Who knows but I for one am excited as to what 2019 will bring for myself and the clients/friends who have helped me finish the year with a smile on my face... thank you all so so much I owe you all a beer. :) 
+Much internet surfing later and I do believe I have found another trend setter. Something a little bit more off road but still with manners for canals and the road. It arrived today, and the new bike feel really is as good as when you are 15. 
+
+![croix5.png](/uploads/croix5.png)
+
+Will it be a classic like my Croix or a Frankenstein bike I live to regret? I shall report back.
+
 
 
  
+
+
+
