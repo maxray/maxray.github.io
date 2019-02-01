@@ -425,7 +425,7 @@ header nav ul li:nth-child(4):hover {
 
 #mainStory {
   grid-column: 6 / -1;
-  grid-row: 1 / 4; }
+  grid-row: 1 / -1; }
 
 #mainStory.slim {
   grid-column: 5 / -1;
