@@ -9,7 +9,7 @@ thumbnail_image: "/uploads/croix1.png"
 ### Back in 2011 I realised I needed a bike to commute on. I didn't know at the time but 8 years on it has become the best bike I have ever had. 
 
 Mountain biking has always been my main cycling passion, well after just riding a bike as we did as kids. My first proper bike was a Peugeot racer, 10 speed, slick tyres. I was a bit gutted as my pals had got these new fangled 'mountain' bikes. I made do though, and enjoyed getting to ridiculous places on mini adventures back home on the Isle of Man. 
-
+<!--more-->
 ![croixview2.png](/uploads/croixview2.png)
 
 ### I did also swear I would never buy a road bike when I grew up.  
@@ -37,10 +37,3 @@ Much internet surfing later and I do believe I have found another trend setter. 
 ![croix5.png](/uploads/croix5.png)
 
 Will it be a classic like my Croix or a Frankenstein bike I live to regret? I shall report back.
-
-
-
- 
-
-
-
