@@ -10,12 +10,12 @@ layout: default
           <p class="note"><b class="pink_strike">Please note:</b> This site is currently in <b class="pink_strike">"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
          
       </section>
-      <section class="profile__pic">
+      <section class="profile__pic" style>
         <img src="{{ site.baseurl }}/assets/tapes.svg" title="It's Sush, looking awkward as normal"/>
       </section>
     </article>
-    <section id="feature">
-    <!--    <h4> Recent Posts </h4> -->
+    <!-- <section id="feature">
+        <h4> Recent Posts </h4> 
       <article>
          {% assign work =  site.categories.Work    %}
           {% for post in work limit:1 offset:2 %}
@@ -44,7 +44,7 @@ layout: default
       {% endif %}
         {% endfor %}
       </article>
-    </section>
+    </section> -->
   <section id="mainStory">
       <article>
         {% assign post = site.posts.first %}
