@@ -426,8 +426,12 @@ header nav ul li:nth-child(4):hover {
 
 .profile__pic {
   transform: rotate(4deg);
-  max-width: 80%;
-  margin: auto; }
+  max-width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  background-image: url(../assets/sush-kelly.png); }
 
 #mainStory {
   grid-column: 6 / -1;
@@ -468,8 +472,8 @@ header nav ul li:nth-child(4):hover {
   grid-column: 1 / span 4; }
 
 #feature {
-  grid-column: 6 / -1;
-  grid-row: 2 / -1;
+  grid-column: 1 / span 5;
+  grid-row: 3;
   padding: 2rem; }
 
 #feature article {
