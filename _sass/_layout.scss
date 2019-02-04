@@ -263,7 +263,7 @@ header nav ul li:nth-child(4):hover {
 
 .profile__pic {
     transform: rotate(4deg); 
-    max-width:100%;
+    max-width:70%;
     margin:auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -520,7 +520,7 @@ footer:before {
     position: absolute;
     width: 32px;
     height: 118px;
-    
+
     left: 21px;
     top: -28px;
     transform: rotate(99deg);

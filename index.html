@@ -18,6 +18,30 @@ layout: default
     </article>
 
          
+    
+  <section id="mainStory">
+      <article>
+        {% assign post = site.posts.first %}
+        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+         <div class="content">      
+        <h3>
+      {% if page.title %}
+          {{ page.title }}
+      {% endif %}
+      {% if post.title %}
+          {{ post.title }}
+      {% endif %}
+      </h3>
+
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+  
+  {{ post.excerpt }}
+
+  <a href="{{ post.url }}" class="cta ">Read More</a>
+      </div>
+      </article>
+    </section>
+
     <!-- <section id="feature">
         <h4> Recent Posts </h4> 
       <article>
@@ -49,28 +73,6 @@ layout: default
         {% endfor %}
       </article>
     </section> -->
-  <section id="mainStory">
-      <article>
-        {% assign post = site.posts.first %}
-        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-         <div class="content">      
-        <h3>
-      {% if page.title %}
-          {{ page.title }}
-      {% endif %}
-      {% if post.title %}
-          {{ post.title }}
-      {% endif %}
-      </h3>
-
-    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
-  
-  {{ post.excerpt }}
-
-  <a href="{{ post.url }}" class="cta ">Read More</a>
-      </div>
-      </article>
-    </section>
 
 
 
