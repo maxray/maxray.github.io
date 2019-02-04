@@ -369,7 +369,8 @@ header nav ul {
     cursor: pointer;
     box-shadow: 1px 1px 5px #cccccc;
     position: relative;
-    display: inline-block; }
+    display: flex;
+    align-items: flex-end; }
   header nav ul li:hover {
     height: 55px; }
 
