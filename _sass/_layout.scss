@@ -260,6 +260,12 @@ header nav ul li:nth-child(4):hover {
 //         }
 //     }
 // }
+
+.profile__pic {
+    transform: rotate(20deg); 
+    max-width:80%;
+    margin:auto;
+}
 #mainStory {
     // grid-column: 7 / -1;
     // grid-row: 1 / 6;

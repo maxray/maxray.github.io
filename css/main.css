@@ -424,6 +424,11 @@ header nav ul li:nth-child(4) {
 header nav ul li:nth-child(4):hover {
   background-color: #00c354; }
 
+.profile__pic {
+  transform: rotate(20deg);
+  max-width: 80%;
+  margin: auto; }
+
 #mainStory {
   grid-column: 6 / -1;
   grid-row: 1 / -1; }
