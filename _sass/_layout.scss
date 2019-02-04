@@ -269,7 +269,7 @@ header nav ul li:nth-child(4):hover {
     background-position: center;
     background-size: 80%;
     background-image: url(../assets/sush-kelly.png);
-    
+
 }
 #mainStory {
     // grid-column: 7 / -1;
@@ -388,7 +388,8 @@ header nav ul li:nth-child(4):hover {
 #pagination article {
     display: grid;
     grid-gap: 1rem; //grid-template-columns: repeat(2, 1fr); // grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+   // grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
 }
 
 #pagination article div {
