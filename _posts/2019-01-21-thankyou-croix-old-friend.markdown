@@ -37,10 +37,3 @@ Much internet surfing later and I do believe I have found another trend setter. 
 ![croix5.png](/uploads/croix5.png)
 
 Will it be a classic like my Croix or a Frankenstein bike I live to regret? I shall report back.
-
-
-
- 
-
-
-
