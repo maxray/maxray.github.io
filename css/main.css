@@ -425,7 +425,7 @@ header nav ul li:nth-child(4):hover {
   background-color: #00c354; }
 
 .profile__pic {
-  transform: rotate(20deg);
+  transform: rotate(4deg);
   max-width: 80%;
   margin: auto; }
 
