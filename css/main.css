@@ -171,6 +171,7 @@ a {
 .note {
   background-color: #cccccc;
   padding: 10px;
+  margin: 2rem;
   text-decoration: none;
   display: inline-block;
   -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
