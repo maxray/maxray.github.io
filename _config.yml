@@ -8,10 +8,13 @@ collections:
   products:
     title: Products
     output: true
+  case-studies:
+    title: Case Studies
+    output: true
   uploads:
     title: Uploads
     output: true
-email: me@sushkelly.co.uk
+email: sush@creativityandcode.co.uk
 description: 'An Interactive Designer based in Birmingham. I love designing and developing
   for screen, getting out into the hills and getting muddy.  I have a weakness for
   anything Orange and tech gadgets.

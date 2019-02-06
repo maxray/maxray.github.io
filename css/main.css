@@ -30,6 +30,10 @@ body {
       display: grid;
       margin: 0 5vw; } }
 
+article {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -425,6 +429,20 @@ header nav ul li:nth-child(4) {
 header nav ul li:nth-child(4):hover {
   background-color: #00c354; }
 
+#case-study {
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px;
+  grid-gap: 2rem; }
+  @media only screen and (min-width: 1024px) {
+    #case-study {
+      display: grid; } }
+  #case-study .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem; }
+    #case-study .images figure {
+      grid-column: 1fr; }
+
 .profile__pic {
   transform: rotate(4deg);
   max-width: 70%;
@@ -449,15 +467,6 @@ header nav ul li:nth-child(4):hover {
   grid-column: 5 / -1;
   grid-row: 3 /-1; }
 
-#mainStory article {
-  /*display: grid;
-                grid-gap: 1rem;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr;
-                height: 100vh;*/ }
-  #mainStory article .content {
-    padding: 2rem; }
-
 #mainStory .backgroundImage {
   grid-row: 1/ span 2;
   background-image: url("images/main.jpg");
@@ -478,6 +487,18 @@ header nav ul li:nth-child(4):hover {
 
 #introduction.slim {
   grid-column: 1 / span 4; }
+
+#list1 {
+  grid-column: 1 / span 5;
+  grid-row: 3; }
+  #list1 section {
+    padding: 2rem; }
+
+#list2 {
+  grid-column: 1 / span 5;
+  grid-row: 4; }
+  #list2 section {
+    padding: 2rem; }
 
 #feature {
   grid-column: 1 / span 5;
@@ -592,7 +613,7 @@ header nav ul li:nth-child(4):hover {
 #the2013 {
   display: none; }
 
-footer {
+.main-cta {
   grid-column: 1 / span 5;
   grid-row: 4;
   padding: 4rem 3rem 3rem;
@@ -602,19 +623,19 @@ footer {
   position: relative;
   background-color: #d7fb65; }
   @media only screen and (min-width: 1024px) {
-    footer {
+    .main-cta {
       margin-left: 2rem;
       margin-right: 2rem; } }
-  footer img {
+  .main-cta img {
     width: 25px; }
-  footer a {
+  .main-cta a {
     color: #2b2b2b; }
-    footer a:hover {
+    .main-cta a:hover {
       color: #2b2b2b; }
-  footer .strike:hover {
+  .main-cta .strike:hover {
     color: #ffffff; }
 
-footer:before {
+.main-cta:before {
   background-image: url(../assets/Paperclip.svg);
   content: " ";
   position: absolute;
