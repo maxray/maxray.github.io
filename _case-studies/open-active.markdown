@@ -9,13 +9,12 @@ article_image3: "/uploads/css-grid.png"
 article_image4: "/uploads/siteleaf-cms.png"
 article_image5: "/uploads/opportunity-data-types.png"
 article_image6: "/uploads/embedded-code.png"
-caption_image1: "/uploads/workshop-at-open-active.png"
-caption_image2: "/uploads/planning-user-journeys.png"
-caption_image3: "/uploads/css-grid.png"
-caption_image4: "/uploads/siteleaf-cms.png"
-caption_image5: "/uploads/opportunity-data-types.png"
-caption_image6: "/uploads/embedded-code.png"
-layout: case-study
+caption_image1: A group workshop underway
+caption_image2: Developing user journeys
+caption_image3: CSS Grid being used in production finally!
+caption_image4: Siteleaf offers a CMS facility for static sites
+caption_image5: 'Opportunity Data '
+caption_image6: Embedded code samples
 intro: "OpenActive is a community led initiative using data to help people get active
   in order to help reduce inactivity in England. Stewarded by the Open Data Institute
   (ODI) and supported by Sport England, its ambition is to get the sport and physical
@@ -61,6 +60,7 @@ list2: |
   * March 2018 - Second phase of development whilst website is in beta. Content creation and iconography.
 
   * April 2018 - Final testing and switch to the primary domain.
+layout: case-study
 ---
 
 ### The Process
@@ -77,7 +77,7 @@ Pages were planned and content developed seperate to the brand being applied. As
 > "Early responses have been really positive. The old website limited us for a long while. Those that have experienced both sites have called the new one a breath of fresh air! The community has been really receptive to the branding too. It brings the energy and innovative value that was missing."
 
 ### Tech Stack
-The site embraces some forward thinking technology. It is running on a JAMStack (Javascript, API’s and Markup) platform, Jekyll served on Github Pages with a static site CMS called Siteleaf to allow content editing in browser. The front end itself uses CSS Grid, George really pulled out the stops creating a responsive grid system that included fallbacks for older browsers. The voting mechanism makes use of Firebase to allow functionality far beyond that of a static website. By being a static site there are many benefits such as security, upkeep and portability.
+The site embraces some forward thinking technology. It is running on a JAMStack (Javascript, API’s and Markup) platform, Jekyll served on Github Pages with a static site CMS called Siteleaf to allow content editing in browser. The front end itself uses CSS Grid, we had to pull out the stops creating a responsive grid system that included fallbacks for older browsers. The voting mechanism makes use of Firebase to allow functionality far beyond that of a static website. By being a static site there are many benefits such as security, upkeep and portability.
 
 {% include images3_4.html %}
 
