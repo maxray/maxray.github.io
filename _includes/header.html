@@ -43,10 +43,39 @@
        <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/logo.svg" width="200"/></a>
       <nav>
         <ul>
-          <li> <a class="page-link  Services" href="/services/">Services</a></li>
-          <li><a class="page-link  Blog" href="/blog/">Blog</a></li>
-          <li><a class="page-link  Art" href="/case-studies/open-active.html">Case Study</a></li>
-          <li><a class="page-link  About" href="/about/">About</a></li>
+         
+          {% if page.url == "/services/" %}
+          <li  class="active"><a class="page-link  Services" href="/services/">Services</a></li>
+          
+        {% else %}
+        <li><a class="page-link  Services" href="/services/">Services</a></li>
+          
+        {% endif %}
+
+          
+
+          {% if page.url == "/blog/" %}
+          <li  class="active"><a class="page-link  Blog" href="/blog/">Blog</a></li>
+          
+        {% else %}
+        <li><a class="page-link  Blog" href="/blog/">Blog</a></li>
+          
+        {% endif %}
+
+
+          {% if page.url == "/case-studies/open-active.html" %}
+          <li  class="active"><a class="page-link  Art" href="/case-studies/open-active.html">Case Study</a></li>
+          
+        {% else %}
+        <li><a class="page-link  Art" href="/case-studies/open-active.html">Case Study</a></li>
+          
+        {% endif %}
+          
+          {% if page.url == "/about/" %}
+          <li  class="active"><a class="page-link  About " href="/about/">About</a></li>
+        {% else %}
+        <li><a class="page-link  About" href="/about/">About</a></li>
+        {% endif %}
       </nav>
     </header>
 

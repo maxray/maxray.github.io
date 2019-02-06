@@ -72,9 +72,10 @@ header nav ul {
         align-items: stretch;
     }
 
-    li:hover {
+    li:hover , .active {
         height: 55px
     }
+
 }
 
 header nav ul li a,

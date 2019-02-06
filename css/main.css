@@ -391,7 +391,7 @@ header nav ul {
     position: relative;
     display: flex;
     align-items: stretch; }
-  header nav ul li:hover {
+  header nav ul li:hover, header nav ul .active {
     height: 55px; }
 
 header nav ul li a,
