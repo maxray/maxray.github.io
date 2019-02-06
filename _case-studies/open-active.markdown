@@ -1,5 +1,7 @@
 ---
 title: OpenActive - A Case Study
+categories:
+- Case Study
 thumbnail_image: "/uploads/openactive-jamstack.png"
 article_image1: "/uploads/workshop-at-open-active.png"
 article_image2: "/uploads/planning-user-journeys.png"
@@ -13,22 +15,20 @@ caption_image3: "/uploads/css-grid.png"
 caption_image4: "/uploads/siteleaf-cms.png"
 caption_image5: "/uploads/opportunity-data-types.png"
 caption_image6: "/uploads/embedded-code.png"
-categories:
-- Case Study
 layout: case-study
-intro: |
-  OpenActive is a community led initiative using data to help people get active in order to help reduce inactivity in England. Stewarded by the Open Data Institute (ODI) and supported by Sport England, its ambition is to get the sport and physical activity sector to publish and use data about the details of opportunities to be active. 
-
-  As the community has grown, the ODI needed a new website that could serve its evolving needs. It required a practical hub for the community to attract new members, provide interactive tools and resources which help members publish and use data and keep the community engaged and informed of the initiative’s progress.
-
+intro: "OpenActive is a community led initiative using data to help people get active
+  in order to help reduce inactivity in England. Stewarded by the Open Data Institute
+  (ODI) and supported by Sport England, its ambition is to get the sport and physical
+  activity sector to publish and use data about the details of opportunities to be
+  active. \n\nAs the community has grown, the ODI needed a new website that could
+  serve its evolving needs. It required a practical hub for the community to attract
+  new members, provide interactive tools and resources which help members publish
+  and use data and keep the community engaged and informed of the initiative’s progress.\n"
 preamble: |
   ### Working with great clients
   This was such a great project to work on. With a client who was on board with using cutting edge technology and agile working practices we really got to push the boundaries on this project.
 
   Daily stand up meetings via Google Hangouts, the use of project management tools and of course chatting via Slack allowed us to wrk seamlessly together from different locations.
-
-
-
 list1: |
   ##### Who was involved?
   * Website - <a href="http://OpenActive.io/" target="_blank">OpenActive</a>
@@ -45,7 +45,6 @@ list1: |
   * Siteleaf CMS
   * Github Pages
   * Pattern Library/Style Guide
-
 list2: |
   * October 2017 - Initial discovery work - understanding community and admin needs, audit of existing website, compiling potential improvements.
 
@@ -62,8 +61,6 @@ list2: |
   * March 2018 - Second phase of development whilst website is in beta. Content creation and iconography.
 
   * April 2018 - Final testing and switch to the primary domain.
-
-
 ---
 
 ### The Process
