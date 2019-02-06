@@ -135,7 +135,7 @@ h2 {
        @media only screen and (max-width: 600px) {
         font-size: 1.3rem;
     }
-    padding-bottom: $spacing-unit ;
+    padding-bottom: $spacing-unit/2 ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
@@ -144,7 +144,13 @@ h4 {
       @media only screen and (max-width: 600px) {
         font-size: 1.3rem;
     }
-    padding-bottom: $spacing-unit ;
+    padding-bottom: $spacing-unit/2 ;
+    background: url(../assets/pink-lines.png) bottom repeat-x;
+}
+
+h5 {
+    font-size:1.3rem;
+    padding: $spacing-unit/2 0 $spacing-unit/2 0 ;
     background: url(../assets/lines.png) bottom repeat-x;
 }
 
@@ -182,11 +188,12 @@ a {
     
 
     &:visited {
-        color: darken($brand-color, 15%);
+       // color: darken($brand-color, 15%);
+       color: $text-color;
     }
 
     &:hover {
-        color: $brand-color;
+        color: $text-color;
         text-decoration: underline;
     }
 }
@@ -366,14 +373,19 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid #fd4dcc;
     padding-left: $spacing-unit / 2;
+    font-family: $heading-font-family;
     font-size: 18px;
-    letter-spacing: -1px;
     font-style: italic;
+    color:  #fd4dcc;
 
     > :last-child {
         margin-bottom: 0;
+    }
+
+    h4 {
+        margin-bottom: $spacing-unit / 2;
     }
 }
 

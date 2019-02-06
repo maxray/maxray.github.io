@@ -26,7 +26,7 @@ header {
 }
 
 .site-title {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     padding: 1rem 0 0 2rem;
 
     @media only screen and (max-width: 600px) {
@@ -69,7 +69,7 @@ header nav ul {
         box-shadow: 1px 1px 5px #cccccc;
         position: relative;
         display: flex;
-        align-items: flex-end;
+        align-items: stretch;
     }
 
     li:hover {
@@ -86,6 +86,8 @@ header nav ul li a:visited {
     font-family: 'Rock Salt', cursive;
     text-transform: uppercase;
     font-size: 8px;
+    display: flex;
+    align-items: flex-end;
     /* text-align: center; */
 }
 
@@ -155,10 +157,24 @@ header nav ul li:nth-child(4):hover {
 
     .images {
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr  1fr;
+        @media only screen and (max-width: 600px) {
+            width: 100vw;
+            position: relative;
+            margin-left: -50vw;
+            left: 50%;
+            grid-template-columns: 1fr;
+        }
         grid-gap:1rem;
         figure {
             grid-column: 1fr;
+        }
+
+        figcaption {
+            @media only screen and (max-width: 600px) {
+                padding: .5rem 0 0 2rem;
+            }
+
         }
     }
 
@@ -172,11 +188,11 @@ header nav ul li:nth-child(4):hover {
 
 .profile__pic {
     transform: rotate(4deg); 
-    max-width:70%;
+    max-width:90%;
     margin:auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 92%;
     background-image: url(../assets/sush-kelly.png);
     cursor: pointer;
 
@@ -198,24 +214,20 @@ header nav ul li:nth-child(4):hover {
     // height: 100vh;
     grid-column: 6 / -1;
     grid-row: 1 / -1;
+
+    div:first-of-type {
+        margin-bottom: 2rem;
+    }
+
+    .preamble , .content {
+        padding: 2rem;
+    }
 }
 
 #mainStory.slim {
     grid-column: 5 / -1;
     grid-row: 3 /-1;
 }
-
-
-// #mainStory article {
-//     /*display: grid;
-//                 grid-gap: 1rem;
-//                 grid-template-columns: 1fr;
-//                 grid-template-rows: 1fr 1fr 1fr 1fr;
-//                 height: 100vh;*/
-//     .content {
-//         padding: 2rem;
-//     }
-// }
 
 #mainStory .backgroundImage {
     grid-row: 1/ span 2;
@@ -227,10 +239,8 @@ header nav ul li:nth-child(4):hover {
         min-height: 50vh;
     }
 
-    @media only screen and (min-width: 1024px) {
+    
 
-        min-height: 70vh;
-    }
 }
 
 
@@ -239,10 +249,7 @@ header nav ul li:nth-child(4):hover {
 #introduction {
     grid-column: 1 / span 5;
     grid-row: 2;
-
-    section {
-        padding: 2rem;
-    }
+    padding: 2rem;
 }
 
 #introduction.slim {
@@ -252,15 +259,12 @@ header nav ul li:nth-child(4):hover {
 #list1  {
     grid-column: 1 / span 5;
     grid-row: 3;
-
-    section {
-        padding: 2rem;
-    }
 }
 
 #list2  {
     grid-column: 1 / span 5;
     grid-row: 4;
+    padding: 2rem;
 
     section {
         padding: 2rem;
@@ -416,13 +420,12 @@ header nav ul li:nth-child(4):hover {
     display: none;
 }
 
-
-
 .main-cta {
     grid-column: 1 / span 5;
     grid-row:4;
-    padding: 4rem 3rem 3rem;
-    color: #2b2b2b; // transform: rotate(4deg);
+    padding: 3rem 2rem 1rem 2rem;
+    color: #2b2b2b; 
+    transform: rotate(4deg);
     box-shadow: 0px 0px 10px #cccccc;
     margin-bottom: 1rem;
     position: relative;
@@ -464,6 +467,56 @@ header nav ul li:nth-child(4):hover {
     top: -28px;
     transform: rotate(99deg);
 }
+
+.calling-card {
+    grid-column: 1 / span 5;
+    grid-row:5;
+    padding: 3rem 2rem 1rem 2rem;
+    color: #2b2b2b; 
+    transform: rotate(-4deg);
+    box-shadow: 0px 0px 10px #cccccc;
+    margin-bottom: 1rem;
+    position: relative;
+
+    @media only screen and (min-width: 1024px) {
+
+        margin-left:2rem;
+        margin-right: 2rem;
+    }
+
+    img {
+        width: 25px;
+    }
+
+
+    background-color: $yellow;
+
+    a {
+        color: #2b2b2b;
+
+        &:hover {
+            color: #2b2b2b;
+        }
+    }
+
+    .strike:hover {
+        color: #ffffff;
+    }
+}
+
+.calling-card:before {
+    background-image: url(../assets/Paperclip.svg);
+    content: " ";
+    position: absolute;
+    width: 32px;
+    height: 118px;
+
+    left: 21px;
+    top: -28px;
+    transform: rotate(99deg);
+}
+
+
 //             footer::after {
 //     content: '';
 //     position: absolute;

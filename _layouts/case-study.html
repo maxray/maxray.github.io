@@ -6,31 +6,25 @@ layout: default
             <h1 class="art-title">{{ page.title }}</h1>
             {{ page.intro  | markdownify}}
     </section>
-    <section id="list1">
+    <section id="mainStory">
+        <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+        <div class="preamble">
+            {{ page.preamble | markdownify  }}
+        </div>
+        {% include images1_2.html %}
+        <div class="content">      
+            {{ page.content }}
+        </div>  
+ 
+    </section>
+    <section id="list1" class="main-cta">
             {{ page.list1 | markdownify  }}
     </section>
     <section id="list2">
         <h3>Timeline</h3>
             {{ page.list2 | markdownify  }}
     </section>
+    {% include main-cta.html %}
+
     
-    <section id="mainStory">
-        <div class="backgroundImage" style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-        <div class="preamble">
-            {{ page.preamble | markdownify  }}
-        </div>
-        <div class="images">
-                <figure>
-                    <img  src="{{ page.article_image1  | relative_url}}" alt="{{ page.name }}"  />
-                    <figcaption>Title for Case Study</figcaption>
-                </figure>
-                <figure>
-                    <img  src="{{ page.article_image1  | relative_url}}" alt="{{ page.name }}"  />
-                    <figcaption>Title for Case Study</figcaption>
-                </figure>
-        </div>
-        <div class="content">      
-            {{ page.content }}
-        </div>       
-    </section>
 </article>   
