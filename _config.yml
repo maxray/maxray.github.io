@@ -2,14 +2,14 @@
 title: Creativity & Code
 timezone: UTC
 collections:
+  case-studies:
+    title: Case Studies
+    output: true
   posts:
     title: Posts
     output: true
   products:
     title: Products
-    output: true
-  case-studies:
-    title: Case Studies
     output: true
   uploads:
     title: Uploads
