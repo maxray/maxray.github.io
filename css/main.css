@@ -10,11 +10,11 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-html {
-  overflow-x: hidden; }
+@media only screen and (max-width: 600px) {
+  html {
+    overflow-x: hidden; } }
 
 body {
-  overflow-x: hidden;
   background-image: url(../assets/dots.png);
   font: 400 25px/1.6 "Bitter", serif;
   color: #2b2b2b;
@@ -29,6 +29,9 @@ body {
   /* at a min height make the body a grid. */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 100px; }
+  @media only screen and (max-width: 600px) {
+    body {
+      overflow-x: hidden; } }
   @media only screen and (min-width: 1024px) {
     body {
       display: grid;
