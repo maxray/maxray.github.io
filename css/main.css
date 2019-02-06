@@ -392,7 +392,7 @@ header nav ul {
     display: flex;
     align-items: stretch; }
   header nav ul li:hover, header nav ul .active {
-    height: 55px; }
+    height: 45px; }
 
 header nav ul li a,
 header nav ul li a:link,
