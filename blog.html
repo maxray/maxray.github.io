@@ -9,7 +9,7 @@ layout: default
         {% assign post = site.posts.first %}
         <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
         <div class="content">
-            <h3><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="35" height="35" /> 
+            <h3><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="35" height="35" alt="Category Icon" /> 
 {% if page.title %}
     {{ page.title }}
 {% endif %}
@@ -35,7 +35,7 @@ layout: default
         <h3>{{ post.date | date: '%Y' }}  <a onclick="toggle_visibility('the{{ post.date | date: '%Y' }}');" class="showTog strike">+</a> </h3> 
         <ul class="past-posts" id="the{{ post.date | date: '%Y' }}">
             {% endif %} {% endunless %}
-            <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15" />
+            <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15" alt="Category Icon" />
                 <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
