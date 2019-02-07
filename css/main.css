@@ -170,6 +170,7 @@ a {
 
 .pink_strike {
   background-color: #fc1bbe;
+  color: white;
   padding: 3px 6px 1px 4px;
   -ms-transform: rotate(-2deg);
   -webkit-transform: rotate(-2deg);
