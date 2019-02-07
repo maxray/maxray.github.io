@@ -1,5 +1,5 @@
 ---
-title: 3 mistakes small businesss make with Wordpress
+title: 3 mistakes small businesses make with Wordpress
 date: 2019-02-06 08:44:00 Z
 categories:
 - Work
