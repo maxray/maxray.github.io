@@ -1,3 +1,4 @@
+
 /**
  * Site header
  */
@@ -194,17 +195,18 @@ header nav ul li:nth-child(4):hover {
     max-width:90%;
     margin:auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: 92%;
+    background-image: url(../assets/sush-kelly-sketch.png);
     background-image: url(../assets/sush-kelly.png);
     cursor: pointer;
+    margin-bottom:4rem;
 
 }
 
 .profile__pic:hover {
     background-image: url(../assets/sush-kelly-sketch.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 92%;
 }
 

@@ -16,8 +16,6 @@ layout: default
         <img src="{{ site.baseurl }}/assets/tapes.svg" alt="It's Sush, looking awkward as normal"/>
       </section></a>
       {% endfor %}
-
-      <p class="note"><b >Please note:</b> This site is currently in <b>"It works on my machine mode"</b> and as such has not been fully tested in anything but the main three latest browsers. It has been great fun to just play around in css-grid! :)</p>
       {% include main-cta.html %}
     </article>
 
@@ -30,14 +28,7 @@ layout: default
         <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
         </div>
          <div class="content">      
-        <h3>
-      {% if page.title %}
-          {{ page.title }}
-      {% endif %}
-      {% if post.title %}
-          {{ post.title }}
-      {% endif %}
-      </h3>
+        <h3>{{ post.title }}</h3>
   
   {{ post.intro | markdownify  }}
 
