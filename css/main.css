@@ -426,7 +426,7 @@ header nav ul li:nth-child(2):hover {
   background-color: #ff5635; }
 
 header nav ul li:nth-child(3) {
-  background-color: #d7fb65;
+  background-color: #00f66a;
   -ms-transform: rotate(-2deg);
   /* IE 9 */
   -webkit-transform: rotate(-2deg);
@@ -434,10 +434,10 @@ header nav ul li:nth-child(3) {
   transform: rotate(-2deg); }
 
 header nav ul li:nth-child(3):hover {
-  background-color: #cafa33; }
+  background-color: #00c354; }
 
 header nav ul li:nth-child(4) {
-  background-color: #00f66a;
+  background-color: #d7fb65;
   -ms-transform: rotate(2deg);
   /* IE 9 */
   -webkit-transform: rotate(2deg);
@@ -445,7 +445,7 @@ header nav ul li:nth-child(4) {
   transform: rotate(2deg); }
 
 header nav ul li:nth-child(4):hover {
-  background-color: #00c354; }
+  background-color: #cafa33; }
 
 #case-study {
   grid-template-columns: repeat(12, 1fr);
@@ -532,12 +532,20 @@ header nav ul li:nth-child(4):hover {
 #my-services {
   display: grid;
   grid-template-columns: 1fr  1fr;
-  grid-gap: 1rem; }
+  grid-gap: 2rem; }
   @media only screen and (max-width: 600px) {
     #my-services {
       grid-template-columns: 1fr; } }
   #my-services .my-service {
-    grid-column: 1fr; }
+    grid-column: 1fr;
+    display: flex;
+    flex-direction: column; }
+    #my-services .my-service img {
+      box-shadow: 1px 1px 5px #cccccc;
+      margin: 0 auto 1rem auto;
+      border: solid 1px #cccccc; }
+    #my-services .my-service a {
+      align-self: flex-start; }
 
 #feature {
   grid-column: 1 / span 5;

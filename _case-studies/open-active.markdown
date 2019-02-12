@@ -27,7 +27,7 @@ preamble: |
   ### Working with great clients
   This was such a great project to work on. With a client who was on board with using cutting edge technology and agile working practices we really got to push the boundaries on this project.
 
-  Daily stand up meetings via Google Hangouts, the use of project management tools and of course chatting via Slack allowed us to wrk seamlessly together from different locations.
+  Daily stand up meetings via Google Hangouts, the use of project management tools and of course chatting via Slack allowed us to work seamlessly together from different locations.
 list1: |
   ##### Who was involved?
   * Website - <a href="http://OpenActive.io/" target="_blank">OpenActive</a>

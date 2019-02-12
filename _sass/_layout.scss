@@ -117,7 +117,7 @@ header nav ul li:nth-child(2):hover {
 }
 
 header nav ul li:nth-child(3) {
-    background-color: #d7fb65;
+    background-color: #00f66a;
     -ms-transform: rotate(-2deg);
     /* IE 9 */
     -webkit-transform: rotate(-2deg);
@@ -127,11 +127,11 @@ header nav ul li:nth-child(3) {
 }
 
 header nav ul li:nth-child(3):hover {
-    background-color: darken(#d7fb65, 10%);
+    background-color: darken(#00f66a, 10%);
 }
 
 header nav ul li:nth-child(4) {
-    background-color: #00f66a;
+    background-color: #d7fb65;
     -ms-transform: rotate(2deg);
     /* IE 9 */
     -webkit-transform: rotate(2deg);
@@ -141,7 +141,7 @@ header nav ul li:nth-child(4) {
 }
 
 header nav ul li:nth-child(4):hover {
-    background-color: darken(#00f66a, 10%);
+    background-color: darken(#d7fb65, 10%);
 }
 
 
@@ -280,10 +280,22 @@ header nav ul li:nth-child(4):hover {
     @media only screen and (max-width: 600px) {
         grid-template-columns: 1fr;
     }
-    grid-gap:1rem;
+    grid-gap:2rem;
 
     .my-service  {
         grid-column: 1fr;
+        display: flex;
+        flex-direction: column;
+       
+        img {
+            box-shadow: 1px 1px 5px #cccccc;
+            margin:0 auto 1rem auto;
+            border: solid 1px #cccccc;
+        }
+
+        a {
+            align-self: flex-start;
+        }
     }
 
 }
