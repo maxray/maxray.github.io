@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Creativity & Code - Web Design and Digital Services in Birmingham
 ---
 
     <article id="introduction">
@@ -44,85 +45,13 @@ layout: default
       </div>
       </article>
     </section>
-
-    <!-- <section id="feature">
-        <h4> Recent Posts </h4> 
-      <article>
-         {% assign work =  site.categories.Work    %}
-          {% for post in work limit:1 offset:2 %}
-        <div  style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-          <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
-          {% endfor %}
-        </div>
-          {% assign play =  site.categories.Play    %}
-          {% for post in play limit:1  %}
-        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-
-           <a href="{{ post.url }}" class="second-cta blog">{{post.title }}</a>
-          {% endfor %}
-        </div>
-        {% for post in site.products limit:1 %}
-        <div   style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-           <a href="{{ post.url }}" class="second-cta art">{{post.title }} - £{{post.price }}</a>
-          {% endfor %}</div>
-
-          {% for page in site.pages   %}
-         {% if page.title == 'Services' %}
-
-
-        <div   style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"> <a href="{{page.url }}" class="second-cta services">{{page.title }}</a>
-          </div>
-      {% endif %}
-        {% endfor %}
-      </article>
-    </section> -->
-
-
-
-
-
-  
-<!--       <section id="archive">
-    <h3>Older Posts</h3> 
-    <ul class="this">
-    {%for post in site.posts offset:1 %}
-      {% unless post.next %}
-       
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          </ul>
-          <h3>{{ post.date | date: '%Y' }}</h3>
-          <ul class="past">
-        {% endif %}
-      {% endunless %}
-        <li><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="15" height="15"/> <time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </section>
-    </div>
-  </div> -->
-<!--   <h1 class="page-heading">Posts</h1> -->
-
-
-  
-
-
-
-
-<!--   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul> -->
-
- 
-<!-- 
-</div> -->
+    <section id="my-services">
+      <div class="my-service">
+        <h3>Websites</h3>
+        <p>I can design and build you a website.</p>    
+      </div>
+      <div class="my-service">
+        <h3>Project Management</h3>
+        <p>I can manage your digital project.</p>    
+      </div>
+    </section>

@@ -529,6 +529,16 @@ header nav ul li:nth-child(4):hover {
   #list2 section {
     padding: 2rem; }
 
+#my-services {
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  grid-gap: 1rem; }
+  @media only screen and (max-width: 600px) {
+    #my-services {
+      grid-template-columns: 1fr; } }
+  #my-services .my-service {
+    grid-column: 1fr; }
+
 #feature {
   grid-column: 1 / span 5;
   grid-row: 3;
