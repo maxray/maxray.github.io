@@ -17,7 +17,7 @@ author:
 layout: post
 ---
 
-<p>I watched a Vimeo post (via <a href="https://twitter.com/jonikorpi" target="_blank">@jonikorpi</a>) 6 years ago ,  <a href="http://vimeo.com/59679411" target="_blank">Hartmut Esslinger - Advice For Designers</a> and realised that there were some parallels in there towards how I think we should approach web design.</p>
+<p>I watched a Vimeo post (via <a href="https://twitter.com/jonikorpi" target="_blank">@jonikorpi</a>) 6 years ago - literally to the day,  <a href="http://vimeo.com/59679411" target="_blank">Hartmut Esslinger - Advice For Designers</a> and realised that there were some parallels in there towards how I think we should approach web design.</p>
 <p>Fast forward to 2019 and it all still holds true! Yeah we may be using a few different tools but the concepts still hold water.<!--more-->
 <h3>Trust yourself and tread your own path</h3>
 <p>Have the confidence to try your own thing. Don't feel you have to follow the latest trend or en vogue pre-compiler  You may be harbouring the next trend in web design yourself, give it chance to escape.</p><p>Could this be more on point with the weekly pitched battles across social media telling you you are wrong if you don't use "insert framework here".</p>
