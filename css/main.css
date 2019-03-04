@@ -200,20 +200,24 @@ a {
   padding: 10px;
   text-decoration: none;
   display: inline-block;
-  -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
-  clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
   padding: 2rem;
   text-decoration: none; }
+  @media only screen and (min-width: 600px) {
+    .service {
+      -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+      clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%); } }
 
 .service:nth-of-type(odd) {
   background-color: #efefef;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
-  -webkit-clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
-  clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
   padding: 2rem;
   text-decoration: none; }
+  @media only screen and (min-width: 600px) {
+    .service:nth-of-type(odd) {
+      -webkit-clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
+      clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%); } }
 
 .cta {
   background-color: #fd4dcc;
@@ -383,7 +387,7 @@ header nav ul {
   padding: 0; }
   header nav ul li {
     padding: 10px;
-    height: 20px;
+    height: 30px;
     -webkit-transition: all .2s;
     /* Safari */
     transition: all .2s;
@@ -401,6 +405,7 @@ header nav ul li a:visited {
   color: navy;
   text-decoration: none;
   bottom: 15px;
+  letter-spacing: 1px;
   font-family: 'Rock Salt', cursive;
   text-transform: uppercase;
   font-size: 8px;
@@ -541,12 +546,36 @@ header nav ul li:nth-child(4):hover {
     grid-column: 1fr;
     display: flex;
     flex-direction: column; }
+    #my-services .my-service p:first-of-type {
+      font-weight: 900; }
     #my-services .my-service img {
       box-shadow: 1px 1px 5px #cccccc;
       margin: 0 auto 1rem auto;
       border: solid 1px #cccccc; }
     #my-services .my-service a {
       align-self: flex-start; }
+
+#service-introduction {
+  grid-column: 3/ -3;
+  grid-row: 2;
+  padding: 10vh 2rem 2rem 2rem; }
+
+#service-mainStory {
+  grid-column: 1/ -1;
+  grid-row: 3;
+  padding: 2rem; }
+  #service-mainStory .content {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-gap: 2rem; }
+    @media only screen and (max-width: 600px) {
+      #service-mainStory .content {
+        grid-template-columns: 1fr; } }
+
+#read-next {
+  grid-column: 1 /-1; }
+  #read-next .content, #read-next h3 {
+    padding: 2rem; }
 
 #feature {
   grid-column: 1 / span 5;

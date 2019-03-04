@@ -269,8 +269,10 @@ a {
     padding: 10px;
     text-decoration: none;
     display: inline-block;
-    -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
-    clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+    @media only screen and (min-width: 600px) {
+        -webkit-clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+        clip-path: polygon(1% 1%, 100% 3%, 97% 92%, 0% 97%);
+    }
      padding: 2rem;
     text-decoration: none;
 }
@@ -280,8 +282,10 @@ a {
     padding: 10px;
     text-decoration: none;
     display: inline-block;
-    -webkit-clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
+    @media only screen and (min-width: 600px) {
+        -webkit-clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
         clip-path: polygon(1% 1%, 100% 3%, 99% 88%, 3% 97%);
+    }
     padding: 2rem;
     text-decoration: none;
 }

@@ -20,9 +20,7 @@ intro: "OpenActive is a community led initiative using data to help people get a
   (ODI) and supported by Sport England, its ambition is to get the sport and physical
   activity sector to publish and use data about the details of opportunities to be
   active. \n\nAs the community has grown, the ODI needed a new website that could
-  serve its evolving needs. It required a practical hub for the community to attract
-  new members, provide interactive tools and resources which help members publish
-  and use data and keep the community engaged and informed of the initiative’s progress.\n"
+  serve its evolving needs. This project covered all the bases from the brands creation, user and stakeholder research, right through to the design and development of the site using a mixture of agile and waterfall techniques to get the project completed."
 preamble: |
   ### Working with great clients
   This was such a great project to work on. With a client who was on board with using cutting edge technology and agile working practices we really got to push the boundaries on this project.
