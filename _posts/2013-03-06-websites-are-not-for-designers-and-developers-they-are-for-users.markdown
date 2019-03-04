@@ -1,23 +1,23 @@
 ---
 title: Websites are not for designers and developers, they are for users
-date: 2013-03-06 22:05:34 Z
+date: 2013-03-06 22:05:00 Z
 categories:
 - Work
-layout: post
 type: post
 status: publish
 meta:
-  _edit_last: '1'
+  _edit_last: 1
 author:
   login: admin
   email: sushkelly@gmail.com
   display_name: admin
-  first_name: ''
-  last_name: ''
+  first_name: 
+  last_name: 
+layout: post
 ---
 
-<p><a href="http://www.sushkelly.co.uk/old/wp-content/uploads/2013/03/hermitt.jpg"><img class="alignnone size-full wp-image-430" alt="hermitt" src="{{ site.baseurl }}/assets/hermitt.jpg" width="900" height="352" /></a></p>
-<p>I watched a Vimeo post (via <a href="https://twitter.com/jonikorpi" target="_blank">@jonikorpi</a>) today,  <a href="http://vimeo.com/59679411" target="_blank">Hartmut Esslinger - Advice For Designers</a> and realised that there were some parallels in there towards how I think we should approach web design.<!--more--></p>
+<p><img class="alignnone size-full wp-image-430" alt="hermitt" src="{{ site.baseurl }}/assets/hermitt.jpg" width="900" height="352" /></p>
+<p>I watched a Vimeo post (via <a href="https://twitter.com/jonikorpi" target="_blank">@jonikorpi</a>) today,  <a href="http://vimeo.com/59679411" target="_blank">Hartmut Esslinger - Advice For Designers</a> and realised that there were some parallels in there towards how I think we should approach web design.</p><!--more-->
 <p><strong>Trust yourself and tread your own path</strong></p>
 <p>Have the confidence to try your own thing. Don't feel you have to follow the latest trend or en vogue pre-compiler  You may be harbouring the next trend in web design yourself, give it chance to escape.</p>
 <p><strong>Form follows emotion</strong></p>
