@@ -17,7 +17,6 @@ author:
 layout: post
 ---
 
-
 <p><img class="alignnone size-full wp-image-430" alt="hermitt" src="{{ site.baseurl }}/assets/hermitt.jpg" width="900" height="352" /></p>
 <p>I watched a Vimeo post (via <a href="https://twitter.com/jonikorpi" target="_blank">@jonikorpi</a>) today,  <a href="http://vimeo.com/59679411" target="_blank">Hartmut Esslinger - Advice For Designers</a> and realised that there were some parallels in there towards how I think we should approach web design.</p><!--more-->
 <p><strong>Trust yourself and tread your own path</strong></p>
