@@ -253,3 +253,7 @@ If you are currently still using floats, and only dipping into the likes of Flex
 <a href="https://cssgridgarden.com/">https://cssgridgarden.com/</a> - a great game for learning grid.
 
 <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks.com/snippets/css/a-guide-to-flexbox/</a> - a go to resource for all things front end.
+
+#### Credits:
+
+This tutorial was originally written and commissioned for Webdesigner Magazine - Issue 284. 
