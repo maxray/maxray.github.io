@@ -40,6 +40,8 @@ You can see that the html of the page is split into distinct sections using html
 
 <a href="https://github.com/maxray/css-grid-layout">Download the helper files</a>
 
+![Screen Shot 2019-04-05 at 16.01.36.png](/uploads/Screen%20Shot%202019-04-05%20at%2016.01.36.png)
+
 
 #### The Site Header
 
