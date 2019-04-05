@@ -1,6 +1,19 @@
 ---
 title: Back to Basics
-date: 2019-04-05 13:39:00 Z
+categories:
+- Work
+type: post
+status: publish
+thumbnail_image: "/uploads/css-grid.png"
+meta:
+  _edit_last: 1
+author:
+  login: admin
+  email: sushkelly@gmail.com
+  display_name: admin
+  first_name: 
+  last_name: 
+layout: post
 ---
 
 ### Revisit the building blocks of websites and learn how you can create responsive layouts using modern layout techniques.
