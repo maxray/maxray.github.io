@@ -35,6 +35,12 @@ We are going to build a basic web page to include a header with navigation, a he
 
 You can see that the html of the page is split into distinct sections using html5 tags. We also add classes to them as older browsers will not know what they are and render them as a div. Let’s start at the top of the page and work our way through.
 
+#### Helper files
+<a href="http://www.sushkelly.co.uk/css-grid-layout/">See what you will be building.</a>
+
+<a href="https://github.com/maxray/css-grid-layout">Download the helper files</a>
+
+
 #### The Site Header
 
 The header of the site contains a logo and an unordered list for the navigation. We don’t actually need to add any wrappers or containers to lay this out with the logo to the left and the navigation to the right in a single line.
