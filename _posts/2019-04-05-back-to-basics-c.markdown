@@ -1,5 +1,5 @@
 ---
-title: 'Back to Basics: C'
+title: 'Back to Basics'
 date: 2019-04-05 13:39:00 Z
 ---
 
@@ -25,15 +25,55 @@ You can see that the html of the page is split into distinct sections using html
 
 The header of the site contains a logo and an unordered list for the navigation. We don’t actually need to add any wrappers or containers to lay this out with the logo to the left and the navigation to the right in a single line.
 
-``` <header class="header">
+```html
+<header class="header">
 
-<img src="images/logo.png"/>
-<nav>
-<ul class="nav">
-<li><a href="#" class="active">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">The Dogs</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-</header>```
+   <img src="images/logo.png"/>
+   <nav>
+     <ul class="nav">
+       <li><a href="#" class="active">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">The Dogs</a></li>
+       <li><a href="#">Contact</a></li>
+     </ul>
+   </nav>
+ </header>
+ ```
+
+ **Fr - the magic unit**
+
+ We set the header to display grid, then use ‘get-template-columns’ to set 2 columns in the header. We use the fr unit here which is a fractional unit, 1fr would equal the available space in the container.  In this instance we are giving the navigation a slightly smaller area to fill. 
+
+```css
+.header {
+ display:grid;
+ grid-template-columns: 1.5fr 1fr;
+ align-items: center;
+}
+```
+
+**Site Navigation**
+
+Now we target the list of menu items, again we turn the <ul> into a grid container and tell the items inside to auto fit into columns. Here we use minmax to ensure the columns can never be smaller than 100px but if the space is larger they can share the space as 1fr each.
+
+```css
+.nav {
+ display:grid;
+ grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
+ grid-gap:10px;
+ align-items: center;
+}
+```
+**Hero Block**
+
+The next part of the page is the main hero block. Traditionally vertically centering text in a container required all sorts of work arounds. Using grid or flex this is really simple:
+
+```html
+<article>
+     <section class="hero">
+       <h1></h1>
+       <p></p>
+       <a href=""></a>
+     </section>
+   </article>
+```
