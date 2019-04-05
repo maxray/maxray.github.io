@@ -20,6 +20,7 @@ layout: post
 ### Revisit the building blocks of websites and learn how you can create responsive layouts using modern layout techniques.
 
 The last 2-3 years has seen layout move forward in leaps and bounds. Now that these modern techniques have such a consistent result in modern browsers you really can be using them for your production code. This tutorial will show you just how simple it is to create a standard blog style layout using css Grid and Flexbox.
+<!--more-->
 
 First though let’s have a quick recap over the basics of html and why is is really good to try and write semantic code.
 
