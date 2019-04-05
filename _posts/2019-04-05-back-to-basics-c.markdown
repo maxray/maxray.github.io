@@ -1,5 +1,6 @@
 ---
 title: Back to Basics
+date: 2019-04-05 00:00:00 Z
 categories:
 - Work
 type: post
