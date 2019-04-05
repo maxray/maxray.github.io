@@ -25,7 +25,7 @@ You can see that the html of the page is split into distinct sections using html
 
 The header of the site contains a logo and an unordered list for the navigation. We don’t actually need to add any wrappers or containers to lay this out with the logo to the left and the navigation to the right in a single line.
 
-\` <header class="header">
+``` <header class="header">
 
 <img src="images/logo.png"/>
 <nav>
@@ -36,4 +36,4 @@ The header of the site contains a logo and an unordered list for the navigation.
 <li><a href="#">Contact</a></li>
 </ul>
 </nav>
-</header>\`
+</header>```
