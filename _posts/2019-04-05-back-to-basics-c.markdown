@@ -35,7 +35,7 @@ We are going to build a basic web page to include a header with navigation, a he
 
 You can see that the html of the page is split into distinct sections using html5 tags. We also add classes to them as older browsers will not know what they are and render them as a div. Let’s start at the top of the page and work our way through.
 
-**The Site Header**
+#### The Site Header
 
 The header of the site contains a logo and an unordered list for the navigation. We don’t actually need to add any wrappers or containers to lay this out with the logo to the left and the navigation to the right in a single line.
 
@@ -54,7 +54,7 @@ The header of the site contains a logo and an unordered list for the navigation.
  </header>
  ```
 
- **Fr - the magic unit**
+#### Fr - the magic unit
 
  We set the header to display grid, then use ‘get-template-columns’ to set 2 columns in the header. We use the fr unit here which is a fractional unit, 1fr would equal the available space in the container.  In this instance we are giving the navigation a slightly smaller area to fill. 
 
@@ -66,7 +66,7 @@ The header of the site contains a logo and an unordered list for the navigation.
 }
 ```
 
-**Site Navigation**
+#### Site Navigation
 
 Now we target the list of menu items, again we turn the <ul> into a grid container and tell the items inside to auto fit into columns. Here we use minmax to ensure the columns can never be smaller than 100px but if the space is larger they can share the space as 1fr each.
 
@@ -78,7 +78,7 @@ Now we target the list of menu items, again we turn the <ul> into a grid contain
  align-items: center;
 }
 ```
-**Hero Block**
+#### Hero Block
 
 The next part of the page is the main hero block. Traditionally vertically centering text in a container required all sorts of work arounds. Using grid or flex this is really simple:
 
@@ -91,7 +91,7 @@ The next part of the page is the main hero block. Traditionally vertically cente
      </section>
    </article>
 ```
-**Vertical Centering**
+#### Vertical Centering
 
 Aligning on 2 axis is part of the bread and butter of grid, turn the hero container into a grid container and then use align-content (left to right) and justify-content (top to bottom) to position in the center. We are using a vh unit here which will make the hero block 50% of the viewport height. 
 
@@ -106,7 +106,7 @@ Aligning on 2 axis is part of the bread and butter of grid, turn the hero contai
 
 }
 ```
-**Main Content Section**
+#### Main Content Section
 
 The main article also has a block to the right that contains further reading. In order to make this responsive without having to use a media query we switch to flexbox to make the most of its properties. 
 
@@ -117,7 +117,7 @@ The main article also has a block to the right that contains further reading. In
    <aside />
  </article>
  ```
-** A two column view**
+#### A two column view
 
 Set the article to a flex  container, add a little padding to the left and right to make sure the measure of text doesn’t get too long. The flex direction is row so that the section and aside within will sit next to each other when styled. The content is justified to space between so that the text won’t touch up against the aside.
 
@@ -130,7 +130,7 @@ Set the article to a flex  container, add a little padding to the left and right
  padding: 0 5vw 0 5vw;
 }
 ```
-**Responsive without media queries**
+#### Responsive without media queries
 
 The section uses a clever mix of calc and min and max widths to give us effectively a media query but at a container level. When there is enough room the section will take up 70% of the parent, allowing the aside to sit alongside it. By using calc for the width we can return either a huge or tiny width. 
 
@@ -141,7 +141,7 @@ The section uses a clever mix of calc and min and max widths to give us effectiv
  max-width: 100%;
 }
 ```
-**Define a break point**
+#### Define a break point
 
 48em equates to  768px (48 * base font size (16px)) So above 768px the section will be its min width of 70% and below 768 the max width will be used. We do the same for the aside, so in this case it will either take up 25% on big screens or 100% on small. The effect is a responsive breakpoint purely affecting the container. 
 
@@ -152,7 +152,7 @@ The section uses a clever mix of calc and min and max widths to give us effectiv
  max-width: 100%;
 }
 ```
-**Responsive blocks**
+#### Responsive blocks
 
 To create the featured items that run across the page we finally use our first container divs!  
 
@@ -166,7 +166,7 @@ To create the featured items that run across the page we finally use our first c
 </section>
 ```
 
-**Repeat and Autofit**
+#### Repeat and Autofit
 
 For our card list we want to have 4 in a row, although because we are not using any media queries we set our minmax value to 300px which would fit nicely on a small mobile, by using repeat and autofit the browser does the hard work for us and will fit what it can into a row and then start another, this means we can go from 4 through to a single column layout with 1 line of code.
 
@@ -183,7 +183,7 @@ For our card list we want to have 4 in a row, although because we are not using 
 }
 ```
 
-**Create a card layout**
+#### Create a card layout
 
 For the details in the card we switch back to flex, setting the flow to be column so the items flow vertically. Then set the justify-content property to suit, in this case space-evenly works well. Because the a tag in this panel will display block it would stretch the width of the container. Set it to flex-start so that it only takes up the space of it’s content.
 
@@ -199,7 +199,7 @@ For the details in the card we switch back to flex, setting the flow to be colum
 }
 ```
 
-**Style the Footer**
+#### Style the Footer
 
 We are down to the footer already, and will just employ some of the styles you have used earlier on to lay it out. 
 
@@ -216,7 +216,7 @@ We are down to the footer already, and will just employ some of the styles you h
    </ul>
  </footer>
  ```
-**Align the child item**
+#### Align the child item
 
 
 There are three areas in this footer, set your grid columns to repeat 3 at 1 fractional unit each. You could just write **‘ grid-template-columns: 1fr 1fr 1fr ;’** if you prefer. The social icons are going to sit aligned to the right, you can do this by telling the item itself to align right using justify-self. 
@@ -244,16 +244,12 @@ If your css is created using a pre processor like sass then the autoprefixer pac
 
 If you are currently still using floats, and only dipping into the likes of Flex and Grid hopefully this will inspire you to take the plunge. There is loads of great tutorials and articles available:
 
-https://gridbyexample.com/learn/ - Rachel Andrews is at the heart of the development of grid in browsers.
+<a href="https://gridbyexample.com/learn/ https://gridbyexample.com/learn/">gridbyexample.com/learn/</a> - Rachel Andrews is at the heart of the development of grid in browsers.
 
-https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi - Jen Simmons is a designer advocate at Mozilla, their dev tools for Grid are a thing of beauty!
+<a href="https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi">https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi</a> - Jen Simmons is a designer advocate at Mozilla, their dev tools for Grid are a thing of beauty!
 
-Cssgrid.io - A free course by Wes Bos which covers the basics of grid really well.
+<a href="http://Cssgrid.io">Cssgrid.io</a> - A free course by Wes Bos which covers the basics of grid really well.
 
-https://cssgridgarden.com/ - a great game for learning grid.
+<a href="https://cssgridgarden.com/">https://cssgridgarden.com/</a> - a great game for learning grid.
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - a go to resource for all things front end.
-
-
-
-
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks.com/snippets/css/a-guide-to-flexbox/</a> - a go to resource for all things front end.
