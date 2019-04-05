@@ -77,3 +77,169 @@ The next part of the page is the main hero block. Traditionally vertically cente
      </section>
    </article>
 ```
+**Vertical Centering**
+
+Aligning on 2 axis is part of the bread and butter of grid, turn the hero container into a grid container and then use align-content (left to right) and justify-content (top to bottom) to position in the center. We are using a vh unit here which will make the hero block 50% of the viewport height. 
+
+```css
+.hero {
+
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+
+}
+```
+**Main Content Section**
+
+The main article also has a block to the right that contains further reading. In order to make this responsive without having to use a media query we switch to flexbox to make the most of its properties. 
+
+```html
+<article class="main-content">
+   <section/>
+   </section>
+   <aside />
+ </article>
+ ```
+** A two column view**
+
+Set the article to a flex  container, add a little padding to the left and right to make sure the measure of text doesn’t get too long. The flex direction is row so that the section and aside within will sit next to each other when styled. The content is justified to space between so that the text won’t touch up against the aside.
+
+```css
+.main-content {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content:space-between;
+ padding: 0 5vw 0 5vw;
+}
+```
+**Responsive without media queries**
+
+The section uses a clever mix of calc and min and max widths to give us effectively a media query but at a container level. When there is enough room the section will take up 70% of the parent, allowing the aside to sit alongside it. By using calc for the width we can return either a huge or tiny width. 
+
+```css
+.main-content section {
+ min-width: 70%;
+ width: calc((48em - 100%) * 1000);
+ max-width: 100%;
+}
+```
+**Define a break point**
+
+48em equates to  768px (48 * base font size (16px)) So above 768px the section will be its min width of 70% and below 768 the max width will be used. We do the same for the aside, so in this case it will either take up 25% on big screens or 100% on small. The effect is a responsive breakpoint purely affecting the container. 
+
+```css
+.main-content aside {
+ min-width: 25%;
+ width: calc((48em - 100%) * 1000);
+ max-width: 100%;
+}
+```
+**Responsive blocks**
+
+To create the featured items that run across the page we finally use our first container divs!  
+
+```html
+<section class="card-list">
+    <div class="card">
+      <img/>
+      <div class="card-details">
+      </div>
+     </div>
+</section>
+```
+
+**Repeat and Autofit**
+
+For our card list we want to have 4 in a row, although because we are not using any media queries we set our minmax value to 300px which would fit nicely on a small mobile, by using repeat and autofit the browser does the hard work for us and will fit what it can into a row and then start another, this means we can go from 4 through to a single column layout with 1 line of code.
+
+```css
+.card-list {
+ display:grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+}
+
+.card {
+ display: grid;
+ grid-template-columns:  1fr;
+}
+```
+
+**Create a card layout**
+
+For the details in the card we switch back to flex, setting the flow to be column so the items flow vertically. Then set the justify-content property to suit, in this case space-evenly works well. Because the a tag in this panel will display block it would stretch the width of the container. Set it to flex-start so that it only takes up the space of it’s content.
+
+```css
+.card-details {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+}
+
+.card-details a {
+ align-self: flex-start;
+}
+```
+
+**Style the Footer**
+
+We are down to the footer already, and will just employ some of the styles you have used earlier on to lay it out. 
+
+```html
+<footer class="footer">
+   <p/>
+   <nav>
+     <ul class="nav">
+       <li/>
+     </ul>
+   </nav>
+   <ul class="social">
+     <li/>
+   </ul>
+ </footer>
+ ```
+**Align the child item**
+
+
+There are three areas in this footer, set your grid columns to repeat 3 at 1 fractional unit each. You could just write **‘ grid-template-columns: 1fr 1fr 1fr ;’** if you prefer. The social icons are going to sit aligned to the right, you can do this by telling the item itself to align right using justify-self. 
+
+```css
+.footer {
+ display:grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-auto-flow: column;
+ align-items: center;
+}
+
+.social {
+ justify-self: end;
+}
+```
+
+### Things to note
+
+Although this tutorial works well across the big three browsers and modern devices, it hasn’t been tested back to IE. Depending on your project you could use progressive enhancement and serve a simple layout.
+
+If your css is created using a pre processor like sass then the autoprefixer package provides some of the extra prefixes needed for the likes of Edge.
+
+### Further Reading
+
+If you are currently still using floats, and only dipping into the likes of Flex and Grid hopefully this will inspire you to take the plunge. There is loads of great tutorials and articles available:
+
+https://gridbyexample.com/learn/ - Rachel Andrews is at the heart of the development of grid in browsers.
+
+https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi - Jen Simmons is a designer advocate at Mozilla, their dev tools for Grid are a thing of beauty!
+
+Cssgrid.io - A free course by Wes Bos which covers the basics of grid really well.
+
+https://cssgridgarden.com/ - a great game for learning grid.
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - a go to resource for all things front end.
+
+
+
+
