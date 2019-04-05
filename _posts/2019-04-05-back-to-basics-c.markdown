@@ -1,5 +1,5 @@
 ---
-title: 'Back to Basics'
+title: Back to Basics
 date: 2019-04-05 13:39:00 Z
 ---
 
