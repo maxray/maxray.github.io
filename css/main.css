@@ -142,6 +142,17 @@ h5 {
   padding-left: 1rem; }
 
 /**
+* Accessibility
+*/
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+/**
  * Links
  */
 a {
@@ -149,6 +160,9 @@ a {
   a:visited {
     color: #2b2b2b; }
   a:hover {
+    color: #2b2b2b;
+    text-decoration: underline; }
+  a:focus {
     color: #2b2b2b;
     text-decoration: underline; }
 
