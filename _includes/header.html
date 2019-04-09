@@ -1,5 +1,13 @@
  <header>
-   <a class="skip-header hidden" href="#introduction">Skip to Content</a>
+
+    {% if page.url == "/blog/" %}
+    <a class="skip-header hidden" href="#mainStory">Skip to Latest Story</a>
+    
+  {% else %}
+  <a class="skip-header hidden" href="#introduction">Skip to Content</a>
+    
+  {% endif %}
+  
        <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/logo.svg" width="200" alt="Creativity & Code"/></a>
       <nav>
         <ul>
