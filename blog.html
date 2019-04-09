@@ -8,7 +8,7 @@ layout: default
     <article>
         {% assign post = site.posts.first %}
         <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-        <div class="content">
+        <div id="mainStoryContent" class="content">
             <h3><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="35" height="35" alt="Category Icon" /> 
 {% if post.title %}
     {{ post.title }}
