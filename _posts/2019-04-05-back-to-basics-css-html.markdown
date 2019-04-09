@@ -1,5 +1,5 @@
 ---
-title: Back to Basics
+title: Back to Basics - CSS & HTML
 date: 2019-04-05 00:00:00 Z
 categories:
 - Work
@@ -20,6 +20,7 @@ layout: post
 ### Revisit the building blocks of websites and learn how you can create responsive layouts using modern layout techniques.
 
 The last 2-3 years has seen layout move forward in leaps and bounds. Now that these modern techniques have such a consistent result in modern browsers you really can be using them for your production code. This tutorial will show you just how simple it is to create a standard blog style layout using css Grid and Flexbox.
+<!--more-->
 
 First though let’s have a quick recap over the basics of html and why is is really good to try and write semantic code.
 
@@ -39,6 +40,8 @@ You can see that the html of the page is split into distinct sections using html
 <a href="http://www.sushkelly.co.uk/css-grid-layout/">See what you will be building.</a>
 
 <a href="https://github.com/maxray/css-grid-layout">Download the helper files</a>
+
+![Screen Shot 2019-04-05 at 16.01.36.png](/uploads/Screen%20Shot%202019-04-05%20at%2016.01.36.png)
 
 
 #### The Site Header
