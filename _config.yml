@@ -11,6 +11,9 @@ collections:
   products:
     title: Products
     output: true
+  weeknotes:
+    title: Week Notes
+    output: true
   uploads:
     title: Uploads
     output: true

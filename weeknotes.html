@@ -1,0 +1,58 @@
+---
+title: Weeknotes - mainly for me!
+permalink: "/weeknotes/"
+layout: default
+---
+
+   <section id="weeknotes">
+     <!-- <article> -->
+        <!-- {% assign post = site.posts.first %}
+        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+        <div id="mainStoryContent" class="content">
+            <h3><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="35" height="35" alt="Category Icon" /> 
+{% if post.title %}
+    {{ post.title }}
+{% endif %}
+</h1>
+            <p class="post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+            </p>
+            {{ post.excerpt }}
+            <a href="{{ post.url }}" class="cta ">Read the full Article</a>
+        </div> -->
+    <!-- </article>
+</section>
+<section id="introduction"> -->
+    <article>
+        <h1 class="blog-title">Weeknotes</h1>
+        <p>This is mainly a record for me, of what I am doing week to week and anything notable that I should return to and expand via a blog, tutorial or other means.  </p>
+        
+            
+        </ul>
+       <ul class="weeknotes">
+        {%for post in site.weeknotes  %}
+            <li class="aspect-ratio-square">
+                <div>
+                        <time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.weekvibe }}</a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>
+<!-- <section id="pagination">
+    <article>
+        <div>
+            <h3>Previous</h3>
+            <p>{{post.previous.title}}</p>
+            <p><a  class="cta"  href="{{ site.baseurl }}{{post.previous.url}}">Read Post</a></p>
+        </div>
+        {% if post.next %}
+        <div>
+            <h3>Up Next</h3>
+            <p>{{post.next.title}}</p>
+            <p><a  class="cta"  href="{{ site.baseurl }}{{post.next.url}}">Read Post</a></p>
+        </div>
+        {% endif %}
+    </article>
+</section> -->

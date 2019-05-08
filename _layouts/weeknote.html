@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+
+           
+            <section id="weeknotes">
+ <article>
+                       <h1 class="blog-title"> {% if page.title %}
+                            {{ page.title }}
+                        {% endif %}
+                        {% if post.title %}
+                            {{ post.title }}
+                        {% endif %}</h1>
+                        <p class="post-meta">
+                                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                            </p>
+                        {{ content }}
+                           
+                       </ul>
+                      <ul class="weeknotes">
+                       {%for post in site.weeknotes  %}
+                           <li class="aspect-ratio-square">
+                               <div>
+                                       <time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.weekvibe }}</a>
+                               </div>
+                           </li>
+                           {% endfor %}
+                       </ul>
+                   </article>
+               </section>
+               <!-- <section id="pagination">
+                   <article>
+                       <div>
+                           <h3>Previous</h3>
+                           <p>{{post.previous.title}}</p>
+                           <p><a  class="cta"  href="{{ site.baseurl }}{{post.previous.url}}">Read Post</a></p>
+                       </div>
+                       {% if post.next %}
+                       <div>
+                           <h3>Up Next</h3>
+                           <p>{{post.next.title}}</p>
+                           <p><a  class="cta"  href="{{ site.baseurl }}{{post.next.url}}">Read Post</a></p>
+                       </div>
+                       {% endif %}
+                   </article>
+               </section> -->

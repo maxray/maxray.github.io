@@ -55,6 +55,7 @@ $green:#00f66a;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "../_sass/utility",
         "../_sass/base",
         "../_sass/layout",
         "../_sass/print",
