@@ -11,11 +11,11 @@ collections:
   products:
     title: Products
     output: true
-  weeknotes:
-    title: Week Notes
-    output: true
   uploads:
     title: Uploads
+    output: true
+  weeknotes:
+    title: Week Notes
     output: true
 email: sush@creativityandcode.co.uk
 description: 'An Interactive Designer/Developer based in Birmingham. Love anything
