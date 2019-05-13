@@ -1,6 +1,10 @@
 ---
 title: WC 6th May
 date: 2019-05-13 07:59:00 Z
+layout: weeknote
+type: weeknotes
+status: publish
+weekvibe: Good
 ---
 
 Bank Holidays are good when you are employed but not so much when you are freelance! Had planned for this one anyway as it is Megs birthday so enjoyed a proper family day. 
