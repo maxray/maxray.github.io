@@ -1,12 +1,12 @@
 ---
-title: WC 29th April
+title: WC 24th December
 date: 2018-12-29 10:00:00 Z
-layout: weeknote
 type: weeknotes
 status: publish
 weekvibe: Good
 meta:
-  _edit_last: '1'
+  _edit_last: 1
+layout: weeknote
 ---
 
 ## Week commencing 24th December 
