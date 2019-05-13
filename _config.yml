@@ -16,6 +16,10 @@ collections:
     output: true
   weeknotes:
     title: Week Notes
+    layout: weeknote
+    type: weeknotes
+    status: publish
+    weekvibe: Good
     output: true
 email: sush@creativityandcode.co.uk
 description: 'An Interactive Designer/Developer based in Birmingham. Love anything
