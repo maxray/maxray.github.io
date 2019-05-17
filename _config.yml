@@ -18,13 +18,12 @@ collections:
     title: Week Notes
     output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "weeknotes"
-    values:
-      layout: "weeknote"
-      weekvibe:
+- scope:
+    path: ''
+    type: weeknotes
+  values:
+    layout: weeknote
+    weekvibe: 
 email: sush@creativityandcode.co.uk
 description: 'An Interactive Designer/Developer based in Birmingham. Love anything
   on two wheels and have a weakness for anything Orange.
