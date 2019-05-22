@@ -1,6 +1,7 @@
 ---
 title: WC 20th May
 date: 2019-05-22 19:14:00 Z
+weekvibe: Great!
 ---
 
 Feels great to start the week without injury! Lot's to be done as away at the Isle of Man next week for some TT fun. 
