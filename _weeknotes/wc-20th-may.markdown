@@ -4,7 +4,7 @@ date: 2019-05-22 19:14:00 Z
 weekvibe: Great!
 ---
 
-Feels great to start the week without injury! Lot's to be done as away at the Isle of Man next week for some TT fun. 
+### Feels great to start the week without injury! Lot's to be done as away at the Isle of Man next week for some TT fun. 
 
 Had a great kick off meeting with a new client at Sixth Story. They are so open . to our advice and up for tackling the job in nice bite size chunks to get all the functionality nailed down before we go anywhere near design. 
 
