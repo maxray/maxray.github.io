@@ -4,7 +4,7 @@ date: 2019-06-08 17:28:00 Z
 weekvibe: EPIC
 ---
 
-###Feel the imposter syndrome...
+### Feel the imposter syndrome...
 
 Well things have been pretty hectic this week, mainly due to me making commitments to things on top of my freelance and agency work. 
 
