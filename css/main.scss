@@ -48,6 +48,7 @@ $green:#00f66a;
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
+        
     }
 }
 

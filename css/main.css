@@ -1014,6 +1014,10 @@ header nav ul li:nth-child(4):hover {
     #weeknotes .weeknotes li:nth-child(odd) div {
       background-color: #fc1bbe; }
 
+.align-right {
+  float: right;
+  margin: 1rem; }
+
 /**
  * Print Stylesheet 
 * @version         1.0
