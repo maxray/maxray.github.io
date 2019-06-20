@@ -29,6 +29,12 @@ I think it is better, *but* safer is questionable. If everyone rode with a littl
 
 A motorcycle deciding to use the bike lane (I shit you not), moving in on a dropped kerb before cruising down the oncoming lane for 100m or so.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">An interesting commute in on the blue route.. not enough characters in a tweet so going to write a blog post. In the meantime king of the asshats was this fool on his motorcycle 😑 ¯\_(ツ)_/¯
+
+<a href="https://t.co/ZVsDyfy8Do">pic.twitter.com/ZVsDyfy8Do</a></p>&mdash; Sush Kelly (@maxray) <a href="https://twitter.com/maxray/status/1140931675226087424?ref_src=twsrc%5Etfw">June 18, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 A woman blocking the blue route trying to pull onto Bristol Road. In her defence she was well aware and apologetic and made i contact/waved very early. I could still get passed so we exchanged smiles and I skirted round the outside. It is hard to see how motorists will be able to get anyone to give way to them if they remain on the other side of the blue route so I can see why they end up crossing onto it when there are no cyclists. The problem arises when no one lets them out and then a cyclist appears. Now it is more than likely going to end up wuth a flash point.
 
 Someone training for The Tour - well possibly not but going through sections of the Blue route at peleton speed with no slowing down is a silly idea in my book. It is a shared road not a race track. Just becasue you can go a certain speed doesn't mean you should - an expression often directed towards motorists so lets all take note.
