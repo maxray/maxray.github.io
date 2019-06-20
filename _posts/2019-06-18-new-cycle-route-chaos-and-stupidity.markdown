@@ -27,10 +27,9 @@ I think it is better, *but* safer is questionable. If everyone rode with a littl
 
 ### Things I encountered
 
-A motorcycle deciding to use the bike lane (I shit you not), moving in on a dropped kerb before cruising down the oncoming lane for 100m or so.
+A motorcycle deciding to use the bike lane (I shit you not), moving in on a dropped kerb before cruising down the oncoming lane for 100m or so. ¯\_(ツ)_/¯
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">An interesting commute in on the blue route.. not enough characters in a tweet so going to write a blog post. In the meantime king of the asshats was this fool on his motorcycle 😑 ¯\_(ツ)_/¯
-
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">An interesting commute in on the blue route.. not enough characters in a tweet so going to write a blog post. In the meantime king of the asshats was this fool on his motorcycle 😑 
 <a href="https://t.co/ZVsDyfy8Do">pic.twitter.com/ZVsDyfy8Do</a></p>&mdash; Sush Kelly (@maxray) <a href="https://twitter.com/maxray/status/1140931675226087424?ref_src=twsrc%5Etfw">June 18, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
