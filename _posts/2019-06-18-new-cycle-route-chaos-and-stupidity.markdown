@@ -8,19 +8,22 @@ thumbnail_image: "/uploads/bike%20crazy.png"
 
 ### Birmingham has finally got some dedicated cycle routes into the city - does this means peace and harmony between cars, cycles and pedestrians?
 
-Based on my ride into Birmingham today the segregation of cyclists into their own routes hasn't lessened the annoyance of vehicle drivers or made cyclists adere to the rules. It started out so good... I have extended my rides whilst the days are lighter and warmer so had enjoyed a few twisty single track paths before heading through the park to join the A38 blue route into town. 
+Based on my ride into Birmingham today the segregation of cyclists into their own routes hasn't lessened the annoyance of vehicle drivers or made cyclists adere to the rules. It started out so good... I have extended my rides whilst the days are lighter and warmer so had enjoyed a few twisty single track paths before heading through the park to join the A38 blue route into town.
 
 ### Seperated - kind of...
 
 The new cycle route may seperate cyclists from vehicles along what is a very busy stretch of road, however there are numerous points where the routes cross each other with different rights of way. Whilst on the main stretches it was an absolute pleasure riding in, especially through the central tree flanked section near the Nature Center.
 
-The fun ends though once you are thrust back into interaction with the main flow of traffic and I felt really prone navigating these even as someone who cycles daily. It is important for both the cyclist/driver to be extra cautious at these points rather than assuming their right of way and carrying on full pelt. 
+The fun ends though once you are thrust back into interaction with the main flow of traffic and I felt really prone navigating these even as someone who cycles daily. It is important for both the cyclist/driver to be extra cautious at these points rather than assuming their right of way and carrying on full pelt.
 
-Once you get to Bristol St things calm down again and before you know it you are in Hurst St back to sharing the space with all the other commuters. 
+Once you get to Bristol St things calm down again and before you know it you are in Hurst St back to sharing the space with all the other commuters.
 
-### So is it better/safer? 
+![blue-strip.jpg](/uploads/blue-strip.jpg)
+*A beautiful experience compared to battling aloong one of the busiest routes into the city - (Photo - Stu Thompson)*
 
-I think it is better, *but* safer is questionable. If everyone rode with a little caution and thought about their fellow commuters things would be much better but sadly (based on today) the majority were more concerned with getting from A to B by any means possible. 
+### So is it better/safer?
+
+I think it is better, *but* safer is questionable. If everyone rode with a little caution and thought about their fellow commuters things would be much better but sadly (based on today) the majority were more concerned with getting from A to B by any means possible.
 
 ### Things I encountered
 
@@ -31,6 +34,9 @@ A woman blocking the blue route trying to pull onto Bristol Road. In her defence
 Someone training for The Tour - well possibly not but going through sections of the Blue route at peleton speed with no slowing down is a silly idea in my book. It is a shared road not a race track. Just becasue you can go a certain speed doesn't mean you should - an expression often directed towards motorists so lets all take note.
 
 Cyclists ignoring the cycle traffic lights - now this one really irks me. We have finally had some infrastructure put in place for us but well over 50% of the cyclists I saw decided that red did not mean red for them. This sets such a bad precedent and will worsen the relationship with other road users especially if they are sitting in a queue of traffic watching cyclists ignore the road signals.
+
+![pringle.jpg](/uploads/pringle.jpg)
+*The perils of an off even if you are an experienced cyclist are very real - (Photo Stu Thompson)*
 
 Last time I mentioned this on Twitter I had to spend a weekend muting the cycle zealots who piled into me telling me I was wrong becasue when has a cyclist ever killed anyone etc.
 
