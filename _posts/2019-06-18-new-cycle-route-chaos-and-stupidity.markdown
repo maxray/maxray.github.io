@@ -35,7 +35,7 @@ Someone training for The Tour - well possibly not but going through sections of 
 
 Cyclists ignoring the cycle traffic lights - now this one really irks me. We have finally had some infrastructure put in place for us but well over 50% of the cyclists I saw decided that red did not mean red for them. This sets such a bad precedent and will worsen the relationship with other road users especially if they are sitting in a queue of traffic watching cyclists ignore the road signals.
 
-![pringle.jpg](/uploads/pringle.jpg)
+![pringle.jpg](/uploads/pringle.jpg){: .align-right}
 *The perils of an off even if you are an experienced cyclist are very real - (Photo Stu Thompson)*
 
 Last time I mentioned this on Twitter I had to spend a weekend muting the cycle zealots who piled into me telling me I was wrong becasue when has a cyclist ever killed anyone etc.
