@@ -1,6 +1,6 @@
 ---
 title: WC 01 July
-date: 2019-07-08 21:12:00 Z
+date: 2019-07-01 21:12:00 Z
 weekvibe: One for the scrap book
 ---
 
