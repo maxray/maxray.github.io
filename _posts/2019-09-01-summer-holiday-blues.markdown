@@ -26,6 +26,8 @@ Back to the house and my wife leaves for the day, the kids/house are my responsi
 
 Four plates spinning and all is well… oh no actually plate 2 is wobbling as the boy is getting bored - he is currently eating an apple with a chopstick, so I task him with making me some things out of plasticine whilst I get this poster designed. 
 
+![You have watched too much tv!](/uploads/too-much-tv.png)
+
 Poster ticked off my list I realise it’s lunchtime so we re-group and discuss what will happen this afternoon. It is always such a challenge to get a consensus so we agree to leave it until the last time based chore at the doctors is done at 3.30.
 
 #### A scene of devastation
