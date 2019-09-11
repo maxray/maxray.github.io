@@ -6,15 +6,17 @@ categories:
 thumbnail_image: "/uploads/summer-holidays.png"
 ---
 
-### With the kids going back to school the roads are busy again and people lament the rush hour traffic. I however breath a small sigh of relief as some modicum of a routine returns. Although I love my children dearly the summer holidays are 6 weeks of plate spinning and context switching which makes getting anything done feel like an achievement. It occured to me that it is rather like a bootcamp for studio management skills!
+### With the kids going back to school the roads are busy again and people lament the rush hour traffic. I however breath a small sigh of relief as some modicum of a routine returns. 
+
+Although I love my children dearly the summer holidays are 6 weeks of plate spinning and context switching which makes getting anything done feel like an achievement. It occurred to me that it is rather like a bootcamp for studio management skills!
 
 #### An average summer holidays day
 
-My alarm goes off at 5.30am. No I am not going for a run or an early morning gym session - I am getting up to try and make a start on some work. Funnily enough iin term time I have to kick my kids out of bed and drag them kicking and screaming into another day yet in the summer holidays they magically wake by themselves at 7am sometimes earlier. 
+My alarm goes off at 5.30am. No I am not going for a run or an early morning gym session - I am getting up to try and make a start on some work. Funnily enough in term time I have to kick my kids out of bed and drag them kicking and screaming into another day yet in the summer holidays they magically wake by themselves at 7am sometimes earlier. 
 
 I created a to do list the night before, things I really need to get done, but I am aware of the fact that a day in front of a tablet or tv will mean an evening of overly excited children. The list currently sits at 15 things. Some are quick, others I just want to at least make a start.
 
-#### Kettle on, coffee made let’s do this.
+#### Kettle on, coffee made - let's do this.
 
 A good start is hampered by checking my email. Three more items are added to the checklist but fairly quickly I have my office admin done. Invoices raised and payments made I can move onto some project work.
 
@@ -40,4 +42,4 @@ The working day is technically near its end but I still have one or two items on
 
 The house is still a mess and I have just remembered that I was asked to put the washing out when it finished, as I realise my error the door latch goes and my wife returns and is overjoyed to see I have failed in the “one job I gave you”.
 
-Tonight could be a late one but it’s  ok -  we do it all again tomorrow… roll on Autumn Term.
+**Tonight could be a late one but it’s  ok -  we do it all again tomorrow… roll on Autumn Term.**
