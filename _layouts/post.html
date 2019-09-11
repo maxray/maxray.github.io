@@ -45,7 +45,7 @@ layout: default
 <section id="introduction" class="slim">
     <article>
         <h1 class="blog-title">Work and Play</h1>
-        <p>Thoughts on the design industry and other such bits and bobs.Things I do for fun... be it out in the hills, geeking out or drinking beer :) </p>
+        <p>Thoughts on the design industry and other such bits and bobs. Things I do for fun... be it out in the hills, geeking out or drinking beer :) </p>
         <ul class="blog-posts">
             {%for post in site.posts %} {% unless post.next %} {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %}
         </ul>
