@@ -6,7 +6,6 @@ categories:
 thumbnail_image: 
 ---
 
-
 ### With the kids going back to school the roads are busy again and people lament the rush hour traffic. I however breath a small sigh of relief as some modicum of a routine returns. Although I love my children dearly the summer holidays are 6 weeks of plate spinning and context switching which makes getting anything done feel like an achievement. It occured to me that it is rather like a bootcamp for studio management skills!
 
 #### An average summer holidays day
