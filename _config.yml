@@ -51,10 +51,3 @@ jekyll-archives:
     day: "/archive/:year/:month/:day/"
     tag: "/archive/tag/:name/"
     category: "/archive/category/:name/"
-ftp_host: www.sushkelly.co.uk
-ftp_dir: "/public_html/"
-ftp_passive: true
-ftp_port: 21
-ftp_username: maxray
-ftp_password: JHByMW5nZjFlbEQ=
-ftp_secure: false
