@@ -3,7 +3,7 @@ title: Are the summer holidays perfect training for studio management?
 date: 2019-09-01 17:00:00 Z
 categories:
 - Work
-thumbnail_image: 
+thumbnail_image: "/uploads/summer-holidays.png"
 ---
 
 ### With the kids going back to school the roads are busy again and people lament the rush hour traffic. I however breath a small sigh of relief as some modicum of a routine returns. Although I love my children dearly the summer holidays are 6 weeks of plate spinning and context switching which makes getting anything done feel like an achievement. It occured to me that it is rather like a bootcamp for studio management skills!
@@ -24,7 +24,7 @@ My watch pings to remind me that I have a dentist appointment shortly - it’s o
 
 Back to the house and my wife leaves for the day, the kids/house are my responsibility for now. I pop upstairs and child 2 is watching Glee on her laptop in bed. As much as I could achieve more if I left her to it I go toe to toe with the near adolescent child in a battle to get  her up and doing something. She is tasked with cooking us a meal tonight which feels like a genius move though watching her scattering cook books across the living room makes me wonder what the kitchen will look like once she is done. 
 
-Four plates spinning and all is well… oh no actually plate 2 is wobbling as the boy is getting bored, so I task him with making me some things out of plasticine whilst I get this poster designed. 
+Four plates spinning and all is well… oh no actually plate 2 is wobbling as the boy is getting bored - he is currently eating an apple with a chopstick, so I task him with making me some things out of plasticine whilst I get this poster designed. 
 
 Poster ticked off my list I realise it’s lunchtime so we re-group and discuss what will happen this afternoon. It is always such a challenge to get a consensus so we agree to leave it until the last time based chore at the doctors is done at 3.30.
 
