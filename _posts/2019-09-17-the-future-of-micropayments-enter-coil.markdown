@@ -3,7 +3,7 @@ title: The future of micropayments - enter Coil
 date: 2019-09-17 21:29:00 Z
 categories:
 - Work
-thumbnail_image: 
+thumbnail_image: "/uploads/coil-micropayments.png"
 ---
 
 ### Bruce Lawson gave a really great talk at the State of the Browser conference put on by London Web Standards.
