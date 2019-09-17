@@ -11,7 +11,7 @@ thumbnail_image: "/uploads/coil-micropayments.png"
 Bruce was eulogising about a new way of taking micropayments using [Coil](https://twitter.com/Coil), with the intention of it actually becoming a web standard.
 
 I have seen that [Chris Coyier](https://twitter.com/chriscoyier/) and recently [Andy Bell](https://twitter.com/hankchizljaw) have both added it to their sites and the general chatter really got me thinking about how this might affect our browsing experience in the future.
-Coil currently works in Puma browser and only has extensions for Chrome and Firefox, but it is open to sign up for now (in BETA) and has various contributors already on there but things are very much at an early stage.
+Coil currently works in [Puma browser](https://www.pumabrowser.com/) and only has extensions for Chrome and Firefox, but it is open to sign up for now (in BETA) and has various contributors already on there but things are very much at an early stage.
 
 I am still not 100% on how it works during a session or if you leave a page open or in another tab - the docs say:
 
