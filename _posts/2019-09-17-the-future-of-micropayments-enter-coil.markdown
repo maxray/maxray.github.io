@@ -42,4 +42,4 @@ I am super excited to see where this leads and really hope that it is something 
 As it happens In collaboration with Mozilla and Creative Commons, Coil have  announced a $100 million fund to advance #WebMonetization for creators. 
 They will be making  grants ($1K-$100K) to developers & creators who support & promote Web Monetization Majority of the grant money will go to openly licensed software and content.
 
-Read more at https://grantfortheweb.org
+Read more at [https://grantfortheweb.org](https://grantfortheweb.org)
