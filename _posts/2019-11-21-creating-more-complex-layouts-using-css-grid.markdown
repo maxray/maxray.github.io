@@ -38,7 +38,7 @@ So let’s have a look at the design and work out what to do.
 #### The desktop view
 A 2 column overlay with an image, tree icon and then typography also overlaid. Not insanely complex at first glance, but looks can be deceiving.
 
-ADD IMAGES
+![Desktop and mobile views of the design](/uploads/css-grid-layouts-the-aim.png "Desktop and mobile views of the design")
 
 If you were thinking in a Bootstrap way you might think a row and two columns would be great. So let’s see how this would transfer to mobile?
 
