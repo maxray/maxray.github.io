@@ -137,7 +137,7 @@ IMAGE HERE
 
 Once we get to around 768px it is time to start implementing the designers vision for desktop. At this point we start using a 4 column grid and then position the image and the blue div with the tree icon so that they overlap each other. Z-index is applied to sit the blue div behind the image. To create the overlap I have 2 fixed with columns ( 1 and 3) and then the other 2 are fractional widths (fr). The blue box is set to cover columns 1 to 4 and the image 3 to the end. We use -1 to set this although you could set it to 5 in this case. 
 
-** DIAGRAM OF INTENDED LAYOUT AND CODE EXAMPLE **
+![The intended grid layout for desktop view](/uploads/css-grid-layouts-desktop.png "The intended grid layout for desktop view")
 
 Position the secondary header in the same grid column and rows as the image and then make use of the align and justify self  rules that you will no doubt know from using flex.
 
