@@ -194,7 +194,7 @@ There is one part of this design that I haven’t actioned, the designer would l
 
 ### What have we learned?
 
-My aim of this tutorial was to try and open up the possibilities of writing progressive clean code AND making your life as a front-end developer less of a war with the browser and/or your design team. 
+My aim of this tutorial was to try and open up the possibilities of writing progressive clean code **AND** making your life as a front-end developer less of a war with the browser and/or your design team. 
 
 If you are just starting out with CSS Grid I can’t recommend the [Firefox Dev Tools](https://developer.mozilla.org/en-US/docs/Tools) enough, it is so useful for seeing how your grid is reacting to content. You should also follow [Michelle Barker](https://twitter.com/MicheBarks), [Jen Simmons](https://twitter.com/jensimmons), [Rachel Andrew](https://twitter.com/rachelandrew) and  [Andy Bell](https://twitter.com/hankchizljaw) (creator of [every-layout.dev](https://every-layout.dev/)) as they are all great sources of information and tutorials around front-end layout!
 
