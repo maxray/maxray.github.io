@@ -22,7 +22,7 @@ The life of the front-end developer is never boring. Depending on the processes 
 
 How you build sites may also be affected by how you learned to write html/css. If you are lucky enough to have started building websites after the time when floats and clears were used there is a good chance you have started off using some sort of framework such as Bootstrap.
 
-At the agency I freelance for there is an agreement to use the bootstrap grid as a base on builds. It has support from the majority of the developers and means that there is a development standard for people to work to which even though I am not a fan is a good thing. On a recent project though the design was hard to build using this framework and the developers were getting frustrated as it felt they were having to write more and more hacks. The design process had resulted in a different flow of content on mobile which again created issues.
+At the agency I freelance for there is an agreement to use the bootstrap grid as a base on builds. It has support from the majority of the developers and means that there is a development standard for people to work to which (even though I am not a fan of Bootstrap personally) is a good thing. On a recent project though the design was hard to build using this framework and the developers were getting frustrated as it felt they were having to write more and more hacks. The design process had resulted in a different flow of content on mobile which again created issues.
 
 #### The Law of the Instrument
 
