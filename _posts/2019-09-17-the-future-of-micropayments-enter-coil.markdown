@@ -9,6 +9,7 @@ thumbnail_image: "/uploads/coil-micropayments.png"
 ### [Bruce Lawson](https://twitter.com/brucel) gave a really great talk at the State of the Browser conference put on by London Web Standards.
 
 Bruce was eulogising about a new way of taking micropayments using [Coil](https://twitter.com/Coil), with the intention of it actually becoming a web standard.
+<!--more-->
 
 I have seen that [Chris Coyier](https://twitter.com/chriscoyier/) and recently [Andy Bell](https://twitter.com/hankchizljaw) have both added it to their sites and the general chatter really got me thinking about how this might affect our browsing experience in the future.
 Coil currently works in [Puma browser](https://www.pumabrowser.com/) and only has extensions for Chrome and Firefox, but it is open to sign up for now (in BETA) and has various contributors already on there but things are very much at an early stage.
