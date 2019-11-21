@@ -124,7 +124,7 @@ I start be defining a grid of columns and rows to place my content. By using a c
   .grid-section{
         display:grid;
         grid-template-columns: 1rem 1fr 1rem;
-        grid-template-rows: 30px 40px  80px min-content 1fr 100px;
+        grid-template-rows: 30px var(--italic-header)  60px min-content min-content 100px;
     }
 ```
     
