@@ -200,4 +200,4 @@ If you are just starting out with CSS Grid I can’t recommend the [Firefox Dev 
 
 > “Christ son! Use the right tool for the job.” - my Dad
 
-My dad would always say "use the right tool for the job son."through tears as I used his expensive chisels to try and break rocks open to find fossils, sage advice and if the option is there for you to be flexible you might find using grid your perfect tool on your next web build. 
+My dad would always say "use the right tool for the job son." through tears as I used his expensive chisels to try and break rocks open to find fossils, sage advice and if the option is there for you to be flexible you might find using grid your perfect tool on your next web build. 
