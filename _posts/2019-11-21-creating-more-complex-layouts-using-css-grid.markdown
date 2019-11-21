@@ -130,7 +130,14 @@ I start be defining a grid of columns and rows to place my content. By using a c
     
 We can then assign row values to the html items to achieve the mobile layout, note the tree background and the text and button are positioned on the same row and overlay each other rather than the tree div containing the text. This is needed so we can achieve the desktop layout. 
 
-IMAGE HERE
+```css
+.chapter {
+       grid-row:1;
+       grid-column:2;
+       align-self:center;
+    }
+ etc...
+```
 
 #### Wide open plains.. 
 
