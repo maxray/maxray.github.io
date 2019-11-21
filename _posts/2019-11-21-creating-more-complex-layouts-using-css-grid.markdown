@@ -86,7 +86,7 @@ With bootstrap you may end up with something like this:
     </div>
 </div>
 ```
-But because we are focusing on the elements and using a different approach we can reduce this to something like:
+But because we are focusing on the elements and using a different approach we can reduce the amount of base html needed:
 
 ```html
 <section class="grid-section">
