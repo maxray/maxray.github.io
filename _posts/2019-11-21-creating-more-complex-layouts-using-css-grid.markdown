@@ -3,7 +3,7 @@ title: Creating complex layouts using CSS Grid
 date: 2019-11-21 21:29:00 Z
 categories:
 - Work
-thumbnail_image: "/uploads/coil-micropayments.png"
+thumbnail_image: "/uploads/css-grid-layouts-header.png"
 ---
 
 ### This tutorial is for people who have heard of css-grid and are interested to see what it can do or perhaps are not sure how to fit it into their workflow. It is also interesting if you have learnt your layout skills off the back of frameworks such as Bootstrap.
