@@ -102,7 +102,7 @@ But because we are focusing on the elements and using a different approach we ca
 
 Clean simple code which just on its own gives us an output that makes sense. Adding just the simplest of button and font styles and suddenly things are looking tidy.
 
-IMAGES HERE
+![Simple styling gives good results!](/uploads/css-grid-layouts-simple-style.png "Simple styling gives good results!")
 
 So far so good… but this looks nothing like the design I was given, the designer is going to kill me! We will come to that next, but what is good to note here is that you have created a good base to build from. All those people with odd old browsers will be happy you made the effort. :) 
 
