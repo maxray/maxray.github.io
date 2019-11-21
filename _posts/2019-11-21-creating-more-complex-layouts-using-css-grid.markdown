@@ -118,8 +118,7 @@ Like them or not they are super useful so I am going to start with a media query
 
 I start be defining a grid of columns and rows to place my content. By using a custom property for the heading we can set the row to be the same as the chosen font, this will come in useful when we move to desktop size.
 
-
-** VISUAL OF THE INTENDED GRID **
+![Intended mobile grid layout](/uploads/css-grid-layouts-mobile.png "Intended mobile grid layout")
 
 ```css
   .grid-section{
