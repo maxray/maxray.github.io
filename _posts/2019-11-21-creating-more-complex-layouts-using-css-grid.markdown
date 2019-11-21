@@ -8,7 +8,7 @@ thumbnail_image: "/uploads/css-grid-layouts-header.png"
 
 ### This tutorial is for people who have heard of css-grid and are interested to see what it can do or perhaps are not sure how to fit it into their workflow. 
 
-It is also interesting if you have learnt your layout skills off the back of frameworks such as Bootstrap. A basic knowledge of css is good, although you should be able to follow along as we are covering how you approach the build of the page as well as creating it. 
+It is also interesting if you have learnt your layout skills off the back of frameworks such as Bootstrap. A basic knowledge of css is good, although you should be able to follow along as we are covering how you approach the build of the page more so than creating it. 
 
 After completing this tutorial you will be able to approach site builds logically and write clean future proof code rather than using hacks. This tutorial does not cover html/css skills generally but is focused on how you would structure your build and the grid styles used to lay it out. I have not covered fall back styles for browsers that do not support grid so as not to distract from the focus of the tutorial.
 <!--more-->
