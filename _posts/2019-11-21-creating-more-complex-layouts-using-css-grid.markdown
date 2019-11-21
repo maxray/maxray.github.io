@@ -190,7 +190,7 @@ On the left hand side we need to increase the text size of the heading and posit
 
 #### The final tweaks
 
-There is one part of this design that I haven’t actioned, the designer would like the heading to break and the second line be inset from the first. This could be done using spans inside the title - but for me this isn’t ideal, what if the title is controlled by a CMS? I prefer to avoid manipulating titles altogether but if it is essential for the design and the client knows the limitations I would use Javascript at this point to add the spans in and create the visual effect. **include in codepen or link to seperate..  **
+There is one part of this design that I haven’t actioned, the designer would like the heading to break and the second line be inset from the first. This could be done using spans inside the title - but for me this isn’t ideal, what if the title is controlled by a CMS? I prefer to avoid manipulating titles altogether but if it is essential for the design and the client knows the limitations I would use Javascript at this point to add the spans in and create the visual effect. [I created a little function to achieve this which you can find on Codepen](https://codepen.io/maxray/pen/eqvpOO).
 
 ### What have we learned?
 
