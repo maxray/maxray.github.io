@@ -11,6 +11,9 @@ thumbnail_image: "/uploads/coil-micropayments.png"
 A basic knowledge of css is good, although you should be able to follow along as we are covering how you approach the build of the page as well as creating it. 
 
 After completing this tutorial you will be able to approach site builds logically and write clean future proof code rather than using hacks. This tutorial does not cover html/css skills generally but is focused on how you would structure your build and the grid styles used to lay it out. I have not covered fall back styles for browsers that do not support grid so as not to distract from the focus of the tutorial.
+You can follow along using this Codepen for reference:
+
+[https://codepen.io/maxray/pen/eYYXNQb](https://codepen.io/maxray/pen/eYYXNQb)
 
 ### The problem
 
