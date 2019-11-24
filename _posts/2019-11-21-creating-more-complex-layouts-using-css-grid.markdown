@@ -86,7 +86,7 @@ With bootstrap you may end up with something like this:
     </div>
 </div>
 ```
-But because we are focusing on the elements and using a different approach we can reduce this to something like:
+But because we are focusing on the elements and using a different approach we can reduce the amount of base html needed:
 
 ```html
 <section class="grid-section">
@@ -190,12 +190,14 @@ On the left hand side we need to increase the text size of the heading and posit
 
 #### The final tweaks
 
-There is one part of this design that I haven’t actioned, the designer would like the heading to break and the second line be inset from the first. This could be done using spans inside the title - but for me this isn’t ideal, what if the title is controlled by a CMS? I prefer to avoid manipulating titles altogether but if it is essential for the design and the client knows the limitations I would use Javascript at this point to add the spans in and create the visual effect. **include in codepen or link to seperate..  **
+There is one part of this design that I haven’t actioned, the designer would like the heading to break and the second line be inset from the first. This could be done using spans inside the title - but for me this isn’t ideal, what if the title is controlled by a CMS? I prefer to avoid manipulating titles altogether but if it is essential for the design and the client knows the limitations I would use Javascript at this point to add the spans in and create the visual effect. [I created a little function to achieve this which you can find on Codepen](https://codepen.io/maxray/pen/eqvpOO).
 
 ### What have we learned?
 
-My aim of this tutorial was to try and open up the possibilities of writing progressive clean code AND making your life as a front-end developer less of a war with the browser and/or your design team. 
+My aim of this tutorial was to try and open up the possibilities of writing progressive clean code **AND** making your life as a front-end developer less of a war with the browser and/or your design team. 
 
 If you are just starting out with CSS Grid I can’t recommend the [Firefox Dev Tools](https://developer.mozilla.org/en-US/docs/Tools) enough, it is so useful for seeing how your grid is reacting to content. You should also follow [Michelle Barker](https://twitter.com/MicheBarks), [Jen Simmons](https://twitter.com/jensimmons), [Rachel Andrew](https://twitter.com/rachelandrew) and  [Andy Bell](https://twitter.com/hankchizljaw) (creator of [every-layout.dev](https://every-layout.dev/)) as they are all great sources of information and tutorials around front-end layout!
 
-My dad would always say “use the right tool for the job son.” as I used his expensive chisels to try and break a rock open, sage advice and if the option is there for you to be flexible you might find using grid your perfect tool on your next web build. 
+> “Christ son! Use the right tool for the job.” - my Dad
+
+My dad would always say "use the right tool for the job" through tears as I used his expensive chisels to try and break rocks open to find fossils, sage advice and if the option is there for you to be flexible you might find using grid your perfect tool on your next web build. 
