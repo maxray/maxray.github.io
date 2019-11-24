@@ -3,6 +3,7 @@
  */
 .highlight {
     background: #fff;
+    max-width:50vw;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
