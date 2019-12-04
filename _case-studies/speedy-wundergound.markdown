@@ -6,7 +6,7 @@ thumbnail_image: "/uploads/speedy-wunderground-homepage.png"
 thumbnail_article_image1_file: "/uploads/speedy-wunderground-compilations.png"
 thumbnail_article_image2_file: "/uploads/speedy-wunderground-montage.png"
 thumbnail_article_image3_file: "/uploads/speedy-wunderground-early-concept.png"
-thumbnail_article_image4_file: "/uploads/speedy-wunderground-sound-player.png"
+thumbnail_article_image4_file: "/uploads/speedy-wunderground-sound-player-f729d1.png"
 thumbnail_article_image5_file: "/uploads/opportunity-data-types.png"
 thumbnail_article_image6_file: "/uploads/embedded-code.png"
 caption_image1: The yearly compilations follow a simple colour based approach
