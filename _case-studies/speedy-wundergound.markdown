@@ -6,13 +6,13 @@ thumbnail_image: "/uploads/speedy-wunderground-homepage.png"
 thumbnail_article_image1_file: "/uploads/speedy-wunderground-compilations.png"
 thumbnail_article_image2_file: "/uploads/speedy-wunderground-montage.png"
 thumbnail_article_image3_file: "/uploads/speedy-wunderground-early-concept.png"
-thumbnail_article_image4_file: "/uploads/siteleaf-cms.png"
+thumbnail_article_image4_file: "/uploads/speedy-wunderground-sound-player.png"
 thumbnail_article_image5_file: "/uploads/opportunity-data-types.png"
 thumbnail_article_image6_file: "/uploads/embedded-code.png"
-caption_image1: A group workshop underway
-caption_image2: Developing user journeys
-caption_image3: CSS Grid being used in production finally!
-caption_image4: Siteleaf offers a CMS facility for static sites
+caption_image1: The yearly compilations follow a simple colour based approach
+caption_image2: Dan is a big fan of photo montage
+caption_image3: An early concept design and animation experiment
+caption_image4: A sound player so you can sample the tracks before buying
 caption_image5: 'Opportunity Data '
 caption_image6: Embedded code samples
 intro: |-
