@@ -3,9 +3,9 @@ title: Speedy Wunderground - Making music with the Jamstack
 categories:
 - Case Study
 thumbnail_image: "/uploads/openactive-jamstack.png"
-thumbnail_article_image1_file: "/uploads/workshop-at-open-active.png"
-thumbnail_article_image2_file: "/uploads/planning-user-journeys.png"
-thumbnail_article_image3_file: "/uploads/css-grid.png"
+thumbnail_article_image1_file: "/uploads/speedy-wunderground-compilations.png"
+thumbnail_article_image2_file: "/uploads/speedy-wunderground-montage.png"
+thumbnail_article_image3_file: "/uploads/speedy-wunderground-early-concept.png"
 thumbnail_article_image4_file: "/uploads/siteleaf-cms.png"
 thumbnail_article_image5_file: "/uploads/opportunity-data-types.png"
 thumbnail_article_image6_file: "/uploads/embedded-code.png"
