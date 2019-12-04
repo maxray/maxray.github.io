@@ -63,6 +63,9 @@ list2: |
 layout: case-study
 ---
 
+
+{% include images1_2.html %}
+
 ### The Process
 Getting the Information Architecture right was crucial. The existing site had muddled user journeys, and we wanted to ensure that the different types of visitor could get straight to their goals, whether they were developers who'd been asked to use data, a company director deciding whether to jump into publishing, or one of the other many users we have!
 

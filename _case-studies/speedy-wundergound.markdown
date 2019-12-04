@@ -79,6 +79,11 @@ One request was a sound player. My first task was to work out how we could do th
 
 Payment and basket functionality is handled by SnipCart. This is a great solution and can be applied to any type of site. The products template contains data attributes that are passed across when you click on the buy button. All the heavy lifting and credit card details are handled by Snipcart, possibly the easiest e-commerce functionality I have implemented! 
 
+ 
+The addition of Snipcart means there is load more transparency about the sales the site is making. The easy to use admin means the client can add merch or releases with relative ease.
+ 
+The fact that the site is static means no plugin updates or databases to hack so it is a really low maintenance site that is quick to load.
+
 ### Admin for the Client
  
 Jekyll is super easy to build and deploy for a developer but what about Pierre updating his releases going forward? Enter Siteleaf - a solution that gives a standard web based admin interface for static sites. 
@@ -87,13 +92,6 @@ Setting things up is as simple as connecting to a repo and then Siteleaf can und
 
 {% include images5_6.html %}
  
- 
-### In Conclusion
- 
-The addition of Snipcart means there is load more transparency about the sales the site is making. The easy to use admin means the client can add merch or releases with relative ease.
- 
-The fact that the site is static means no plugin updates or databases to hack so it is a really low maintenance site that is quick to load.
-
 
 
 
