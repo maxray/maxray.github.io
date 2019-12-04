@@ -67,12 +67,15 @@ Working with this I came up with a couple of quick Sketch  concepts but got into
 > #### What the client said
 > "I cannot speak more highly of Sush Kelly. He has been essential in the development and maintenance of the Speedy Wunderground website. Incredibly efficient and always there to offer useful creative input where needed. His knowledge and design has given us something we are incredibly proud of, that is easy to use and more importantly - looks great! " - Pierre Hall - Marketing Manager"
 
+
+{% include images3_4.html %}
+
 ### Sound Player
 
 One request was a sound player. My first task was to work out how we could do this with a static site. Using Front matter on releases the Speedy Admin could upload a sample mp3 for any tracks and then I looped through the releases to create a playlist. The player is quite a simple affair using a smattering of javascript.
 
 
-{% include images3_4.html %}
+{% include images5_6.html %}
 
 
 ### Ecommerce
@@ -89,11 +92,3 @@ The fact that the site is static means no plugin updates or databases to hack so
 Jekyll is super easy to build and deploy for a developer but what about Pierre updating his releases going forward? Enter Siteleaf - a solution that gives a standard web based admin interface for static sites. 
 
 Setting things up is as simple as connecting to a repo and then Siteleaf can understand Front matter fields to give a slick UI for the administrator.
-
-{% include images5_6.html %}
- 
-
-
-
-
-
