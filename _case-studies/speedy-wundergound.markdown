@@ -7,14 +7,14 @@ thumbnail_article_image1_file: "/uploads/speedy-wunderground-compilations.png"
 thumbnail_article_image2_file: "/uploads/speedy-wunderground-montage.png"
 thumbnail_article_image3_file: "/uploads/speedy-wunderground-early-concept.png"
 thumbnail_article_image4_file: "/uploads/speedy-wunderground-sound-player-f729d1.png"
-thumbnail_article_image5_file: "/uploads/opportunity-data-types.png"
-thumbnail_article_image6_file: "/uploads/embedded-code.png"
+thumbnail_article_image5_file: "/uploads/speedy-wunderground-ecommerce.png"
+thumbnail_article_image6_file: "/uploads/speedy-wunderground-admin-panel.png"
 caption_image1: The yearly compilations follow a simple colour based approach
 caption_image2: Dan is a big fan of photo montage
 caption_image3: An early concept design and animation experiment
 caption_image4: A sound player so you can sample the tracks before buying
-caption_image5: 'Opportunity Data '
-caption_image6: Embedded code samples
+caption_image5: ecommerce powered by Snipcart, no need to worry about databases
+caption_image6: 'Siteleaf offers a really easy to use cms for static sites! '
 intro: |-
   Speedy Wunderground is a label which started on February 25th 2013 with the release of “I Go Out” by Steve Mason & Emiliana Torrini. Comprising of Dan Carey, Alexis Smith and Pierre Hall, they have been releasing some amazing tunes over the last 6 years.
 
