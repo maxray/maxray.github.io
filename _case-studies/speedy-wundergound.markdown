@@ -18,7 +18,7 @@ caption_image6: 'Siteleaf offers a really easy to use cms for static sites! '
 intro: |-
   Speedy Wunderground is a label which started on February 25th 2013 with the release of “I Go Out” by Steve Mason & Emiliana Torrini. Comprising of Dan Carey, Alexis Smith and Pierre Hall, they have been releasing some amazing tunes over the last 6 years.
 
-   I had the pleasure of building their website way back then and it was most definitely showing its age and lacked any real functionality.. A stop gap that lasted too long you might say.Luckily Speedy Wunderground were keen to revisit their site and improve the ecommerce aspect, they also had a few ideas about previewing tracks. Alexis and the team gave me free reign to define the tech stack and with that in mind I suggested going with an approach that would minimise security issues and updates.
+  I had the pleasure of building their website way back then and it was most definitely showing its age and lacked any real functionality. A stop gap that lasted too long you might say. Luckily Speedy Wunderground were keen to revisit their site and improve the ecommerce aspect, they also had a few ideas about previewing tracks. Alexis and the team gave me a blank page to define the tech stack and with that in mind I suggested going with an approach that would minimise security issues and future updates.
 preamble: "### The Tech Stack\nWe decided to go with Jekyll, a Static Site Generator
   (SSG) using Snip Cart to enable ecommerce and Siteleaf to allow the Speedy Team
   to update new releases themselves. This stack also meant we could host it on Github
@@ -67,22 +67,16 @@ Working with this I came up with a couple of quick Sketch  concepts but got into
 > #### What the client said
 > "I cannot speak more highly of Sush Kelly. He has been essential in the development and maintenance of the Speedy Wunderground website. Incredibly efficient and always there to offer useful creative input where needed. His knowledge and design has given us something we are incredibly proud of, that is easy to use and more importantly - looks great! " - Pierre Hall - Marketing Manager"
 
-
-
-
 ### Sound Player
 
 One request was a sound player. My first task was to work out how we could do this with a static site. Using Front matter on releases the Speedy Admin could upload a sample mp3 for any tracks and then I looped through the releases to create a playlist. The player is quite a simple affair using a smattering of javascript.
 
 {% include images3_4.html %}
 
-
-
 ### Ecommerce
 
 Payment and basket functionality is handled by SnipCart. This is a great solution and can be applied to any type of site. The products template contains data attributes that are passed across when you click on the buy button. All the heavy lifting and credit card details are handled by Snipcart, possibly the easiest e-commerce functionality I have implemented! 
 
- 
 The addition of Snipcart means there is load more transparency about the sales the site is making. The easy to use admin means the client can add merch or releases with relative ease.
  
 The fact that the site is static means no plugin updates or databases to hack so it is a really low maintenance site that is quick to load.
