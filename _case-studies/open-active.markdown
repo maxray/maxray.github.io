@@ -63,7 +63,6 @@ list2: |
 layout: case-study
 ---
 
-
 {% include images1_2.html %}
 
 ### The Process
