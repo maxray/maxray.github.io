@@ -15,21 +15,19 @@ caption_image3: CSS Grid being used in production finally!
 caption_image4: Siteleaf offers a CMS facility for static sites
 caption_image5: 'Opportunity Data '
 caption_image6: Embedded code samples
-intro: "Speedy Wunderground is a label which started on February 25th 2013 with the release of “I Go Out” by Steve Mason & Emiliana Torrini. Comprising of Dan Carey, Alexis Smith and Pierre Hall, they have been releasing some amazing tunes over the last 6 years.\n\n
-I had the pleasure of building their website way back then and it was most definitely showing its age and lacked any real functionality.. A stop gap that lasted too long you might say.Luckily Speedy Wunderground were keen to revisit their site and improve the ecommerce aspect, they also had a few ideas about previewing tracks. Alexis and the team gave me free reign to define the tech stack and with that in mind I suggested going with an approach that would minimise security issues and updates."
-preamble: |
-  ### The Tech Stack
-  We decided to go with Jekyll, a Static Site Generator (SSG) using Snip Cart to enable ecommerce and Siteleaf to allow the Speedy Team to update new releases themselves. This stack also meant we could host it on Github pages allowing easy development updates via Git.
-  
-  With the Stack sorted we worked together to plan out what the site needed.
+intro: |-
+  Speedy Wunderground is a label which started on February 25th 2013 with the release of “I Go Out” by Steve Mason & Emiliana Torrini. Comprising of Dan Carey, Alexis Smith and Pierre Hall, they have been releasing some amazing tunes over the last 6 years.
 
-  * A Basket/Checkout
-  * Responsive for all devices
-  * Shop Categories
-  * The website should be simple and easy to use bioth for the user and the person using the admin.
-  * A music player would be good. 
-  * Focus should still be about the label and each release as we don’t have artists signed to us.
-
+   I had the pleasure of building their website way back then and it was most definitely showing its age and lacked any real functionality.. A stop gap that lasted too long you might say.Luckily Speedy Wunderground were keen to revisit their site and improve the ecommerce aspect, they also had a few ideas about previewing tracks. Alexis and the team gave me free reign to define the tech stack and with that in mind I suggested going with an approach that would minimise security issues and updates.
+preamble: "### The Tech Stack\nWe decided to go with Jekyll, a Static Site Generator
+  (SSG) using Snip Cart to enable ecommerce and Siteleaf to allow the Speedy Team
+  to update new releases themselves. This stack also meant we could host it on Github
+  pages allowing easy development updates via Git.\n\nWith the Stack sorted we worked
+  together to plan out what the site needed.\n\n* A Basket/Checkout\n* Responsive
+  for all devices\n* Shop Categories\n* The website should be simple and easy to use
+  bioth for the user and the person using the admin.\n* A music player would be good.
+  \n* Focus should still be about the label and each release as we don’t have artists
+  signed to us.\n"
 list1: |
   ##### Who was involved?
   * Website - <a href="https://www.speedywunderground.com/" target="_blank">Speedy Wunderground</a>
@@ -45,7 +43,6 @@ list1: |
   * Siteleaf CMS
   * Github Pages
   * Snipcart
-
 list2: |
   * April 2019 - Initial discovery work - understanding  collating the required functionality, agreeing intended work.
 
@@ -54,8 +51,6 @@ list2: |
   * July 2019 - Main site build, addition of ecommerce and sound player.
 
   * September 2019 - Final sign off, launch and training.
-
-
 layout: case-study
 ---
 
