@@ -3,12 +3,12 @@ title: OpenActive - A Case Study
 categories:
 - Case Study
 thumbnail_image: "/uploads/openactive-jamstack.png"
-thumbnail_article_image1: "/uploads/workshop-at-open-active.png"
-thumbnail_article_image2: "/uploads/planning-user-journeys.png"
-thumbnail_article_image3: "/uploads/css-grid.png"
-thumbnail_article_image4: "/uploads/siteleaf-cms.png"
-thumbnail_article_image5: "/uploads/opportunity-data-types.png"
-thumbnail_article_image6: "/uploads/embedded-code.png"
+thumbnail_article_image1_file: "/uploads/workshop-at-open-active.png"
+thumbnail_article_image2_file: "/uploads/planning-user-journeys.png"
+thumbnail_article_image3_file: "/uploads/css-grid.png"
+thumbnail_article_image4_file: "/uploads/siteleaf-cms.png"
+thumbnail_article_image5_file: "/uploads/opportunity-data-types.png"
+thumbnail_article_image6_file: "/uploads/embedded-code.png"
 caption_image1: A group workshop underway
 caption_image2: Developing user journeys
 caption_image3: CSS Grid being used in production finally!
