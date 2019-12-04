@@ -2,7 +2,7 @@
 title: Speedy Wunderground - Making music with the Jamstack
 categories:
 - Case Study
-thumbnail_image: 
+thumbnail_image: "/uploads/speedy-wunderground-homepage.png"
 thumbnail_article_image1_file: "/uploads/speedy-wunderground-compilations.png"
 thumbnail_article_image2_file: "/uploads/speedy-wunderground-montage.png"
 thumbnail_article_image3_file: "/uploads/speedy-wunderground-early-concept.png"
