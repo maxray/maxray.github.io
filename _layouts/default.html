@@ -3,7 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body
+
+  {% if page.url == "/about/" %} class="b-about" {% endif %}
+  {% if page.url == "/blog/" %} class="b-blog"{% endif %}
+  {% if page.url == "/digital-services-for-small-businesses/" %} class="b-services"{% endif %}
+  {% if page.url == "/digital-services-and-project-management/" %} class="b-project-management"{% endif %}
+
+  >
 
     {% include header.html %}
 

@@ -4,6 +4,7 @@ date: 2019-06-18 17:00:00 Z
 categories:
 - Play
 thumbnail_image: "/uploads/bike%20crazy.png"
+layout: post
 ---
 
 ### Birmingham has finally got some dedicated cycle routes into the city - does this means peace and harmony between cars, cycles and pedestrians?

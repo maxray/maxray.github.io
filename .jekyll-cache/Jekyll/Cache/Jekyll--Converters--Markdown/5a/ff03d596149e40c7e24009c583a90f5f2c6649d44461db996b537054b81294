@@ -1,0 +1,14 @@
+I"ú<h3 id="the-tech-stack">The Tech Stack</h3>
+<p>We decided to go with Jekyll, a Static Site Generator (SSG) using Snip Cart to enable ecommerce and Siteleaf to allow the Speedy Team to update new releases themselves. This stack also meant we could host it on Github pages allowing easy development updates via Git.</p>
+
+<p>With the Stack sorted we worked together to plan out what the site needed.</p>
+
+<ul>
+  <li>A Basket/Checkout</li>
+  <li>Responsive for all devices</li>
+  <li>Shop Categories</li>
+  <li>The website should be simple and easy to use bioth for the user and the person using the admin.</li>
+  <li>A music player would be good.</li>
+  <li>Focus should still be about the label and each release as we donâ€™t have artists signed to us.</li>
+</ul>
+:ET

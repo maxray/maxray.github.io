@@ -4,6 +4,7 @@ date: 2019-09-17 21:29:00 Z
 categories:
 - Work
 thumbnail_image: "/uploads/coil-micropayments.png"
+layout: post
 ---
 
 ### [Bruce Lawson](https://twitter.com/brucel) gave a really great talk at the State of the Browser conference put on by London Web Standards.

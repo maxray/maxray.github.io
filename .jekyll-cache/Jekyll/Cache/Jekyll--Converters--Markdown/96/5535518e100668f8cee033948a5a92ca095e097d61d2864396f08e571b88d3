@@ -1,0 +1,234 @@
+I"�O<h3 id="revisit-the-building-blocks-of-websites-and-learn-how-you-can-create-responsive-layouts-using-modern-layout-techniques">Revisit the building blocks of websites and learn how you can create responsive layouts using modern layout techniques.</h3>
+
+<p>The last 2-3 years has seen layout move forward in leaps and bounds. Now that these modern techniques have such a consistent result in modern browsers you really can be using them for your production code. This tutorial will show you just how simple it is to create a standard blog style layout using css Grid and Flexbox.
+<!--more--></p>
+
+<p>First though let’s have a quick recap over the basics of html and why is is really good to try and write semantic code.</p>
+
+<h3 id="its-more-than-just-desktop-and-mobile">It’s more than just desktop and mobile</h3>
+
+<p>Have you noticed the reader mode on Safari and Firefox? It is an icon in the address bar that looks a bit like lined paper. This will render your webpage in a distraction free bare bones mode and is rather like devices such as the apple watch use. With the “internet of things” more and more devices are accessing and displaying web content, possibly the biggest hit of Christmas was interactive speakers like the Amazon echo.</p>
+
+<p>With these in mind and of course the need for your site to work on screen readers and the like, the structure of your page is super important. If you just use &lt;div&gt; for all your containers and even buttons then the devices rendering your code do not know what the context is and so cannot use any of the native functionality or features.</p>
+
+<h3 id="laying-out-our-page"><strong>Laying out our Page</strong></h3>
+
+<p>We are going to build a basic web page to include a header with navigation, a hero block, main article, featured article blocks and a footer. The idea here is to see just how fluid we can make the layout without using media queries or any assistive javascript.</p>
+
+<p>You can see that the html of the page is split into distinct sections using html5 tags. We also add classes to them as older browsers will not know what they are and render them as a div. Let’s start at the top of the page and work our way through.</p>
+
+<h4 id="helper-files">Helper files</h4>
+<p><a href="http://www.sushkelly.co.uk/css-grid-layout/">See what you will be building.</a></p>
+
+<p><a href="https://github.com/maxray/css-grid-layout">Download the helper files</a></p>
+
+<p><img src="/uploads/Screen%20Shot%202019-04-05%20at%2016.01.36.png" alt="Screen Shot 2019-04-05 at 16.01.36.png" /></p>
+
+<h4 id="the-site-header">The Site Header</h4>
+
+<p>The header of the site contains a logo and an unordered list for the navigation. We don’t actually need to add any wrappers or containers to lay this out with the logo to the left and the navigation to the right in a single line.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"header"</span><span class="nt">&gt;</span>
+
+   <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/logo.png"</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;nav&gt;</span>
+     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav"</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+       <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>About<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+       <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>The Dogs<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+       <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+     <span class="nt">&lt;/ul&gt;</span>
+   <span class="nt">&lt;/nav&gt;</span>
+ <span class="nt">&lt;/header&gt;</span>
+</code></pre></div></div>
+
+<h4 id="fr---the-magic-unit">Fr - the magic unit</h4>
+
+<p>We set the header to display grid, then use ‘get-template-columns’ to set 2 columns in the header. We use the fr unit here which is a fractional unit, 1fr would equal the available space in the container.  In this instance we are giving the navigation a slightly smaller area to fill.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.header</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+ <span class="py">grid-template-columns</span><span class="p">:</span> <span class="m">1.5</span><span class="n">fr</span> <span class="m">1</span><span class="n">fr</span><span class="p">;</span>
+ <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="site-navigation">Site Navigation</h4>
+
+<p>Now we target the list of menu items, again we turn the &lt;ul&gt; into a grid container and tell the items inside to auto fit into columns. Here we use minmax to ensure the columns can never be smaller than 100px but if the space is larger they can share the space as 1fr each.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.nav</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+ <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">repeat</span><span class="p">(</span><span class="n">auto-fit</span><span class="p">,</span> <span class="n">minmax</span><span class="p">(</span><span class="m">100px</span> <span class="p">,</span> <span class="m">1</span><span class="n">fr</span><span class="p">));</span>
+ <span class="py">grid-gap</span><span class="p">:</span><span class="m">10px</span><span class="p">;</span>
+ <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h4 id="hero-block">Hero Block</h4>
+
+<p>The next part of the page is the main hero block. Traditionally vertically centering text in a container required all sorts of work arounds. Using grid or flex this is really simple:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;article&gt;</span>
+     <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"hero"</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;h1&gt;&lt;/h1&gt;</span>
+       <span class="nt">&lt;p&gt;&lt;/p&gt;</span>
+       <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;/a&gt;</span>
+     <span class="nt">&lt;/section&gt;</span>
+   <span class="nt">&lt;/article&gt;</span>
+</code></pre></div></div>
+<h4 id="vertical-centering">Vertical Centering</h4>
+
+<p>Aligning on 2 axis is part of the bread and butter of grid, turn the hero container into a grid container and then use align-content (left to right) and justify-content (top to bottom) to position in the center. We are using a vh unit here which will make the hero block 50% of the viewport height.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.hero</span> <span class="p">{</span>
+
+	<span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+    <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+    <span class="nl">justify-content</span><span class="p">:</span> <span class="n">space-between</span><span class="p">;</span>
+    <span class="nl">max-width</span><span class="p">:</span> <span class="m">75vw</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+<h4 id="main-content-section">Main Content Section</h4>
+
+<p>The main article also has a block to the right that contains further reading. In order to make this responsive without having to use a media query we switch to flexbox to make the most of its properties.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">"main-content"</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;section/&gt;</span>
+   <span class="nt">&lt;/section&gt;</span>
+   <span class="nt">&lt;aside</span> <span class="nt">/&gt;</span>
+ <span class="nt">&lt;/article&gt;</span>
+</code></pre></div></div>
+<h4 id="a-two-column-view">A two column view</h4>
+
+<p>Set the article to a flex  container, add a little padding to the left and right to make sure the measure of text doesn’t get too long. The flex direction is row so that the section and aside within will sit next to each other when styled. The content is justified to space between so that the text won’t touch up against the aside.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.main-content</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+ <span class="nl">flex-wrap</span><span class="p">:</span> <span class="n">wrap</span><span class="p">;</span>
+ <span class="nl">flex-direction</span><span class="p">:</span> <span class="n">row</span><span class="p">;</span>
+ <span class="nl">justify-content</span><span class="p">:</span><span class="n">space-between</span><span class="p">;</span>
+ <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">5vw</span> <span class="m">0</span> <span class="m">5vw</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h4 id="responsive-without-media-queries">Responsive without media queries</h4>
+
+<p>The section uses a clever mix of calc and min and max widths to give us effectively a media query but at a container level. When there is enough room the section will take up 70% of the parent, allowing the aside to sit alongside it. By using calc for the width we can return either a huge or tiny width.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.main-content</span> <span class="nt">section</span> <span class="p">{</span>
+ <span class="nl">min-width</span><span class="p">:</span> <span class="m">70%</span><span class="p">;</span>
+ <span class="nl">width</span><span class="p">:</span> <span class="n">calc</span><span class="p">((</span><span class="m">48em</span> <span class="n">-</span> <span class="m">100%</span><span class="p">)</span> <span class="err">*</span> <span class="m">1000</span><span class="p">);</span>
+ <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h4 id="define-a-break-point">Define a break point</h4>
+
+<p>48em equates to  768px (48 * base font size (16px)) So above 768px the section will be its min width of 70% and below 768 the max width will be used. We do the same for the aside, so in this case it will either take up 25% on big screens or 100% on small. The effect is a responsive breakpoint purely affecting the container.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.main-content</span> <span class="nt">aside</span> <span class="p">{</span>
+ <span class="nl">min-width</span><span class="p">:</span> <span class="m">25%</span><span class="p">;</span>
+ <span class="nl">width</span><span class="p">:</span> <span class="n">calc</span><span class="p">((</span><span class="m">48em</span> <span class="n">-</span> <span class="m">100%</span><span class="p">)</span> <span class="err">*</span> <span class="m">1000</span><span class="p">);</span>
+ <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h4 id="responsive-blocks">Responsive blocks</h4>
+
+<p>To create the featured items that run across the page we finally use our first container divs!</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"card-list"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img/&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-details"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+     <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<h4 id="repeat-and-autofit">Repeat and Autofit</h4>
+
+<p>For our card list we want to have 4 in a row, although because we are not using any media queries we set our minmax value to 300px which would fit nicely on a small mobile, by using repeat and autofit the browser does the hard work for us and will fit what it can into a row and then start another, this means we can go from 4 through to a single column layout with 1 line of code.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.card-list</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+ <span class="py">grid-gap</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+ <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">repeat</span><span class="p">(</span><span class="n">auto-fit</span><span class="p">,</span> <span class="n">minmax</span><span class="p">(</span><span class="m">300px</span> <span class="p">,</span> <span class="m">1</span><span class="n">fr</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="nc">.card</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+ <span class="py">grid-template-columns</span><span class="p">:</span>  <span class="m">1</span><span class="n">fr</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="create-a-card-layout">Create a card layout</h4>
+
+<p>For the details in the card we switch back to flex, setting the flow to be column so the items flow vertically. Then set the justify-content property to suit, in this case space-evenly works well. Because the a tag in this panel will display block it would stretch the width of the container. Set it to flex-start so that it only takes up the space of it’s content.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.card-details</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+ <span class="nl">flex-direction</span><span class="p">:</span> <span class="n">column</span><span class="p">;</span>
+ <span class="nl">justify-content</span><span class="p">:</span> <span class="n">space-evenly</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card-details</span> <span class="nt">a</span> <span class="p">{</span>
+ <span class="nl">align-self</span><span class="p">:</span> <span class="n">flex-start</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="style-the-footer">Style the Footer</h4>
+
+<p>We are down to the footer already, and will just employ some of the styles you have used earlier on to lay it out.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"footer"</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;p/&gt;</span>
+   <span class="nt">&lt;nav&gt;</span>
+     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav"</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;li/&gt;</span>
+     <span class="nt">&lt;/ul&gt;</span>
+   <span class="nt">&lt;/nav&gt;</span>
+   <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"social"</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;li/&gt;</span>
+   <span class="nt">&lt;/ul&gt;</span>
+ <span class="nt">&lt;/footer&gt;</span>
+</code></pre></div></div>
+<h4 id="align-the-child-item">Align the child item</h4>
+
+<p>There are three areas in this footer, set your grid columns to repeat 3 at 1 fractional unit each. You could just write <strong>‘ grid-template-columns: 1fr 1fr 1fr ;’</strong> if you prefer. The social icons are going to sit aligned to the right, you can do this by telling the item itself to align right using justify-self.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.footer</span> <span class="p">{</span>
+ <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+ <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">repeat</span><span class="p">(</span><span class="m">3</span><span class="p">,</span> <span class="m">1</span><span class="n">fr</span><span class="p">);</span>
+ <span class="py">grid-auto-flow</span><span class="p">:</span> <span class="n">column</span><span class="p">;</span>
+ <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.social</span> <span class="p">{</span>
+ <span class="py">justify-self</span><span class="p">:</span> <span class="n">end</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="things-to-note">Things to note</h3>
+
+<p>Although this tutorial works well across the big three browsers and modern devices, it hasn’t been tested back to IE. Depending on your project you could use progressive enhancement and serve a simple layout.</p>
+
+<p>If your css is created using a pre processor like sass then the autoprefixer package provides some of the extra prefixes needed for the likes of Edge.</p>
+
+<h3 id="further-reading">Further Reading</h3>
+
+<p>If you are currently still using floats, and only dipping into the likes of Flex and Grid hopefully this will inspire you to take the plunge. There is loads of great tutorials and articles available:</p>
+
+<p><a href="https://gridbyexample.com/learn/ https://gridbyexample.com/learn/">gridbyexample.com/learn/</a> - Rachel Andrews is at the heart of the development of grid in browsers.</p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi">https://www.youtube.com/playlist?list=PLbSquHt1VCf0b43dfLKTrCriXdlZcmgoi</a> - Jen Simmons is a designer advocate at Mozilla, their dev tools for Grid are a thing of beauty!</p>
+
+<p><a href="http://Cssgrid.io">Cssgrid.io</a> - A free course by Wes Bos which covers the basics of grid really well.</p>
+
+<p><a href="https://cssgridgarden.com/">https://cssgridgarden.com/</a> - a great game for learning grid.</p>
+
+<p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks.com/snippets/css/a-guide-to-flexbox/</a> - a go to resource for all things front end.</p>
+
+<h4 id="credits">Credits:</h4>
+
+<p>This tutorial was originally written and commissioned for Webdesigner Magazine - Issue 284.</p>
+:ET

@@ -1,0 +1,194 @@
+I"�V<h3 id="this-tutorial-is-for-people-who-have-heard-of-css-grid-and-are-interested-to-see-what-it-can-do-or-perhaps-are-not-sure-how-to-fit-it-into-their-workflow">This tutorial is for people who have heard of css-grid and are interested to see what it can do or perhaps are not sure how to fit it into their workflow.</h3>
+
+<p>It is also interesting if you have learnt your layout skills off the back of frameworks such as Bootstrap. A basic knowledge of css is good, although you should be able to follow along as we are covering how you approach the build of the page more so than creating it.</p>
+
+<p>After completing this tutorial you will be able to approach site builds logically and write clean future proof code rather than using hacks. This tutorial does not cover html/css skills generally but is focused on how you would structure your build and the grid styles used to lay it out. I have not covered fall back styles for browsers that do not support grid so as not to distract from the focus of the tutorial.</p>
+
+<h4 id="you-can-follow-along-using-this-codepen-for-reference">You can follow along using this Codepen for reference:</h4>
+
+<p><a href="https://codepen.io/maxray/pen/eYYXNQb">https://codepen.io/maxray/pen/eYYXNQb</a></p>
+
+<h3 id="the-problem">The problem</h3>
+
+<p>The life of the front-end developer is never boring. Depending on the processes at your place of work you may be involved in the development of a design - or perhaps you get given mobile and desktop comps to build from. You may even just get given a desktop mockup and have to work the rest out for yourself.</p>
+
+<p>How you build sites may also be affected by how you learned to write html/css. If you are lucky enough to have started building websites after the time when floats and clears were used there is a good chance you have started off using some sort of framework such as Bootstrap.</p>
+
+<p>At the agency I freelance for there is an agreement to use the bootstrap grid as a base on builds. It has support from the majority of the developers and means that there is a development standard for people to work to which (even though I am not a fan of Bootstrap personally) is a good thing.</p>
+
+<p>On a recent project though the design was hard to build using this framework and the developers were getting frustrated as it felt they were having to write more and more hacks. The design process had resulted in a different flow of content on mobile which again created issues.</p>
+
+<h4 id="the-law-of-the-instrument">The Law of the Instrument</h4>
+
+<p>Frameworks dictate the structure of your html. Wrapper divs and nested columns all allow the easy creation of strict grid layouts. It is easy though to form a reliance on a specific tool and at which point a cognitive bias  called ‘The Law of the Hammer’ can cause you to try and use the tooling you know for every eventuality.</p>
+
+<blockquote>
+  <p>“I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.” - Abraham Maslow</p>
+</blockquote>
+
+<p>If you have direction from a designer that breaks this mould and direction from your framework you are left in the middle, trying to force a round peg into a square hole. This does not make for a happy developer, it can feel that you are not pleasing everyone, even yourself as you add in rules to force the layout into shape resulting in technical debt, lots of extra styling and compromises with the design team.</p>
+
+<p>I rebuilt a section of page using clean minimal html and the use of css-grid to show how this painful process could turn into something they could get excited about and ultimately leave everyone feeling satisfied.</p>
+
+<p>So let’s have a look at the design and work out what to do.</p>
+
+<h4 id="the-desktop-view">The desktop view</h4>
+<p>A 2 column overlay with an image, tree icon and then typography also overlaid. Not insanely complex at first glance, but looks can be deceiving.</p>
+
+<p><img src="/uploads/css-grid-layouts-the-aim.png" alt="Desktop and mobile views of the design" title="Desktop and mobile views of the design" /></p>
+
+<p>If you were thinking in a Bootstrap way you might think a row and two columns would be great. So let’s see how this would transfer to mobile?</p>
+
+<h4 id="the-mobile-view">The Mobile View</h4>
+<p>Stacked blocks with content fairly simply laid out. One thing we can see is the stacking order is different - this means the 2 column approach is not going to work unless we can pull the titles out and position them elsewhere… what is a dev to do!?</p>
+
+<h3 id="back-to-basics">Back to Basics</h3>
+
+<p>The first thing I do when approaching a layout is break down the elements that make up the page. Make sure to pay attention to the stacking order on mobile as this is the logical way to lay the page out and will mean less repositioning of elements. It also means that if for some reason your page loses it’s styles then the html that renders will make sense to the user!</p>
+
+<p>The great thing about CSS Grid is that you don’t need loads of wrapper divs in order to build up your layouts. In fact until <a href="https://caniuse.com/#feat=css-subgrid">subgrid ships to the main browsers</a> lots of container divs are a problem as the grid will only affect it’s direct children.</p>
+
+<p>For this page we have 2 heading titles, a photo, some copy, a link and a decorative tree icon background.</p>
+
+<p>With bootstrap you may end up with something like this:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"c-content-block"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row no-gutters flex-column-reverse flex-xl-row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 col-xl-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"c-content-block__text c-content-block__text--blue d-xl-flex justify-content-xl-end"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div&gt;</span>
+                    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"c-section-marker c-section-marker--inline mb-2"</span><span class="nt">&gt;</span>04<span class="nt">&lt;/p&gt;</span>
+                    <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"mb-3 h-italic"</span><span class="nt">&gt;</span>    
+                        <span class="nt">&lt;span&gt;</span>Crafted in<span class="nt">&lt;/span&gt;</span>
+                        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"d-block h-offset"</span><span class="nt">&gt;</span>Scotland...<span class="nt">&lt;/span&gt;</span>
+                    <span class="nt">&lt;/h2&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"h-offset h-width-93"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;p&gt;</span>Our bikes were born in Scotland, and varied terrains push the mind and the body into sharp focus. It is there, on the road or off the beaten track, that we discover more about the world and ourselves.<span class="nt">&lt;/p&gt;</span>
+                        <span class="nt">&lt;p&gt;</span>It is there that we feel at one with all that surround us and experience intensely what it is to feel alive.<span class="nt">&lt;/p&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"c-btn mt-4"</span><span class="nt">&gt;</span>Our story<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 col-xl-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"c-content-block__image d-xl-flex justify-content-start align-items-center"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"h1 h-color-white text-right ml-4 h-zindex-1"</span><span class="nt">&gt;</span>Chosen<span class="nt">&lt;/br&gt;</span>by riders<span class="nt">&lt;/br&gt;</span>everywhere<span class="nt">&lt;/h2&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1353&amp;q=80"</span> <span class="na">alt=</span><span class="s">""</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>But because we are focusing on the elements and using a different approach we can reduce the amount of base html needed:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"grid-section"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"chapter"</span><span class="nt">&gt;</span>04<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"h-italic"</span><span class="nt">&gt;&lt;span&gt;</span>Crafted in<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span&gt;</span>Scotland...<span class="nt">&lt;/span&gt;&lt;/h2&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1353&amp;q=80"</span> <span class="na">alt=</span><span class="s">""</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"h-color-white"</span><span class="nt">&gt;</span>Chosen by riders everywhere<span class="nt">&lt;/h2&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Our bikes were born in Scotland, and varied terrains push the mind and the body into sharp focus. It is there, on the road or off the beaten track, that we discover more about the world and ourselves.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>It is there that we feel at one with all that surround us and experience intensely what it is to feel alive.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"c-btn"</span><span class="nt">&gt;</span>Our story<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tree"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<p>Clean simple code which just on its own gives us an output that makes sense. Adding just the simplest of button and font styles and suddenly things are looking tidy.</p>
+
+<p><img src="/uploads/css-grid-layouts-simple-style.png" alt="Simple styling gives good results!" title="Simple styling gives good results!" /></p>
+
+<p>So far so good… but this looks nothing like the design I was given, the designer is going to kill me! We will come to that next, but what is good to note here is that you have created a good base to build from. All those people with odd old browsers will be happy you made the effort. :)</p>
+
+<h4 id="if-you-have-got-it-flaunt-it">If you have got it flaunt it!</h4>
+
+<p>CSS Grid has a 92% coverage currently, it is only really opera mini and IE/old old browsers that won’t support it. In a second tutorial I will look at what we can do for these poor folks, but as we are the opera mini people are well served which leaves a very small % of people missing out.</p>
+
+<p>We use the @supports rule to contain our styles now, even though browsers make a good fist of dealing with css they do not understand we want to make it clear. It also means we might want to have some normal styles in with the grid styles specifically and @supports will allow us to do that.</p>
+
+<h4 id="i-like-media-queries-there-i-said-it">I like media queries… there I said it.</h4>
+
+<p>Like them or not they are super useful so I am going to start with a media query for 320px and above. This is actually around about an iPhone 5 size and is the minimum I am going to start supplying the designers intended mobile layout.</p>
+
+<p>I start be defining a grid of columns and rows to place my content. By using a custom property for the heading we can set the row to be the same as the chosen font, this will come in useful when we move to desktop size.</p>
+
+<p><img src="/uploads/css-grid-layouts-mobile.png" alt="Intended mobile grid layout" title="Intended mobile grid layout" /></p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nc">.grid-section</span><span class="p">{</span>
+        <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+        <span class="py">grid-template-columns</span><span class="p">:</span> <span class="m">1rem</span> <span class="m">1</span><span class="n">fr</span> <span class="m">1rem</span><span class="p">;</span>
+        <span class="py">grid-template-rows</span><span class="p">:</span> <span class="m">30px</span> <span class="n">var</span><span class="p">(</span><span class="n">--italic-header</span><span class="p">)</span>  <span class="m">60px</span> <span class="n">min-content</span> <span class="n">min-content</span> <span class="m">100px</span><span class="p">;</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<p>We can then assign row values to the html items to achieve the mobile layout, note the tree background and the text and button are positioned on the same row and overlay each other rather than the tree div containing the text. This is needed so we can achieve the desktop layout.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.chapter</span> <span class="p">{</span>
+       <span class="nl">grid-row</span><span class="p">:</span><span class="m">1</span><span class="p">;</span>
+       <span class="nl">grid-column</span><span class="p">:</span><span class="m">2</span><span class="p">;</span>
+       <span class="nl">align-self</span><span class="p">:</span><span class="nb">center</span><span class="p">;</span>
+    <span class="p">}</span>
+ <span class="nt">etc</span><span class="o">...</span>
+</code></pre></div></div>
+
+<h4 id="wide-open-plains">Wide open plains..</h4>
+
+<p>Once we get to around 768px it is time to start implementing the designers vision for desktop. At this point we start using a 4 column grid and then position the image and the blue div with the tree icon so that they overlap each other. Z-index is applied to sit the blue div behind the image. To create the overlap I have 2 fixed with columns ( 1 and 3) and then the other 2 are fractional widths (fr). The blue box is set to cover columns 1 to 4 and the image 3 to the end. We use -1 to set this although you could set it to 5 in this case.</p>
+
+<p><img src="/uploads/css-grid-layouts-desktop.png" alt="The intended grid layout for desktop view" title="The intended grid layout for desktop view" /></p>
+
+<p>Position the secondary header in the same grid column and rows as the image and then make use of the align and justify self  rules that you will no doubt know from using flex.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.h-color-white</span> <span class="p">{</span>
+    <span class="nl">grid-column</span><span class="p">:</span><span class="m">3</span><span class="p">/</span><span class="m">-1</span><span class="p">;</span>
+    <span class="nl">grid-row</span><span class="p">:</span><span class="m">1</span><span class="p">/</span><span class="m">4</span><span class="p">;</span>
+    <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+    <span class="nl">align-self</span><span class="p">:</span><span class="nb">center</span><span class="p">;</span>
+    <span class="py">justify-self</span><span class="p">:</span><span class="nb">center</span><span class="p">;</span>
+    <span class="nl">text-align</span><span class="p">:</span><span class="nb">right</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">2.5rem</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span><span class="m">75%</span><span class="p">;</span>
+  <span class="p">}</span>
+
+<span class="nt">img</span> <span class="p">{</span>
+    <span class="nl">grid-column</span><span class="p">:</span><span class="m">3</span><span class="p">/</span><span class="m">-1</span><span class="p">;</span>
+    <span class="nl">grid-row</span><span class="p">:</span><span class="m">1</span><span class="p">/</span><span class="m">4</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+    <span class="nl">height</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+    <span class="nl">object-fit</span><span class="p">:</span><span class="n">cover</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>On the left hand side we need to increase the text size of the heading and position it to sit on the top of the blue box. By using a custom property we can set the row height to be the same as the font size and in this case by using a viewport width value it will scale and position together! So exciting that you can use both a custom property as a value in the grid properties AND use vw units.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.grid-section</span><span class="p">{</span>
+    <span class="py">--italic-header</span><span class="p">:</span> <span class="m">3vw</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span><span class="n">grid</span><span class="p">;</span>
+    <span class="py">grid-template-columns</span><span class="p">:</span> <span class="m">100px</span> <span class="m">1</span><span class="n">fr</span> <span class="m">100px</span> <span class="m">1</span><span class="n">fr</span><span class="p">;</span>
+    <span class="py">grid-template-rows</span><span class="p">:</span> <span class="m">40px</span> <span class="n">calc</span><span class="p">(</span><span class="n">var</span><span class="p">(</span><span class="n">--italic-header</span><span class="p">)</span> <span class="n">-</span> <span class="m">1px</span><span class="p">)</span>  <span class="m">1</span><span class="n">fr</span> <span class="m">50px</span><span class="p">;</span>
+    <span class="nl">padding-top</span><span class="p">:</span><span class="m">3rem</span><span class="p">;</span>
+  <span class="p">}</span>
+
+<span class="nc">.h-italic</span> <span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span><span class="n">var</span><span class="p">(</span><span class="n">--italic-header</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="the-final-tweaks">The final tweaks</h4>
+
+<p>There is one part of this design that I haven’t actioned, the designer would like the heading to break and the second line be inset from the first. This could be done using spans inside the title - but for me this isn’t ideal, what if the title is controlled by a CMS? I prefer to avoid manipulating titles altogether but if it is essential for the design and the client knows the limitations I would use Javascript at this point to add the spans in and create the visual effect. <a href="https://codepen.io/maxray/pen/eqvpOO">I created a little function to achieve this which you can find on Codepen</a>.</p>
+
+<h3 id="what-have-we-learned">What have we learned?</h3>
+
+<p>My aim of this tutorial was to try and open up the possibilities of writing progressive clean code <strong>AND</strong> making your life as a front-end developer less of a war with the browser and/or your design team.</p>
+
+<p>If you are just starting out with CSS Grid I can’t recommend the <a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox Dev Tools</a> enough, it is so useful for seeing how your grid is reacting to content. You should also follow <a href="https://twitter.com/MicheBarks">Michelle Barker</a>, <a href="https://twitter.com/jensimmons">Jen Simmons</a>, <a href="https://twitter.com/rachelandrew">Rachel Andrew</a> and  <a href="https://twitter.com/hankchizljaw">Andy Bell</a> (creator of <a href="https://every-layout.dev/">every-layout.dev</a>) as they are all great sources of information and tutorials around front-end layout!</p>
+
+<blockquote>
+  <p>“Christ son! Use the right tool for the job.” - my Dad</p>
+</blockquote>
+
+<p>My dad would always say “use the right tool for the job” through tears as I used his expensive chisels to try and break rocks open to find fossils, sage advice and if the option is there for you to be flexible you might find using grid your perfect tool on your next web build.</p>
+:ET

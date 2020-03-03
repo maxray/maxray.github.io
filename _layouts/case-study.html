@@ -2,15 +2,14 @@
 layout: default
 ---
 
-<article id="case-study">
+<!-- <article id="case-study"> -->
     <section id="introduction">
         <h1 class="art-title">{{ page.title }}</h1>
         {{ page.intro  | markdownify}}
     </section>
     <section id="mainStory">
-        <div class="backgroundImage"
-            style="background: url({{page.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-        <div class="preamble">
+        <img src="{{page.thumbnail_image | relative_url}}" alt="{{ page.title }}" class="lead-image"/>
+            <div class="preamble">
             {{ page.preamble | markdownify  }}
         </div>
         <div class="content">
@@ -28,4 +27,4 @@ layout: default
     {% include main-cta.html %}
 
 
-</article>
+<!-- </article> -->

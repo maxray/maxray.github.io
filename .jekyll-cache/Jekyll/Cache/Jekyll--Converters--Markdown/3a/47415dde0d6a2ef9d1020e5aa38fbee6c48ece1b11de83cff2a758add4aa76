@@ -1,0 +1,61 @@
+I"�<div class="images">
+    <figure>
+        <img src="/uploads/workshop-at-open-active.png" alt="" />
+        <figcaption>A group workshop underway</figcaption>
+    </figure>
+    <figure>
+        <img src="/uploads/planning-user-journeys.png" alt="" />
+        <figcaption>Developing user journeys</figcaption>
+    </figure>
+
+</div>
+
+<h3 id="the-process">The Process</h3>
+<p>Getting the Information Architecture right was crucial. The existing site had muddled user journeys, and we wanted to ensure that the different types of visitor could get straight to their goals, whether they were developers who’d been asked to use data, a company director deciding whether to jump into publishing, or one of the other many users we have!</p>
+
+<p>Luckily we had some great data gathered by the OpenActive team that allowed us to really play with structure and journeys through the site to achieve goals.</p>
+
+<p>We made use of Adobe XD to do rapid prototypes whilst the branding was taking place and then as soon as we had a concensus on structure we moved into code.</p>
+
+<p>Pages were planned and content developed seperate to the brand being applied. As soon as we had developed a pattern library of elements the site came to life.</p>
+
+<blockquote>
+  <h4 id="what-the-client-said">What the client said</h4>
+  <p>“Early responses have been really positive. The old website limited us for a long while. Those that have experienced both sites have called the new one a breath of fresh air! The community has been really receptive to the branding too. It brings the energy and innovative value that was missing.”</p>
+</blockquote>
+
+<h3 id="tech-stack">Tech Stack</h3>
+<p>The site embraces some forward thinking technology. It is running on a JAMStack (Javascript, API’s and Markup) platform, Jekyll served on Github Pages with a static site CMS called Siteleaf to allow content editing in browser. The front end itself uses CSS Grid, we had to pull out the stops creating a responsive grid system that included fallbacks for older browsers. The voting mechanism makes use of Firebase to allow functionality far beyond that of a static website. By being a static site there are many benefits such as security, upkeep and portability.</p>
+
+<div class="images">
+    <figure>
+        <img src="/uploads/css-grid.png" alt="" />
+        <figcaption>CSS Grid being used in production finally!</figcaption>
+    </figure>
+    <figure>
+        <img src="/uploads/siteleaf-cms.png" alt="" />
+        <figcaption>Siteleaf offers a CMS facility for static sites</figcaption>
+    </figure>
+
+</div>
+
+<p>By opting for an open, collaborative, and sustainable approach centred on core web technologies like HTML and JavaScript, the goal was to make the site portable, and accessible for newcomers who may work on it later (with other nice side effects like helping performance). There was also a need to think about components and create a pattern library, so the site styles could also be used by community developments.</p>
+
+<div class="images">
+    <figure>
+        <img src="/uploads/opportunity-data-types.png" alt="" />
+        <figcaption>Opportunity Data </figcaption>
+    </figure>
+    <figure>
+        <img src="/uploads/embedded-code.png" alt="" />
+        <figcaption>Embedded code samples</figcaption>
+    </figure>
+
+</div>
+
+<h3 id="site-features">Site Features</h3>
+<p>An introduction into what Open Data is, a search facility to find your booking system and voting to have your system included. The new site contains video explainers, booking system search, voting for new systems, a data map, and interactive code examples.</p>
+
+<p>The site needed to reduce the burden on the core OpenActive team where possible. We needed to tell the story of what it is, and needed a hub for resources and tools for publishers and data users. It had to support a range of audiences including developers wanting to jump straight in, and people who wouldn’t even know what open data is.</p>
+
+:ET

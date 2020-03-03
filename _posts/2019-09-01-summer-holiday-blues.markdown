@@ -4,6 +4,7 @@ date: 2019-09-01 17:00:00 Z
 categories:
 - Work
 thumbnail_image: "/uploads/summer-holidays.png"
+layout: post
 ---
 
 ### With the kids going back to school the roads are busy again and people lament the rush hour traffic. I however breath a small sigh of relief as some modicum of a routine returns. 

@@ -1,0 +1,12 @@
+I"À<h3 id="the-tech-stack">The Tech Stack</h3>
+<p>We decided to go with Wordpress on this build. The client had used  Wordpress before and being non technical was keen to keep things as familiar as possible.</p>
+
+<p>Looking at the sites functionality we required:</p>
+
+<ul>
+  <li>Ability to Enquire about artwork</li>
+  <li>Responsive for all devices</li>
+  <li>Archives for Artists and Work</li>
+  <li>An Exhibitions page to feature work.</li>
+</ul>
+:ET

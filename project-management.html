@@ -5,13 +5,26 @@ thumbnail_image: "/uploads/services.png"
 layout: page
 ---
 
-<section id="service-introduction">
-    <article>
-        <h1 class="services-title">Project Management and User Experience</h1>
+
+<section id="introduction">
+  <article>
+   <h1 class="services-title">Project Management and Website Support Services</h1>
         <p>You might already have a a site but it needs a revamp or maybe you are starting a new project and don't have the right digital skills in house. I can also help you develop briefs for companies to tender against and am available to take on projects or provide retainer based support.</p>
-         
-    </article>
+           <p>If any of these situations seems familiar and you would like some help then <a href="mailto:sush@creativityandcode.co.uk?subject=Project Management Services"
+        class="strike ">let me know</a>.</p>
+
+   
+    {% include main-cta.html %}
+    
+
+   
+  </article>
 </section>
+<section id="mainStory">
+  <article>
+
+
+
 <section id="service-mainStory">
     <article>
         <div class="content">
@@ -19,30 +32,22 @@ layout: page
            <div class="service">  <h4>Our website hasn't been updated in years</h4>
             <p>It is good to take stock of what you have and see how it is performing for your users. A Discovery workshop could help you find some insights and make sure you are making things as easy as possible for customers. So often companies throw everything out and start again every few years, I am a firm believer on keeping the good stuff and building on it... Build, Measure, Learn... and repeat.
             </p>
+            </div>
+            <div class="service">
             <h4>What is a Discovery Workshop?</h4>
             <p>The idea of a Discovery session is to review your website's structure and content and look as your users, to check that you are servicing them correctly.</p>
             <p>Usually I would work with some of the key desicion makers and administrators of the site so we can explore stake holders needs aswell. The end result is a report that can be used as a roadmap for the development of the site. </p>
             </div>
            <div class="service"> <h4>We need to get an agency on board to help us</h4>
             <p>Picking the right agency can be very hard. People are quick to promise the earth to get the gig and sometimes you are not totally sure what you require... otherwise you wouldn't need an agency!</p>
-            <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p>
+            <p>You may be about to put out a tender for the redesign of your site but don't have specific tech skills in house to make sure you get the right agency or even ask for the right thing.</p></div>
+            <div class="service">
             <h4>Digital Consulting</h4>
             <p>I can act as a member of your marketing or design team to help you make the right decisions when hiring a new agency.</p>
             <p>It is good to make an internal audit of  your current site including content, analytics, assets and KPIs. This can all be compiled into a briefing document to make your discussions with agencies as useful as possible.</p></div>
         </div>
     </article>
 </section>
-<section id="read-next">
-        <article>
 
-                {% assign post = site.case-studies.first %}
-                <h3>{{ post.title }}</h3>
-                <img src="{{post.thumbnail_image | relative_url}}"/>
-                 <div class="content">      
-               
-          
-          {{ post.intro | markdownify  }}
-        
-          <a href="{{ post.url }}" class="cta ">Read the full Case Study</a>
-              </div>
+</article>
 </section>

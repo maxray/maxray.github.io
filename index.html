@@ -3,11 +3,11 @@ title: Creativity & Code - Web Design and Digital Services in Birmingham
 layout: default
 ---
 
-<article id="introduction">
+<article class="article" id="introduction">
   <section>
     <h1>I'm Sush, I build websites and manage digital projects.</h1>
     <p>I work with clients small and large and really enjoy anything with an ethical or social mission.</p>
-    <p>I have availability at the moment so <a href="mailto:sush@creativityandcode.co.uk?subject=From the frontpage"
+    <p>I have availability at the moment so please <a href="mailto:sush@creativityandcode.co.uk?subject=From the frontpage"
         class="strike ">get in touch</a> if you have a project I might be able to help you with.</p>
 
   </section>
@@ -25,12 +25,13 @@ layout: default
 
 
 <section id="mainStory">
-  <article>
+  <article class="article">
 
     {% assign post = site.case-studies.last %}
-    <div class="backgroundImage"
+    <!--<div class="backgroundImage"
       style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
-    </div>
+    </div> -->
+    <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title }}" class="lead-image"/>
     <div class="content">
       <h3>{{ post.title }}</h3>
 
@@ -39,7 +40,7 @@ layout: default
       <a href="{{ post.url }}" class="cta ">Read the full Case Study</a>
     </div>
   </article>
-  <article id="my-services" class="content">
+  <article id="my-services" class="article content">
     <div class="my-service">
       <img src="{{ site.baseurl }}/assets/web-design.png" alt="Website Design" />
       <h4>Websites</h4>

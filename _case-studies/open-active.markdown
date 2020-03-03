@@ -1,5 +1,6 @@
 ---
 title: OpenActive - A Case Study
+date: 2019-03-02 08:54:36 Z
 categories:
 - Case Study
 thumbnail_image: "/uploads/openactive-jamstack.png"

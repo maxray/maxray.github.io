@@ -4,6 +4,7 @@ date: 2019-09-08 17:00:00 Z
 categories:
 - Work
 thumbnail_image: "/uploads/weeknotes.png"
+layout: post
 ---
 
 ### I gave it a go, and to start with it seemed really useful, a highish level diary to note things that happened day to day.

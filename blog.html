@@ -7,7 +7,11 @@ layout: default
    <section id="mainStory">
     <article>
         {% assign post = site.posts.first %}
-        <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+  <!-- <div class="backgroundImage" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>-->
+        <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title }}" class="lead-image"/>
+        
+    
+    
         <div id="mainStoryContent" class="content">
             <h3><img src="{{ site.baseurl }}/assets/{{post.categories}}.svg" width="35" height="35" alt="Category Icon" /> 
 {% if post.title %}
@@ -25,9 +29,8 @@ layout: default
 <section id="introduction">
     <article>
         <h1 class="blog-title">Work and Play</h1>
-        <p>Thoughts on the design industry and other bits and bobs. It is so important to mix time on a computer with other activites, be it out in the hills, geeking out or drinking beer :) </p>
-        <p>I also write <a href="/weeknotes/" class="cta ">weeknotes</a> but they are more for my own fun and interest.. but feel free to have a nose! </p>
-        <ul class="blog-posts">
+        <p>Thoughts on the design industry and other bits and bobs. It is so important to mix time on a computer with other activites, be it out in the hills, geeking out or just reading a good book! </p>
+        <ul class="blog-posts"> 
              {%for post in site.posts offset:1 %} {% unless post.next %} {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %}
         </ul>
         <h3>{{ post.date | date: '%Y' }}  <a onclick="toggle_visibility('the{{ post.date | date: '%Y' }}');" class="showTog strike">+</a> </h3> 

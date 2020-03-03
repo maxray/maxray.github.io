@@ -1,4 +1,4 @@
- <header>
+ <header class="header">
 
     {% if page.url == "/blog/" %}
     <a class="skip-header hidden" href="#mainStoryContent">Skip to Latest Story</a>
@@ -9,8 +9,23 @@
   {% endif %}
   
        <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/logo.svg" width="200" alt="Creativity & Code"/></a>
-      <nav>
+      <nav class="nav">
         <ul>
+
+           {% if page.url == "/about/" %}
+          <li  class="active"><a class="page-link  About " href="/about/">About</a></li>
+        {% else %}
+        <li><a class="page-link  About" href="/about/">About</a></li>
+        {% endif %}
+
+  {% if page.url == "/blog/" %}
+          <li  class="active"><a class="page-link  Blog" href="/blog/">Blog</a></li>
+          
+        {% else %}
+        <li><a class="page-link  Blog" href="/blog/">Blog</a></li>
+          
+        {% endif %}
+
          
           {% if page.url == "/services/" %}
           <li  class="active"><a class="page-link  Services" href="/digital-services-for-small-businesses/">Websites</a></li>
@@ -22,16 +37,9 @@
 
           
 
-          {% if page.url == "/blog/" %}
-          <li  class="active"><a class="page-link  Blog" href="/blog/">Blog</a></li>
-          
-        {% else %}
-        <li><a class="page-link  Blog" href="/blog/">Blog</a></li>
-          
-        {% endif %}
+        
 
-
-          {% if page.url == "/case-studies/open-active.html" %}
+          {% if page.url == "/digital-services-and-project-management/" %}
           <li  class="active"><a class="page-link  Art" href="/digital-services-and-project-management/">Project Management</a></li>
           
         {% else %}
@@ -39,10 +47,6 @@
           
         {% endif %}
           
-          {% if page.url == "/about/" %}
-          <li  class="active"><a class="page-link  About " href="/about/">About</a></li>
-        {% else %}
-        <li><a class="page-link  About" href="/about/">About</a></li>
-        {% endif %}
+       
       </nav>
     </header>
