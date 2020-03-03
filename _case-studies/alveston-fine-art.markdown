@@ -1,5 +1,5 @@
 ---
-title: Alveston Fine Art 
+title: Alveston Fine Art
 date: 2020-03-02 08:54:36 Z
 categories:
 - Case Study
@@ -9,7 +9,8 @@ thumbnail_article_image2_file: "/uploads/alveston-concept-2.jpg"
 thumbnail_article_image3_file: "/uploads/alveston-concept-3.jpg"
 thumbnail_article_image4_file: "/uploads/alveston-concept-4.jpg"
 caption_image1: Really quick sketches with notes guided the build.
-caption_image2: Sometimes iterating ideas on paper is the quickest way to get a feel for the layout.
+caption_image2: Sometimes iterating ideas on paper is the quickest way to get a feel
+  for the layout.
 caption_image3: Using CSS Grid to layout the artwork
 caption_image4: A nice responsive pattern swapping from a grid to a scrolling list
 intro: |-
@@ -17,8 +18,16 @@ intro: |-
     Represented artists bring something unique to their craft, striving to change how we look at conventional art forms by using materials in imaginative ways. They all bring fresh methods and ideas to their work.
 
     The brief was to design something interesting, ideally avoiding the super minimal gallery style that often goes with art websites. There was a logo in development and the client was keen to keep a maroon colour used in some existing exhibition graphics and other printed collateral. One big thing was that it was only weeks until a big exhibition so Fergus needed a speedy turn around.
-preamble: "### The Tech Stack\nWe decided to go with Wordpress on this build. The client had used  Wordpress before and being non technical was keen to keep things as familiar as possible.\n\nLooking at the sites functionality we required:\n\n* Ability to Enquire about artwork\n* Responsive
-  for all devices\n* Archives for Artists and Work\n* An Exhibitions page to feature work.\n"
+preamble: |
+  ### The Tech Stack
+  We decided to go with Wordpress on this build. The client had used  Wordpress before and being non technical was keen to keep things as familiar as possible.
+
+  Looking at the sites functionality we required:
+
+  * Ability to Enquire about artwork
+  * Responsive for all devices
+  * Archives for Artists and Work
+  * An Exhibitions page to feature work.
 list1: |
   ##### Who was involved?
   * Website - <a href="https://www.alvestonfineart.com/" target="_blank">Alveston Fine Art Ltd</a>
