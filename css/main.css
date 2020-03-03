@@ -611,13 +611,7 @@ header nav ul li:nth-child(4):hover {
   grid-column: 1/ -1;
   grid-row: 3;
   padding: 2rem; }
-  #service-mainStory .content {
-    display: grid;
-    grid-template-columns: 1fr  1fr;
-    grid-gap: 2rem; }
-    @media only screen and (max-width: 600px) {
-      #service-mainStory .content {
-        grid-template-columns: 1fr; } }
+
 
 #read-next {
   grid-column: 1 /-1; }
