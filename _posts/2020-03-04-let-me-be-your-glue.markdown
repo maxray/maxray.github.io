@@ -12,6 +12,7 @@ layout: post
 As I ponder what is next as one of my main retained client contracts comes to an end I have been trying to work out what I am. 
 
 **TL:DR - Job descriptions seem unreasonable and there are none that suit my skills! **
+<!--more-->
 
 I have worked on both sides of websites over the years. I started out as a web designer before ending up doing just development and then swinging back towards design focusing on the initial wireframes and concepts. As time has gone on I have also done much more client facing and account management roles. When I look at how I fit in within a team it feels like my skills are separated. I have the nouse to develop good functional wireframes and specs but maybe lacking that real flair a pure designer has at conceptualising it. Being able to prototype and develop websites but without the clinical code that a pure developer produces. The ability to run a project but lacking the depth of knowledge and processes of a Project Manager.
 
