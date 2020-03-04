@@ -3,39 +3,34 @@ title: Let me be your glue
 date: 2020-03-04 21:29:00 Z
 categories:
 - Work
-thumbnail_image: "/uploads/bullet-journals.jpg"
+thumbnail_image: "/uploads/glue.jpg"
 layout: post
 ---
 
-### After trying and failing to keep up with 'to do' lists using digital methods I have turned to analogue!
+### This post is partly me wondering why I don’t seem to fit in, a slight moan at how unrealistic job adverts seem to be and a wish for simpler times!
 
-Those who know me will be fully aware that I have a 'thing' for notepads. Moleskin, Rhodia, you name it if it has a nice texture and even better it is dot grid **I AM IN!** :)  My use of notepads however is a bit lame. I tend to write linear notes during the day that have little to no value 24hours after writing them so, despite continuing to do this I have always tried to use digital tools to manage my 'to do' lists properly. 
+As I ponder what is next as one of my main retained client contracts comes to an end I have been trying to work out what I am. 
 
-I was put on to the idea of Bullet Journaling running up to Christmas and a few YouTube videos later my eyes were opened to a whole world of epic journalling. 
+**TL:DR - Job descriptions seem unreasonable and there are none that suit my skills! **
 
-#### You can get pretty into Journalling
+I have worked on both sides of websites over the years. I started out as a web designer before ending up doing just development and then swinging back towards design focusing on the initial wireframes and concepts. As time has gone on I have also done much more client facing and account management roles. When I look at how I fit in within a team it feels like my skills are separated. I have the nouse to develop good functional wireframes and specs but maybe lacking that real flair a pure designer has at conceptualising it. Being able to prototype and develop websites but without the clinical code that a pure developer produces. The ability to run a project but lacking the depth of knowledge and processes of a Project Manager.
 
-So if I had a huge amount of spare time I could imagine me spending hours creating elaborate journal layouts and tracking all sorts of things but I have way too many interests and kids and all that goes with it so I have tried to take enough of the basics to get me by and aim to get some consistency...  the elaborate month pages can come later!
+Don’t get me wrong I am confident in my own ability,  I just don’t think I have a tangible specialism. There is something incredibly liberating about being able to take an idea to a fruition, to plan it, design it - build it and launch it. I have been able to use this ability outside of websites too on community based projects.
 
-[A quick Pinterest search - lot's of inspiration](https://www.pinterest.co.uk/search/pins/?q=bullet%20journal&rs=typed&term_meta[]=bullet%7Ctyped&term_meta[]=journal%7Ctyped)
+As the web matures though there is more and more involved and things become harder to do yourself. Which means the need for more specialists, and to be honest I love working with specialists. Seeing someone who is the master of their craft at work is really inspiring, they can take things that are nearly there and give them the polish to make them great not just good. As much as I hanker after being able to put some Javascript together without getting stuck on a simple gotcha or nailing that design first time I am just not sure I would be happy specialising to a point where I could only do a piece of the jigsaw. 
 
-### What I did
+#### Do we end up with a lack of cohesion between teams? 
 
-The most basic principles are to use an index, a month page to list important things and tasks to be done and then a weekly page that deals with the tasks themselves. You use symbols to signify the type of note, be it a task, event or birthday and then cross them off once complete or move them over to the next day or week if they are postponed.
+I see people working in their own spaces and just doing their part before handing it on, the PM making sure each part is done but only as items on a gantt chart. It feels like having people to help join up the specialists would be a good thing? Maybe that is what a Product Manager kind of does but you don’t seem to get those in an agency environment.
 
-![A simple month list to mark important dates](/uploads/bullet-journals-2.jpg "A simple month list to mark important dates")
+I don’t think I have ever seen a job advert for a hybrid, if anything job descriptions for designers and developers just list “all the things”  and are usually out of step with the position being filled or the salary expectations. You must have 4 years experience of a tech that is 1 year old or know all the latest design platforms inside out.. Just in case. 
 
-### What I think
+####Who am I?
 
-Interestingly it is the act of slowing things down and committing to a medium without an "Undo" shortcut that I think is helping me to manage things better. I take a little time on a Sunday afternoon to draw out the coming week, transfer and cross out tasks and check other sources such as the family calendar for any sneaky events. 
+In reality when I am within a studio I can see my worth. It isn’t my knowledge of CSS or the fact I can optimise an svg it actually comes down to problem solving and communication. I can empathise/talk with clients, designers and developers and I can solve problems right across the project lifecycle. I can float across projects running in the studio helping to fight fires, sense check or give a little art direction.
 
-Trello and the like offer so much functionality that should make managing my tasks a breeze - but the fact it is so instant means thing get forgotten or put off and suddenly another board is condemned to the Trello graveyard of ignored boards.
+You don’t see these as core requirements in jobs though, if you are lucky they might get a mention but more as an afterthought than anything. Tech stacks come and go and unlike  my knowledge of AS3 and Flash which was deleted to make space in my brain long ago I have added and built on my problem solving and communication skills as I have journeyed through my career.
 
-Either way I have managed to stay on top fo things for the first two months of the year... will I be doing a Bullet Journal update in December? **I hope so. **
+I don’t want to have to specialise to stay relevant, but with no obvious roles as the “glue” of a project it seems I will have to. So what is a person who is interested in all aspects of web design to do? 
 
-
-
-
-
-
-
+### Answers on a postcard please! 
