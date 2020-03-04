@@ -11,7 +11,7 @@ layout: post
 
 As I ponder what is next as one of my main retained client contracts comes to an end I have been trying to work out what I am.
 
-**TL:DR - Job descriptions seem unreasonable and there are none that suit my skills!**
+> TL:DR - Job descriptions seem unreasonable and there are none that suit my skills!
 
 <!--more-->
 
