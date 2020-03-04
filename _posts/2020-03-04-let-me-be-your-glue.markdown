@@ -1,6 +1,6 @@
 ---
 title: Let me be your glue
-date: 2020-01-07 21:29:00 Z
+date: 2020-03-04 21:29:00 Z
 categories:
 - Work
 thumbnail_image: "/uploads/bullet-journals.jpg"
