@@ -12,6 +12,7 @@ layout: post
 As I ponder what is next as one of my main retained client contracts comes to an end I have been trying to work out what I am.
 
 **TL:DR - Job descriptions seem unreasonable and there are none that suit my skills!**
+
 <!--more-->
 
 I have worked on both sides of websites over the years. I started out as a web designer before ending up doing just development and then swinging back towards design focusing on the initial wireframes and concepts. As time has gone on I have also done much more client facing and account management roles. When I look at how I fit in within a team it feels like my skills are separated. I have the nouse to develop good functional wireframes and specs but maybe lacking that real flair a pure designer has at conceptualising it. Being able to prototype and develop websites but without the clinical code that a pure developer produces. The ability to run a project but lacking the depth of knowledge and processes of a Project Manager.
@@ -26,7 +27,7 @@ I see people working in their own spaces and just doing their part before handin
 
 I don’t think I have ever seen a job advert for a hybrid, if anything job descriptions for designers and developers just list “all the things”  and are usually out of step with the position being filled or the salary expectations. You must have 4 years experience of a tech that is 1 year old or know all the latest design platforms inside out.. Just in case.
 
-\####Who am I?
+#### Who am I?
 
 In reality when I am within a studio I can see my worth. It isn’t my knowledge of CSS or the fact I can optimise an svg it actually comes down to problem solving and communication. I can empathise/talk with clients, designers and developers and I can solve problems right across the project lifecycle. I can float across projects running in the studio helping to fight fires, sense check or give a little art direction.
 
