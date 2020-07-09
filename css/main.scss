@@ -1,41 +1,39 @@
 @charset "utf-8";
 
-
 // Our variables
-$base-font-family:  'Bitter', serif;
-$heading-font-family: 'Raleway', sans-serif;
-$base-font-size:   25px;
+$base-font-family: "Bitter", serif;
+$heading-font-family: "Raleway", sans-serif;
+$base-font-size: 25px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.5;
+$small-font-size: $base-font-size * 0.5;
 $base-line-height: 1.6;
 
-$spacing-unit:     2rem;
-$nice-black:       #2b2b2b;
-$nice-white:       #fefdfb;
-$text-color:       $nice-black;
+$spacing-unit: 2rem;
+$nice-black: #2b2b2b;
+$nice-white: #fefdfb;
+$text-color: $nice-black;
 
 $background-color: #ff740e;
-$brand-color:      #dd660e;
+$brand-color: #dd660e;
 
-$grey-color:       #828282;
-$orange:		#ff740e;
+$grey-color: #828282;
+$orange: #ff740e;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width: 800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Colors for categories
 
-$pink:#fc1bbe;
-$orange:#ff8168;
-$yellow:#d7fb65;
+$pink: #fc1bbe;
+$orange: #ff8168;
+$yellow: #d7fb65;
 
-$green:#00f66a;
-
+$green: #00f66a;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -45,19 +43,11 @@ $green:#00f66a;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-        
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "../_sass/utility",
-        "../_sass/base",
-        "../_sass/layout",
-        "../_sass/print",
-        "../_sass/syntax-highlighting"
-;
+@import "../_sass/utility", "../_sass/base", "../_sass/layout", "../_sass/print",
+  "../_sass/syntax-highlighting";
