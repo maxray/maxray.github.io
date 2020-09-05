@@ -37,4 +37,8 @@ Felt a little twinge in my right calf so backed off a little during the high int
 
 I hadn't really thought about this at the start but I haven't decided what counts as a run. My feeling is that 1mile sounds like a sensible minimum so will aim for a minimum 2km each time. 
 
+#### Day 6 (Normal run 5.02km in 28.17)
 
+First 5km run since February so am pretty happy with the time. Legs felt tired near the end and laps of the park are pretty boring!! Meg had her best run yet - won't be long before she is waiting for me to catch up. 
+
+Legs pretty tight on getting home, foam roller tonight. 
