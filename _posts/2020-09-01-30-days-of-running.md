@@ -9,7 +9,9 @@ thumbnail_image: "/uploads/run-run-run.png"
 
 ### What could possibly go wrong! After being 16 seconds off my personal goal of a 25min 5k before lockdown I haven't run since. So obviously the best way to jump start things is by trying to run in some form for every day in September.
 
-I like to have some accountability so am documenting each day here even though I might not actually get to post thisat the time (new site in progress).
+I like to have some accountability so am documenting each day here. Come share my pain with me!
+
+<!-- more -->
 
 #### Day 1 (Interval run 3.66km in 26.44)
 
@@ -42,3 +44,9 @@ I hadn't really thought about this at the start but I haven't decided what count
 First 5km run since February so am pretty happy with the time. Legs felt tired near the end and laps of the park are pretty boring!! Meg had her best run yet - won't be long before she is waiting for me to catch up. 
 
 Legs pretty tight on getting home, foam roller tonight. 
+
+#### Day 7 (Gentle run 2.03km in 12.47)
+
+Sunday was always going to be about keeping the sequence going so just a gentle run for the minimum 2km self imposed distance. Legs didn't really fancy it al all although by the end of the run I probably felt better! I had a fancifull idea about plogging (where you pick litter and jog) but couldn't get my head around running with a litter grabber and bag... one for the future I think. 
+
+Back to intervals tomorrow.
