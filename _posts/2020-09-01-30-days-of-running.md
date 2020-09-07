@@ -50,3 +50,7 @@ Legs pretty tight on getting home, foam roller tonight.
 Sunday was always going to be about keeping the sequence going so just a gentle run for the minimum 2km self imposed distance. Legs didn't really fancy it al all although by the end of the run I probably felt better! I had a fancifull idea about plogging (where you pick litter and jog) but couldn't get my head around running with a litter grabber and bag... one for the future I think. 
 
 Back to intervals tomorrow.
+
+#### Day 8 (Interval run 3.67km in 26.17)
+
+Possibly too many Sunday night drinks meant a heavy head today.. but still got out and did the run. Nothing to report, felt rubbish - was rubbish! :)  
