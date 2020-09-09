@@ -58,3 +58,13 @@ Possibly too many Sunday night drinks meant a heavy head today.. but still got o
 #### Day 9 - Meg run (Interval run 3.07km in 26.53)
 
 Wonder if I am getting a bit of a cold? Would be no surprise as the youngest has been back in school for 4 days :/ Felt odd last night and had a bad sleep, keeping contact with Meg on her c25k session so not pushing the distance as she wanted to ensure she got home to get ready for school.
+
+### Third of the way!
+
+#### Day 10 (Interval run 4.12km in 26.12)
+
+I decided the 10th day marks a good point to start eliminating any walking from my intervals. Initially I was doing sprints and walks so today I decided to do the sprints at a speed I would love to be able to run at and then where possible jog the recovery phases. Today the pattern was run - jog - run - walk - run - jog - walk - run etc. Interestingly my highest speed was only 16km/h but I managedmy longest distance on the interval runs so far.
+
+I am sure there a more scientific ways to measure/log my progress but writing it down each day is making me feel accountable.
+
+Probably the first day so far I could have carried on also!
