@@ -45,7 +45,7 @@ First 5km run since February so am pretty happy with the time. Legs felt tired n
 
 Legs pretty tight on getting home, foam roller tonight.
 
-#### Day 7 (Gentle run 2.03km in 12.47)
+#### Day 7 (Recovery run 2.03km in 12.47)
 
 Sunday was always going to be about keeping the sequence going so just a gentle run for the minimum 2km self imposed distance. Legs didn't really fancy it al all although by the end of the run I probably felt better! I had a fancifull idea about plogging (where you pick litter and jog) but couldn't get my head around running with a litter grabber and bag... one for the future I think.
 
@@ -68,3 +68,9 @@ I decided the 10th day marks a good point to start eliminating any walking from 
 I am sure there a more scientific ways to measure/log my progress but writing it down each day is making me feel accountable.
 
 Probably the first day so far I could have carried on also!
+
+#### Day 11 (Recovery run 2.75km)
+
+After some wise words from [@aswifthaIf](https://twitter.com/aswifthaIf) on Twitter I am re jigging my runs a little. The runs with my daughter Tues/Thurs and a Sunday are recovery runs leaving a 5k on a Saturday and intervals Mon/Wed/Fri.
+
+Hoping this will let me improve AND get through the 30 days.
