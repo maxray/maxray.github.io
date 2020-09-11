@@ -74,3 +74,7 @@ Probably the first day so far I could have carried on also!
 After some wise words from [@aswifthaIf](https://twitter.com/aswifthaIf) on Twitter I am re jigging my runs a little. The runs with my daughter Tues/Thurs and a Sunday are recovery runs leaving a 5k on a Saturday and intervals Mon/Wed/Fri.
 
 Hoping this will let me improve AND get through the 30 days.
+
+#### Day 12 (Interval run 4.27km in 26.11) (800m - 03.11)
+
+Well I felt lots stronger than last Friday, and as we worked out an 800m marker yesterday I decided to see what time I could do, perhaps this will be a regular Friday thing?? I was guessing that it would take me about 4mins based on 5min/km pace but managed to do 3minutes 11 which I was pretty pleased about. Seems like a natural target there to try and get sub 3 by the end of the month. 
