@@ -77,4 +77,14 @@ Hoping this will let me improve AND get through the 30 days.
 
 #### Day 12 (Interval run 4.27km in 26.11) (800m - 03.11)
 
-Well I felt lots stronger than last Friday, and as we worked out an 800m marker yesterday I decided to see what time I could do, perhaps this will be a regular Friday thing?? I was guessing that it would take me about 4mins based on 5min/km pace but managed to do 3minutes 11 which I was pretty pleased about. Seems like a natural target there to try and get sub 3 by the end of the month. 
+Well I felt much stronger than last Friday, and as we worked out an 800m marker yesterday I decided to see what time I could do, perhaps this will be a regular Friday thing?? I was guessing that it would take me about 4mins based on 5min/km pace but managed to do 3minutes 11 which I was pretty pleased about. Seems like a natural target there to try and get sub 3 by the end of the month. 
+
+Legs felt good and still having no issue getting out of bed to do it each morning. I wonder if it having a positive impact on my body, should have weighed myself  or done photos before and after! This man ran for 30 days - you won't believe what happened! :D 
+
+#### Day 13 (Normal run 5.03km in 27.34)
+
+Saturday came round quickly and so it was into the park for Meg to complete week 3 of her c25k and me do a solid 5k. My average pace was 5.29 so quite a bit to shave off to get near 25mins and had to stop to answer my phone during lap 4. Still it is nearly a minute improvement on last week. 
+
+Left leg pretty tight at end so will be dusting off the foam roller again tonight - I find it really uncomfortable touse but it does seem to help. 
+
+
