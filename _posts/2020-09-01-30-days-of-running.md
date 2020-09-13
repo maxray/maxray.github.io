@@ -89,6 +89,6 @@ Left leg pretty tight at end so will be dusting off the foam roller again tonigh
 
 #### Day 14 (Recovery run 4.23km in 26.38)
 
-Sunday is a day of rest and as such i had set out only to do the minimum 2km to count as a "run". However in a surprising turn of events I thoroughly enjoyed todays run! Did not expect that at all and just stuck on some Jon Hopkins instead of drum and bass so I wasn't tempted to run at a cadence and just ambled along. Worked out at around a 6.15/km pace and I could have just carried on, onlty stopping because I still have 15 days to go and I was told days 18-21 are the toughest... 
+Sunday is a day of rest and as such I had set out only to do the minimum 2km to count as a "run". However in a surprising turn of events I thoroughly enjoyed todays run! Did not expect that at all and just stuck on some Jon Hopkins instead of drum and bass so I wasn't tempted to run at a cadence and just ambled along. Worked out at around a 6.15/km pace and I could have just carried on, onlty stopping because I still have 15 days to go and I was told days 18-21 are the toughest... 
 
 
