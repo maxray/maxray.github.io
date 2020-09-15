@@ -94,3 +94,8 @@ Sunday is a day of rest and as such I had set out only to do the minimum 2km to 
 #### Day 15 (Interval run 3.81km in 26.14)
 
 As Jon Bon Jovi would say.. "Whoooaaa we're half way there." And indeed day 15 arrived and sucked! Tight left calf which I think happened becasue tender left ankle... either way need to address that or it could become a problem. The week begins! 
+
+#### Day 16 (Recovery run 3.40km in 27.46)
+
+Proud of Meg today - her c25k ramps up in week 4 so you run more than you walk. Was great to run along with her and also a big moment as week 4 is where she gave up last time she tried it. Forgot to use the foam roller last night and my calves felt really heavy. Going to set myself an alarm to do it tonight. 
+
