@@ -11,7 +11,7 @@ thumbnail_image: "/uploads/run-run-run.png"
 
 I like to have some accountability so am documenting each day here. Come share my pain with me!
 
-<!-- more -->
+<!--more-->
 
 #### Day 1 (Interval run 3.66km in 26.44)
 

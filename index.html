@@ -11,22 +11,15 @@ layout: default
       enjoy anything with an ethical or social mission.
     </p>
     <p>
-      I have availability from August so please
-      <a
-        href="mailto:sush@creativityandcode.co.uk?subject=From the frontpage"
-        class="strike"
-        >get in touch</a
-      >
+      I have availability from October so please
+      <a href="mailto:sush@creativityandcode.co.uk?subject=From the frontpage" class="strike">get in touch</a>
       if you have a project coming up that I might be able to help you with.
     </p>
   </section>
   {% assign work = site.posts %} {% for post in work limit:1 %}
   <!-- <a href="{{ post.url }}" > -->
   <section class="profile__pic" style>
-    <img
-      src="{{ site.baseurl }}/assets/tapes.svg"
-      alt="It's Sush, looking awkward as normal"
-    />
+    <img src="{{ site.baseurl }}/assets/tapes.svg" alt="It's Sush, looking awkward as normal" />
   </section>
   <!-- </a> -->
   {% endfor %} {% include main-cta.html %}
@@ -38,11 +31,7 @@ layout: default
     <!--<div class="backgroundImage"
       style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;">
     </div> -->
-    <img
-      src="{{post.thumbnail_image | relative_url}}"
-      alt="{{ post.title }}"
-      class="lead-image"
-    />
+    <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title }}" class="lead-image" />
     <div class="content">
       <h3>{{ post.title }}</h3>
 
@@ -53,10 +42,7 @@ layout: default
   </article>
   <article id="my-services" class="article content">
     <div class="my-service">
-      <img
-        src="{{ site.baseurl }}/assets/web-design.png"
-        alt="Website Design"
-      />
+      <img src="{{ site.baseurl }}/assets/web-design.png" alt="Website Design" />
       <h4>Websites</h4>
       <p>
         I can design and build you a website ensuring that it will fit your
@@ -67,15 +53,10 @@ layout: default
         choice of CMS. Quite alot of people end up choosing Wordpress for a
         variety of reasons, but there are lots of other ways to reach your goal.
       </p>
-      <a href="/digital-services-for-small-businesses/" class="cta"
-        >Learn more about Websites</a
-      >
+      <a href="/digital-services-for-small-businesses/" class="cta">Learn more about Websites</a>
     </div>
     <div class="my-service">
-      <img
-        src="{{ site.baseurl }}/assets/project-management.png"
-        alt="Project Management"
-      />
+      <img src="{{ site.baseurl }}/assets/project-management.png" alt="Project Management" />
       <h4>Project Management</h4>
       <p>
         It is easier to engage a design agency on a website rebuild if you have
@@ -86,9 +67,7 @@ layout: default
         with their digital projects. There is a great deal you can do yourself
         before you go out to get a quote.
       </p>
-      <a href="/digital-services-and-project-management/" class="cta"
-        >Learn more about Project Management</a
-      >
+      <a href="/digital-services-and-project-management/" class="cta">Learn more about Project Management</a>
     </div>
   </article>
 </section>
