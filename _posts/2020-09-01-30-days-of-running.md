@@ -99,3 +99,7 @@ As Jon Bon Jovi would say.. "Whoooaaa we're half way there." And indeed day 15 a
 
 Proud of Meg today - her c25k ramps up in week 4 so you run more than you walk. Was great to run along with her and also a big moment as week 4 is where she gave up last time she tried it. Forgot to use the foam roller last night and my calves felt really heavy. Going to set myself an alarm to do it tonight. 
 
+#### Day 17 (Interval run 4.47km in 27.06)
+
+Grr.. left calf still a bit tight despite using a roller last night.. going to have to go at it again tonight and make sure I take it easy on the recovery run tomorrow. Last couple of days have been a slight effort to get up, not sure if that is the weather or just hitting the midst of the 30 day challenge. Either way am getting close to the 10 day count down. 
+
