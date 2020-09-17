@@ -103,3 +103,9 @@ Proud of Meg today - her c25k ramps up in week 4 so you run more than you walk. 
 
 Grr.. left calf still a bit tight despite using a roller last night.. going to have to go at it again tonight and make sure I take it easy on the recovery run tomorrow. Last couple of days have been a slight effort to get up, not sure if that is the weather or just hitting the midst of the 30 day challenge. Either way am getting close to the 10 day count down. 
 
+#### Day 18 (Recovery run 3.22km in 27.58)
+
+The recovery runs are becoming so enjoyable watching Meg progress through the c25k program. My left calf was still feeling tight, though it felt it wasn't helped by running a really slow pace - I was still trying to keep to my music cadence so it was like running on the spot. 
+
+Edging up to 2/3 through the month now! 
+
