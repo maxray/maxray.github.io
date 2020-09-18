@@ -109,3 +109,9 @@ The recovery runs are becoming so enjoyable watching Meg progress through the c2
 
 Edging up to 2/3 through the month now! 
 
+#### Day 19 (Interval run 4.54km in 26.16)
+
+Best feeling Friday run yet. Calf felt ok again which was good and I had energy to push throughout the run. 
+
+Looking back I ran just under 1km further on this 3rd Friday Interval Run than I did on the 1st one. A decent improvement!
+
