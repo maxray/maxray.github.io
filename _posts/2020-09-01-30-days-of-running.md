@@ -115,3 +115,6 @@ Best feeling Friday run yet. Calf felt ok again which was good and I had energy 
 
 Looking back I ran just under 1km further on this 3rd Friday Interval Run than I did on the 1st one. A decent improvement!
 
+#### Day 20 (Recovery run 3.44km in 31.00)
+
+Took it easy today rather than doing a 5k run and just enjoyed watching Meg break her personal barrier by finishing her 4 week block of c25k. She even had a bit in her to go as fast as she could for the last minute. 
