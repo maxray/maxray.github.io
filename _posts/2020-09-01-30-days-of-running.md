@@ -118,3 +118,9 @@ Looking back I ran just under 1km further on this 3rd Friday Interval Run than I
 #### Day 20 (Recovery run 3.44km in 31.00)
 
 Took it easy today rather than doing a 5k run and just enjoyed watching Meg break her personal barrier by finishing her 4 week block of c25k. She even had a bit in her to go as fast as she could for the last minute. 
+
+#### Day 21 (Normal run 5.02km in 27.53)
+
+I was going to go for a longer slow pace run today - but we are meant to be going for a walk in the hills later so decided to go faster and shorter. A couple of slower km's whilst admiring the new signage for the pilot LTN by us meant I missed out on my fastest time this month but it is alllll good. :) 
+
+Three weeks down and the countdown from 10 has begun! 
