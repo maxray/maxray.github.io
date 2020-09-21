@@ -124,3 +124,7 @@ Took it easy today rather than doing a 5k run and just enjoyed watching Meg brea
 I was going to go for a longer slow pace run today - but we are meant to be going for a walk in the hills later so decided to go faster and shorter. A couple of slower km's whilst admiring the new signage for the pilot LTN by us meant I missed out on my fastest time this month but it is alllll good. :) 
 
 Three weeks down and the countdown from 10 has begun! 
+
+#### Day 22 (Interval run 3.39km in 26.02)
+
+Did not want to get up today and the run felt almost like I was out of my body.. no more to say. 
