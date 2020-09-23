@@ -128,3 +128,13 @@ Three weeks down and the countdown from 10 has begun!
 #### Day 22 (Interval run 3.39km in 26.02)
 
 Did not want to get up today and the run felt almost like I was out of my body.. no more to say. 
+
+#### Day 23 (Recovery run 3.21km in 28.10)
+
+Nice easy recovery run - again pushing the boundaries for Meg running longer times between walks. Adding in these super low intensity recovery runs has definitely helped me feel fresher on the interval or Saturday runs. 
+
+#### Day 24 (Interval run 5.01km in 30.03)
+
+According to Endomondo this was my "most calories burned" run this month. I guess this must have something to do with the high intensity parts of the run as I have run further faster... one to investigate. 
+
+6 days left... barring injusry I just need to keep on going. 
