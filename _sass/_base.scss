@@ -103,6 +103,14 @@ figure > img {
   display: block;
 }
 
+figure > figcaption {
+  padding: 10px;
+    margin-left: -20px;
+    margin-top: -70px;
+    background-color: #d7fb65;
+    transform: rotate(2deg);
+}
+
 figcaption {
   font-size: $small-font-size;
 }
