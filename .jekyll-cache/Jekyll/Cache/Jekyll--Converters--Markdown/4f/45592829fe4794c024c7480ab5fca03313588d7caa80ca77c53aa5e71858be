@@ -1,0 +1,56 @@
+I"�<h3 id="developing-a-concept">Developing a concept</h3>
+
+<p>After an initial kickoff meeting with the client by video ( we were just getting into the lockdown) I got to work taking the brand guidelines and information from the meeting to develop a visual style for the site.</p>
+
+<p>With a killer set of colours and the really interesting shapes the concept came together quite quickly. Some people will probably think it old fashioned but I really love working in a dot grid pad with some highlighters to develop initial ideas. It is so quick to iterate and there is no danger of the client viewing them as final mock ups. They are precious and disposable at the same time!</p>
+
+<div class="images">
+    <figure>
+        <img src="/uploads/sidekick-concept-sketch-2.jpg" alt="" />
+        <figcaption>I am lucky that drawing is an easy way for me to take thoughts from my head to be able to talk about them with people.</figcaption>
+    </figure>
+    <figure>
+        <img src="/uploads/sidekick-concept-sketch-1.jpg" alt="" />
+        <figcaption>Iterating ideas on paper to get a feel for the layout needs no restraints of a computer program or even sitting at a desk.</figcaption>
+    </figure>
+
+</div>
+
+<p>After sharing these concepts with Hannah, she was happy for me to develop the design, often I would go straight to the browser at this point but in this instance I built up a visual set of blocks and styles in Sketch to guide the creation of a tool to build up the content in the admin of the website.</p>
+
+<div class="images">
+    <figure>
+        <img src="/uploads/sidekick-sketch.png" alt="" />
+        <figcaption>The basis for the site was mocked up in Sketch first.</figcaption>
+    </figure>
+    <figure>
+        <img src="" alt="" />
+        <figcaption></figcaption>
+    </figure>
+
+</div>
+
+<h3 id="building-a-site-that-can-scale">Building a site that can scale</h3>
+
+<p>It is impoertant to me to try and give the client as much flexability as possible, ideally without resorting to Wordpress plugin page builders as they can get clunk and unweildy and restrict the design.</p>
+
+<p>I built up a series of blocks using ACF Fields so that each page of the site could be created by the client. This allows rows to be swapped and new pages created that keep the visual consistency but are not restrictive.</p>
+
+<p>I also implemented a colour switch within the admin so that the client can pick the main colour for a page, this will then flow down through the design meaning the bullet points, headings and other elements take on the correct brand colour.</p>
+
+<p>Making changes to this as we built out the site was really easy and would affect any page using that given part of the admin layout.</p>
+
+<blockquote>
+  <h4 id="what-the-client-said">What the client said</h4>
+  <p>“I cannot speak more highly of Sush Kelly. He has been essential in the development and maintenance of the Speedy Wunderground website. Incredibly efficient and always there to offer useful creative input where needed. His knowledge and design has given us something we are incredibly proud of, that is easy to use and more importantly - looks great! “ - Hannah Miller - Founder”</p>
+</blockquote>
+
+<h3 id="exit-the-lockdown-and-prepare-for-launch">Exit the lockdown and prepare for launch!</h3>
+
+<p>Lockdown has been hard on everyone, this has been like a liferaft to cling to at times and we were flexible with each other in terms of hitting milestones as there was quite alot going on in the world to deal with!</p>
+
+<p>As things eased a little in terms of restrictions we looked forward to a launch. We had a date in mind, so as soon as we were in a good place with the development of the site we entered a phase of bug fixing and Quality Assurance to make sure everything was checked and ready to go.</p>
+
+<p>This was one of those projects that just went to plan, and absolute joy to work with Hannah and Sarah and our approach, attitude and values just clicked. I am really happy with the final website and think it ties in perfectly with the new look brand and identity.</p>
+
+:ET

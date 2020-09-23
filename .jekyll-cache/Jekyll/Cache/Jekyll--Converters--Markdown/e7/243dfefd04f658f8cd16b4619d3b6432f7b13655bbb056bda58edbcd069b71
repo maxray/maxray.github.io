@@ -1,0 +1,13 @@
+I"å<h3 id="the-tech-stack">The Tech Stack</h3>
+<p>We decided to go with Wordpress using ACF for a custom admin page builder. It is a really easy to use CMS and has great scalability for adding new features in the future.</p>
+
+<p>The site required:</p>
+
+<ul>
+  <li>Ability to Enquire about services</li>
+  <li>Newsletter integration with Mailchimp</li>
+  <li>Ability to add video Testimonials and embed them withing content</li>
+  <li>A teams page</li>
+  <li>Blog functionality</li>
+</ul>
+:ET
