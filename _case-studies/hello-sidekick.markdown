@@ -82,6 +82,11 @@ I also implemented a colour switch within the admin so that the client can pick 
 
 Making changes to this as we built out the site was really easy and would affect any page using that given part of the admin layout. 
 
+> #### What the client said
+> "Sush was a delight to work with. I knew he believed in the project and was enjoying the process and that honestly made a difference. His attention to detail and commitment to see the project through to the very end was just what I needed. He was patient with me and definitely gave over and above my expectations. Thank you so much for making this fun and not just something to get done! I love the outcome - and so does everyone else! " - Hannah Miller - Sidekick"
+
+
+
 
 {% include images5_6.html %}
 
