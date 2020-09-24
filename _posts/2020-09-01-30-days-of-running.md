@@ -138,3 +138,7 @@ Nice easy recovery run - again pushing the boundaries for Meg running longer tim
 According to Endomondo this was my "most calories burned" run this month. I guess this must have something to do with the high intensity parts of the run as I have run further faster... one to investigate. 
 
 6 days left... barring injusry I just need to keep on going. 
+
+#### Day 25 (Recovery run 3.28km in 27.02)
+
+Woke up to rain... the first rain before a run for the whole of September which is quite incredible! It had actually eased off by the time we went out, and it was noticably darker than normal. Autumn is here. Meg told me about the [Zombie Run App](https://zombiesrungame.com/) game on our warm down walk. THat sounds like something I would find fun.. might have to combine it with some off road in the winter. :) 
