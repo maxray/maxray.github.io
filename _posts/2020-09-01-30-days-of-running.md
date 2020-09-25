@@ -142,3 +142,9 @@ According to Endomondo this was my "most calories burned" run this month. I gues
 #### Day 25 (Recovery run 3.28km in 27.02)
 
 Woke up to rain... the first rain before a run for the whole of September which is quite incredible! It had actually eased off by the time we went out, and it was noticably darker than normal. Autumn is here. Meg told me about the [Zombie Run App](https://zombiesrungame.com/) game on our warm down walk. THat sounds like something I would find fun.. might have to combine it with some off road in the winter. :) 
+
+#### Day 26 (Zombie run 4.67km in 27.13)
+
+As Meg has her first solid 20min run tomorrow I thought I would try a little harder today in order to run with her. I decided to try Zombies, run!, and with a suitable metal album teed up set out to see what it was like.
+
+I have to say it was pretty good, you pick up items on your run and get bits of dialogue and alerts to run from the zombies. I am sure the first few episodes are set up not to fail, will see how this goes. 
