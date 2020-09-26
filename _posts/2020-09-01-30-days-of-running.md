@@ -148,3 +148,9 @@ Woke up to rain... the first rain before a run for the whole of September which 
 As Meg has her first solid 20min run tomorrow I thought I would try a little harder today in order to run with her. I decided to try Zombies, run!, and with a suitable metal album teed up set out to see what it was like.
 
 I have to say it was pretty good, you pick up items on your run and get bits of dialogue and alerts to run from the zombies. I am sure the first few episodes are set up not to fail, will see how this goes. 
+
+#### Day 27 (Recovery run 3.26km in 26.23)
+
+Bloomin cold this morning. Trip to Decathlon in order to get some winter running clothes. 
+
+Meg did her first solid 20mins which ended up with us running through the woods in Moseley Bog. Good times. :) 
