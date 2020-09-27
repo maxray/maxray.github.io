@@ -154,3 +154,13 @@ I have to say it was pretty good, you pick up items on your run and get bits of 
 Bloomin cold this morning. Trip to Decathlon in order to get some winter running clothes. 
 
 Meg did her first solid 20mins which ended up with us running through the woods in Moseley Bog. Good times. :) 
+
+#### Day 28 (Fun run 5.94km in 35.39)
+
+Trip to Decathlon was made... and thankfully I didn't have to sell a kidney to pay for all the stuff, just a few pairs of socks, a wind proof running jacket, T and shorts.
+
+Felt like an advert running through Moseley bog, retracing our run/walk yesrterday as a run instead. So much fun running through woods and over raised wooden walkways.
+
+Felt great running at a 6m/km pace, could have gone on for ages and I might just do that next Sunday when I have had a rest day or two.
+
+2 runs left...
