@@ -164,3 +164,9 @@ Felt like an advert running through Moseley bog, retracing our run/walk yesrterd
 Felt great running at a 6m/km pace, could have gone on for ages and I might just do that next Sunday when I have had a rest day or two.
 
 2 runs left...
+
+#### Day 29 (Interval run 3.61km in 22.55)
+
+My heart wasn't in it today, which is weird as I thought I would have given it all for the last couple of runs. I am a little bit tired of the same loop in the week so after tomorrow I am going to go down to 4 runs a week, 2 with Meg to support her on her c25k journey and 2 for me. 
+
+Just realised my last run of the challenge tomorrow is a recovery run, on the one hand a shame but will be nice to finish the challenge with someone else. 
