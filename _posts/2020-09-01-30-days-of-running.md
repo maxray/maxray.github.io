@@ -170,3 +170,8 @@ Felt great running at a 6m/km pace, could have gone on for ages and I might just
 My heart wasn't in it today, which is weird as I thought I would have given it all for the last couple of runs. I am a little bit tired of the same loop in the week so after tomorrow I am going to go down to 4 runs a week, 2 with Meg to support her on her c25k journey and 2 for me. 
 
 Just realised my last run of the challenge tomorrow is a recovery run, on the one hand a shame but will be nice to finish the challenge with someone else. 
+
+#### Day 30 (Recovery run 3.48km in 28.46)
+
+And so rather quietly, my 30 day running challenge comes to an end. I thought I might have been a little more excited but in all honesty it feels good to have a rest day on the cards. Now the routine is in place I wonder if I will continue to run several times a week or if it will wash away over time. I hope it is the former! 
+
