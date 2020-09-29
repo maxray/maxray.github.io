@@ -9,7 +9,7 @@ thumbnail_image: "/uploads/run-complete.jpg"
 
 ### What could possibly go wrong! After being 16 seconds off my personal goal of a 25min 5k before lockdown I haven't run since. So obviously the best way to jump start things is by trying to run in some form for every day in September.
 
-I like to have some accountability so decided to document each day here. The 30 days went by pretty quickly, one surprise was that there wasn't one rainy run in the whole month... in September! :S 
+I like to have some accountability so decided to document each day here. The 30 days went by pretty quickly, I only had a couple of days where I didn't fancy getting up to put my trainers on. One surprise was that there wasn't one rainy run in the whole month... in September! :S 
 
 I had the company of my daughter on recovery runs as she is doing the c25k so got a bit of father/daughter bonding in as a bonus.
 
@@ -20,7 +20,7 @@ Although I am looking forward to a couple of rest days to recharge a little I ca
 * Distance covered - 116km
 * Calories burned - 12,416
 
-
+If you are interested you can read my daily diary below.
 
 #### Come share my pain with me!
 
