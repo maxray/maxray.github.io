@@ -39,6 +39,26 @@ Daughter takes to her bed feeling tired, wife feels sick and takes to bed and th
 
 * Me - 8
 * Wife - 7/8
-* Daughter - 
+* Daughter - 8
 * Son - 10
 
+
+#### Sunday 12th - Day 2
+
+Weirdly I felt compoletely fine on Sunday apart from the occasional feel of gravity increasing and my energy sapping. The kids are in good enough spirits to be bickering and my wife is proably the worst out of all of us - she slept alot of the day.
+
+* Me - 9
+* Wife - 6
+* Daughter - 9
+* Son - 5
+
+#### Monday 13th - Day 3
+
+Managed to make myself presentable for the daily Zoom meeting and like yesterday feel a bit like a flickering lamp - fine one minute, super tired the next. 
+
+Kids settling into home schooling reluctantly and wife is still the worst of us, coughing, blurry vision and generally a bit confused. 
+
+* Me - 9
+* Wife - 6
+* Daughter - 9
+* Son - 10
