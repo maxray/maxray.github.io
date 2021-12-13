@@ -54,7 +54,7 @@ Weirdly I felt compoletely fine on Sunday apart from the occasional feel of grav
 
 #### Monday 13th - Day 3
 
-Managed to make myself presentable for the daily Zoom meeting and like yesterday feel a bit like a flickering lamp - fine one minute, super tired the next. 
+Managed to make myself presentable for the daily Zoom meeting and like yesterday feel a bit like a flickering lamp - fine one minute, super tired the next. One thing I have noted is my perception of time is off. I thought it would feel slowed down but somehow you glance at the clock and it is 2pm not lunchtime as you thought. Some of this may be due to a reduced appetite perhaps. 
 
 Kids settling into home schooling reluctantly and wife is still the worst of us, coughing, blurry vision and generally a bit confused. 
 
