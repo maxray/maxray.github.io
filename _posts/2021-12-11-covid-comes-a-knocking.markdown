@@ -58,7 +58,55 @@ Managed to make myself presentable for the daily Zoom meeting and like yesterday
 
 Kids settling into home schooling reluctantly and wife is still the worst of us, coughing, blurry vision and generally a bit confused. 
 
-* Me - 9
+* Me - 8
 * Wife - 6
+* Daughter - 8
+* Son - 10
+
+#### Tuesday 14th - Day 4
+
+Feels like I could sleep for a week! Which is weird as it is the 4th day without leaving the house. I normally average about 16k steps a day, so really it presses home just how much this virus saps you.
+
+* Me - 8
+* Wife - 7
+* Daughter - 8
+* Son - 10
+
+
+#### Wednesday 15th - Day 5
+
+Maybe it is trying to work as normal or maybe things are peaking... sense of taste and smell has left us all. This is most surreal.. tried testing myself with different things, tuna, curry powder, vinegar... nothing. 
+
+* Me - 7
+* Wife - 9
+* Daughter - 8
+* Son - 10
+
+#### Thursday 16th - Day 6
+
+Woke feeling a bit better - "almost" like I had a little energy. It was quickly sapped away by just being though. I thought being stuck in for 10 days would be a killer but haven't yet felt the claustrophobia or boredom of just being. 
+
+* Me - 8
+* Wife - 9
+* Daughter - 8
+* Son - 10
+
+#### Friday 17th - Day 7
+
+A week has gone in what seems like a flash. I actually feel pretty good today, not boundless energy but definite signs of improvement. This is lucky as Rex's birthday is on Saturday and we need to try and muster up something vaguely fun/bake a cake etc. 
+
+Actually managed to make it into the shed today too which must be a good sign - carried on the endless cleaning of the bike parts for my re build project. 
+
+* Me - 9
+* Wife - 10
+* Daughter - 9
+* Son - 10
+
+#### Saturday 18th - Day 8
+
+Rex's Brithday!  Woke up and had a bleeding nose which was novel... feel a bit crabby today, hopefully that is just a passing thing, not long to go now and for the first time since this began I could really hack going out of the house... think I am done with this now!
+
+* Me - 9
+* Wife - 10
 * Daughter - 9
 * Son - 10
