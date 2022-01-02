@@ -110,3 +110,21 @@ Rex's Brithday!  Woke up and had a bleeding nose which was novel... feel a bit c
 * Wife - 10
 * Daughter - 9
 * Son - 10
+
+#### Sunday 19th - Day 9
+
+I feel pretty much normal now apart from my sense of smell/taste. Not had chance to test my fitness as stilol house bound and not a big fan of indoor workouts. Everyone else seems back to normal with wife and eldest daughter also still having smell and taste issues. One day to go... can't wait to escape the house! 
+
+* Me - 9
+* Wife - 10
+* Daughter - 10
+* Son - 10
+
+#### Monday 20th - Day 10
+
+It is the last day! I honestly thought it would be much harder, and if we hadn't actually been ill maybe it would have been. As it is things have passed with nothing too worrying which I am very thankful for, especially a lack of cough/lung related grimness. I `m literally going to skip out the door tomorrow! 
+
+* Me - 9
+* Wife - 10
+* Daughter - 10
+* Son - 10
